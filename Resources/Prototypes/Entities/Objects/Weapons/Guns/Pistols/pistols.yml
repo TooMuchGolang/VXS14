@@ -111,9 +111,7 @@
   - type: Gun
     fireRate: 4
     soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/silenced.ogg
-      params:
-        volume: -14
+      path: /Audio/Weapons/Guns/Gunshots/silencedVX.ogg #VXS14
     availableModes:
     - SemiAuto
   - type: ItemSlots
