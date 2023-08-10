@@ -54,7 +54,7 @@
   - type: Projectile
     damage:
       groups:
-        Burn: 7
+        Burn: 3
 
 - type: entity
   id: PelletShotgunPractice

@@ -51,4 +51,4 @@
   - type: Projectile
     damage:
       groups:
-        Burn: 14
+        Burn: 3
