@@ -475,6 +475,14 @@
       - MagazineBoxMagnumRubber
       - MagazineBoxRifleRubber
       - MagazineBoxLightRifleRubber
+      - CartridgePistolHighVelocity
+      - CartridgeMagnumHighVelocity
+      - CartridgeLightRifleHighVelocity
+      - CartridgeRifleHighVelocity
+      - MagazineBoxPistolHighVelocity
+      - MagazineBoxMagnumHighVelocity
+      - MagazineBoxLightRifleHighVelocity
+      - MagazineBoxRifleHighVelocity
       - ShellShotgunIncendiary
       - CartridgePistolIncendiary
       - CartridgeMagnumIncendiary
