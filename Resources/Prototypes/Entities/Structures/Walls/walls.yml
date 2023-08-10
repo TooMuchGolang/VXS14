@@ -47,10 +47,10 @@
   - type: Airtight
   - type: StaticPrice
     price: 75
-  - type: Reflect
-    reflectProb: 0.04
   - type: RadiationBlocker
     resistance: 2
+  - type: Reflect
+    reflectProb: 0.04
 
 - type: entity
   parent: BaseWall
