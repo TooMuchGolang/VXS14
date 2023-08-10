@@ -65,7 +65,7 @@
     secret: true
     litDamageBonus:
         types:
-            Slash: 9
+            Slash: 4
             Heat: 9
             Blunt: -1
     litDisarmMalus: 0.4
@@ -87,7 +87,7 @@
         shader: unshaded
         map: [ "blade" ]
   - type: MeleeWeapon
-    attackRate: 1
+    attackRate: 0.5
     hidden: true
     damage:
       types:
@@ -175,11 +175,11 @@
         types:
             Slash: 9
             Heat: 9
-            Structural: 20
+            Structural: 15
             Blunt: -4.5
     litDisarmMalus: 0.7
   - type: MeleeWeapon
-    attackRate: 1.5
+    attackRate: 1
     angle: 100
     soundHit:
       path: /Audio/Weapons/eblade1.ogg
