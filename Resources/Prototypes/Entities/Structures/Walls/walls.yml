@@ -47,6 +47,8 @@
   - type: Airtight
   - type: StaticPrice
     price: 75
+  - type: Reflect
+    reflectProb: 0.04
   - type: RadiationBlocker
     resistance: 2
 
@@ -745,8 +747,6 @@
         acts: ["Destruction"]
     destroySound:
       path: /Audio/Effects/metalbreak.ogg
-  - type: Reflect
-    reflectProb: 1
   - type: IconSmooth
     key: walls
     base: state
