@@ -10,3 +10,16 @@
   - type: Tag
     tags:
     - HideContextMenu
+
+#Sirena
+
+- type: entity
+  parent: BaseItem
+  id: AmbientOfNature
+  name: ambient of nature
+  description: ambient of nature
+  components:
+  - type: AmbientSound
+    range: 120
+    sound:
+      path: /Audio/Ambience/natural_ambient.ogg
