@@ -50,7 +50,7 @@
   - type: RadiationBlocker
     resistance: 2
   - type: Reflect
-    reflectProb: 0.04
+    reflectProb: 0.02
 
 - type: entity
   parent: BaseWall
