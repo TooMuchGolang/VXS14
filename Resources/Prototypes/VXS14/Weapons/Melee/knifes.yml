@@ -1,0 +1,20 @@
+- type: entity
+  name: tactical axe
+  parent: BaseKnife
+  id: TacticalAxe
+  description: A quality made tactical axe, it has a rubberized handle and a skeletonized stainless steel blade. Built to survive, kill and build.
+  components:
+  - type: Sprite
+    sprite: VXS14/Objects/Weapons/Melee/tactical_axe.rsi
+    size: 2
+    state: icon
+  - type: MeleeWeapon
+    attackRate: 1
+    damage:
+      types:
+        Slash: 15
+  - type: Item
+    size: 20
+    sprite: VXS14/Objects/Weapons/Melee/tactical_axe.rsi
+  - type: DisarmMalus
+    malus: 0.225
