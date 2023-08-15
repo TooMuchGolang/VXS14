@@ -1,0 +1,29 @@
+- type: entity
+  name: M-81
+  parent: BaseWeaponLauncher
+  id: WeaponLauncherM81
+  description: Single-shot grenade launcher.
+  components:
+  - type: Sprite
+    sprite: VXS14/Objects/Weapons/Guns/Launchers/m81.rsi
+    layers:
+      - state: icon
+        map: ["enum.GunVisualLayers.Base"]
+  - type: Clothing
+    sprite: VXS14/Objects/Weapons/Guns/Launchers/m81.rsi
+  - type: Gun
+    fireRate: 1
+    selectedMode: SemiAuto
+    availableModes:
+      - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/grenade_launcher.ogg
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+        - Grenade
+    autoCycle: false
+    capacity: 1
+    proto: GrenadeFrag
+    soundInsert:
+      path: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
