@@ -1,4 +1,4 @@
-ent-MagazineHRifleBase = магазин (.20 винтовочные)
+ent-MagazineHRifleBase = магазин (5.56 винтовочные)
     .desc = { ent-BaseItem.desc }
     .suffix = { "" }
 ent-MagazineMinigun = короб патронов минигана (.10 винтовочные)
