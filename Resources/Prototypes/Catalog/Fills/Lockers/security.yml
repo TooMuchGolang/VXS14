@@ -105,8 +105,6 @@
         prob: 0.3
       - id: MedkitBurnFilled
         prob: 0.7
-      - id: ClothingNeckCloakMoth #bzzz Moth-pocalypse
-        prob: 0.15
 
 - type: entity
   id: LockerDetectiveFilled
@@ -148,7 +146,7 @@
   - type: StorageFill
     contents:
     - id: WeaponDisabler
-      amount: 5
+      amount: 3
 
 - type: entity
   parent: GunSafe
@@ -158,9 +156,9 @@
   - type: StorageFill
     contents:
     - id: WeaponPistolMk58
-      amount: 4
+      amount: 3
     - id: MagazinePistol
-      amount: 8
+      amount: 6
 
 - type: entity
   parent: GunSafe
@@ -195,8 +193,10 @@
     contents:
     - id: WeaponShotgunEnforcer
       amount: 2
-    - id: MagazineShotgun
-      amount: 4
+    - id: BoxLethalshot
+      amount: 1
+    - id: BoxShotgunSlug
+      amount: 1
 
 - type: entity
   parent: GunSafe
@@ -207,8 +207,10 @@
     contents:
     - id: WeaponShotgunKammerer
       amount: 2
-    - id: MagazineShotgun
-      amount: 4
+    - id: BoxLethalshot
+      amount: 1
+    - id: BoxShotgunSlug
+      amount: 1
 
 - type: entity
   id: GunSafeSubMachineGunWt550
@@ -220,7 +222,7 @@
     contents:
     - id: WeaponSubMachineGunWt550
       amount: 2
-    - id: MagazinePistolSubMachineGun
+    - id: MagazinePistolSubMachineTopMounted
       amount: 4
 
 - type: entity
@@ -231,4 +233,4 @@
   - type: StorageFill
     contents:
     - id: WeaponLaserCarbine
-      amount: 3
+      amount: 2
