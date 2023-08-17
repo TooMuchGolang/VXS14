@@ -5,10 +5,6 @@ lobbyenabled = false
 map = "Dev"
 role_timers = false
 
-[physics]
-# Makes mapping annoying
-grid_splitting = false
-
 [procgen]
 preload = false
 

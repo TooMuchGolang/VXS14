@@ -193,20 +193,6 @@
     price: 75
 
 - type: entity
-  name: ritual chair
-  id: ChairRitual
-  parent: SeatBase
-  description: Looks uncomfortable.
-  components:
-  - type: Anchorable
-  - type: Rotatable
-  - type: Sprite
-    state: ritual
-  - type: Construction
-    graph: RitualSeat
-    node: chairRitual
-
-- type: entity
   id: ChairMeat
   parent: SeatBase
   name: meat chair

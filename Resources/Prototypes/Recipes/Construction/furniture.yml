@@ -153,23 +153,6 @@
   - !type:TileNotBlocked
 
 - type: construction
-  name: ritual chair
-  id: ChairRitual
-  graph: RitualSeat
-  startNode: start
-  targetNode: chairRitual
-  category: construction-category-furniture
-  description: A strangely carved chair.
-  icon:
-    sprite: Structures/Furniture/chairs.rsi
-    state: ritual
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
-
-- type: construction
   name: folding chair
   id: ChairFolding
   graph: Seat

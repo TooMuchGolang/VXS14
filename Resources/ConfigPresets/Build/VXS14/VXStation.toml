@@ -1,0 +1,26 @@
+# Configuration preset used on VXStation14
+
+[game]
+desc = "Проект, оринтированный на милитари рп и резню для тех игроков, которые просто хотят весело провести время."
+hostname = "[18+][RU][MRP] VXStation14"
+lobbyenabled = true
+
+[server]
+rules_file = "VX_Rules.txt"
+rules_header = "Правила проекта VXStation14"
+
+[atmos]
+space_wind = True
+
+[ooc]
+enable_during_round = true
+
+[ic]
+flavor_text = true
+
+[hub]
+advertise = true
+tags = "lang:ru,rp:med,erp:true"
+
+[build]
+download_url = "https://github.com/TooMuchGolang/VXS14/archive/refs/heads/master.zip"
