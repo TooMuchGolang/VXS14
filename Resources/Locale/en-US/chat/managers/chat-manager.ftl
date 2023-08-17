@@ -32,16 +32,16 @@ chat-manager-entity-me-wrap-message = [italic]{ PROPER($entity) ->
      [true] {$entityName} {$message}[/italic]
     }
 
-chat-manager-entity-looc-wrap-message = LOOC: [italic]{$entityName}:[/italic] {$message}
-chat-manager-send-ooc-wrap-message = OOC: [italic]{$playerName}:[/italic] {$message}
-chat-manager-send-ooc-patron-wrap-message = OOC: [italic][color={$patronColor}]{$playerName}[/color]:[/italic] {$message}
+chat-manager-entity-looc-wrap-message = LOOC: [bold]{$entityName}:[/bold] {$message}
+chat-manager-send-ooc-wrap-message = OOC: [bold]{$playerName}:[/bold] {$message}
+chat-manager-send-ooc-patron-wrap-message = OOC: [bold][color={$patronColor}]{$playerName}[/color]:[/bold] {$message}
 
-chat-manager-send-dead-chat-wrap-message = {$deadChannelName}: [italic]{$playerName}:[/italic] {$message}
-chat-manager-send-admin-dead-chat-wrap-message = {$adminChannelName}: [italic]({$userName}):[/italic] {$message}
-chat-manager-send-admin-chat-wrap-message = {$adminChannelName}: [italic]{$playerName}:[/italic] {$message}
-chat-manager-send-admin-announcement-wrap-message = [italic]{$adminChannelName}: {$message}[/italic]
+chat-manager-send-dead-chat-wrap-message = {$deadChannelName}: [bold]{$playerName}:[/bold] {$message}
+chat-manager-send-admin-dead-chat-wrap-message = {$adminChannelName}: [bold]({$userName}):[/bold] {$message}
+chat-manager-send-admin-chat-wrap-message = {$adminChannelName}: [bold]{$playerName}:[/bold] {$message}
+chat-manager-send-admin-announcement-wrap-message = [bold]{$adminChannelName}: {$message}[/bold]
 
-chat-manager-send-hook-ooc-wrap-message = OOC: [italic](D){$senderName}:[/italic] {$message}
+chat-manager-send-hook-ooc-wrap-message = OOC: [bold](D){$senderName}:[/bold] {$message}
 
 chat-manager-dead-channel-name = DEAD
 chat-manager-admin-channel-name = ADMIN
