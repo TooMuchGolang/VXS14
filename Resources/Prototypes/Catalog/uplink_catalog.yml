@@ -961,7 +961,6 @@
     - !type:BuyerJobCondition
       whitelist:
         - Scientist
-        - SeniorResearcher
 
 - type: listing
   id: uplinkProximityMine
@@ -996,7 +995,6 @@
     whitelist:
     - Zookeeper
     - Scientist
-    - SeniorResearcher
     - Chef
 
 # Armor
