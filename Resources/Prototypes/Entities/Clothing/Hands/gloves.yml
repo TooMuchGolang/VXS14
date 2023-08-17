@@ -211,7 +211,7 @@
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/combat.rsi # Corvax-Resprite
- -  type: Clothing
+  - type: Clothing
     sprite: Clothing/Hands/Gloves/combat.rsi # Corvax-Resprite
   - type: GloveHeatResistance
     heatResistance: 1400

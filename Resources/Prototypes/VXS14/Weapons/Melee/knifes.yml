@@ -8,11 +8,20 @@
     sprite: VXS14/Objects/Weapons/Melee/tactical_axe.rsi
     size: 2
     state: icon
+  - type: DamageOtherOnHit
+    damage:
+      types:
+        Slash: 6
+        Structural: 2
+  - type: EmbeddableProjectile
+    offset: 0.15,0.15
+  - type: Sharp
   - type: MeleeWeapon
     attackRate: 1
     damage:
       types:
         Slash: 15
+        Structural: 5
   - type: Item
     size: 20
     sprite: VXS14/Objects/Weapons/Melee/tactical_axe.rsi
