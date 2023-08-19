@@ -12,14 +12,17 @@
 - type: wireLayout
   parent: Airlock
   id: AirlockSecurity
+  dummyWires: 2
 
 - type: wireLayout
   parent: Airlock
   id: AirlockCommand
+  dummyWires: 5
 
 - type: wireLayout
   parent: Airlock
   id: AirlockArmory
+  dummyWires: 5
 
 - type: wireLayout
   id: HighSec
