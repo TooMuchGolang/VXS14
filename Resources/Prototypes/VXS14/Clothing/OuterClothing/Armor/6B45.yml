@@ -22,10 +22,9 @@
   parent: ClothingOuterArmor6B45B
   id: ClothingOuterArmor6B45
   name: 6B45-1
-  description: A Type III heavy bulletproof vest that excels in protecting the wearer against traditional projectile weaponry and explosives to a minor extent.
+  description: The body armor can be used in the 6B45-1 assault configuration with unified 6A class 6A anti-bullet armor panels (6 pieces), apron and anti-shrapnel shoulder pads. Unified anti-bullet armor panels of 6A class provide protection against bullets of SVD rifle (7N13 or 7-BZ-3 cartridge) from a distance of 10 m and against bullets of Accuracy International Arctic Warfare Magnum, Sako TRG 42 rifles (.338 Lapua Magnum cartridge) from a distance of 300 m. To ensure that the serviceman can overcome water obstacles with the body armor, the buoyancy kit 6B45-2 is used.
   components:
   - type: Sprite
     sprite: VXS14/Clothing/OuterClothing/Armor/6B45.rsi
   - type: Clothing
     sprite: VXS14/Clothing/OuterClothing/Armor/6B45.rsi
-    
