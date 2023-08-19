@@ -1,0 +1,28 @@
+- type: entity
+  parent: Clothing
+  id: ClothingOuterClothingSuitsExosuit
+  name: old basic exoskeleton
+  description: An aluminum exoskeleton lined with carbon fiber shields and various cylinders, actuators, pistons and shit.
+  components:
+  - type: Sprite
+    sprite: VXS14/Clothing/Suits/ekzo.rsi
+    state: icon
+  - type: Item
+    size: 1200
+  - type: Clothing
+    quickEquip: false
+    slots:
+    - back
+  - type: Storage
+    capacity: 45 # надо бы сделать у более крутых экзоскелетов 230, сейчас это расплата за его преимущества.
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: []
+  - type: ClothingSpeedModifier
+    walkModifier: 0.8
+    sprintModifier: 1.2
+  - type: UserInterface
+    interfaces:
+    - key: enum.StorageUiKey.Key
+      type: StorageBoundUserInterface
