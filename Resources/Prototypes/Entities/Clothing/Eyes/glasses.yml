@@ -163,7 +163,7 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesGlassesChemical
-  name: chemical analysis goggles
+  name: sciense goggles
   description: Goggles that can scan the chemical composition of a solution.
   components:
     - type: Sprite
