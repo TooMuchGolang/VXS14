@@ -39,6 +39,7 @@
       shader: unshaded
       map: ["light"]
       visible: false
+  - type: CombatMode
   - type: BorgChassis
     maxModules: 3
     moduleWhitelist:

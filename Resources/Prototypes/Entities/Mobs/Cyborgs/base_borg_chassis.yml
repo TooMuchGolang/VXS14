@@ -18,7 +18,6 @@
     soundHit:
       path: /Audio/Effects/hit_kick.ogg
   - type: Clickable
-  - type: CombatMode
   - type: StaticPrice
     price: 1250
   - type: InteractionOutline
