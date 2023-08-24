@@ -1,0 +1,28 @@
+- type: entity
+  name: Gas grenade
+  description: A gas grenade with a thick smoke
+  parent: GrenadeBase
+  id: SmokeGrenade
+  components:
+    - type: SmokeOnTrigger
+      spreadAmount: 50
+      time: 30
+      sound: /Audio/Effects/smoke.ogg
+    - type: DeleteOnTrigger
+    - type: Appearance
+
+- type: entity
+  name: Tear-gas grenade
+  description: A grenade with a small amount of tear gas.
+  parent: GrenadeBase
+  id: TearSmokeGrenade
+  components:
+    - type: SmokeOnTrigger
+      time: 10
+      spreadAmount: 30
+      smokeReagents:
+        - ReagentId: TearAcid
+          Quantity: 5
+      sound: /Audio/Effects/smoke.ogg
+    - type: DeleteOnTrigger
+    - type: Appearance
