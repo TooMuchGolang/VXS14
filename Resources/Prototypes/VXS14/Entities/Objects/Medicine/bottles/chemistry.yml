@@ -1,0 +1,239 @@
+- type: entity
+  id: DyloveneChemistryBottle
+  name: dylovene bottle
+  parent: BaseChemistryEmptyBottle
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: Dylovene
+          Quantity: 30
+  - type: Tag
+    tags:
+    - Bottle
+
+- type: entity
+  id: BicaridineChemistryBottle
+  name: bicaridine bottle
+  parent: BaseChemistryEmptyBottle
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: Bicaridine
+          Quantity: 30
+  - type: Tag
+    tags:
+    - Bottle
+
+- type: entity
+  id: DermalineChemistryBottle
+  name: dermaline bottle
+  parent: BaseChemistryEmptyBottle
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: Dermaline
+          Quantity: 30
+  - type: Tag
+    tags:
+    - Bottle
+
+- type: entity
+  id: DexalinChemistryBottle
+  name: dexalin bottle
+  parent: BaseChemistryEmptyBottle
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: Dexalin
+          Quantity: 30
+  - type: Tag
+    tags:
+    - Bottle
+
+- type: entity
+  id: DexalinPlusChemistryBottle
+  name: dexalin plus bottle
+  parent: BaseChemistryEmptyBottle
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: DexalinPlus
+          Quantity: 30
+  - type: Tag
+    tags:
+    - Bottle
+
+- type: entity
+  id: HyronalinChemistryBottle
+  name: hyronalin bottle
+  parent: BaseChemistryEmptyBottle
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: Hyronalin
+          Quantity: 30
+  - type: Tag
+    tags:
+    - Bottle
+
+- type: entity
+  id: IpecacChemistryBottle
+  name: ipecac bottle
+  parent: BaseChemistryEmptyBottle
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: Ipecac
+          Quantity: 30
+  - type: Tag
+    tags:
+    - Bottle
+
+- type: entity
+  id: InaprovalineChemistryBottle
+  name: inaprovaline bottle
+  parent: BaseChemistryEmptyBottle
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: Inaprovaline
+          Quantity: 30
+  - type: Tag
+    tags:
+    - Bottle
+
+- type: entity
+  id: KelotaneChemistryBottle
+  name: kelotane bottle
+  parent: BaseChemistryEmptyBottle
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: Kelotane
+          Quantity: 30
+  - type: Tag
+    tags:
+    - Bottle
+
+- type: entity
+  id: SalineChemistryBottle
+  name: saline bottle
+  parent: BaseChemistryEmptyBottle
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: Saline
+          Quantity: 30
+  - type: Tag
+    tags:
+    - Bottle
+
+- type: entity
+  id: SiderlacChemistryBottle
+  name: siderlac bottle
+  parent: BaseChemistryEmptyBottle
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: Siderlac
+          Quantity: 30
+  - type: Tag
+    tags:
+    - Bottle
+
+- type: entity
+  id: TranexamicAcidChemistryBottle
+  name: tranexamic acid bottle
+  parent: BaseChemistryEmptyBottle
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: TranexamicAcid
+          Quantity: 30
+  - type: Tag
+    tags:
+    - Bottle
+
+- type: entity
+  id: TricordrazineChemistryBottle
+  name: tricordrazine bottle
+  parent: BaseChemistryEmptyBottle
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: Tricordrazine
+          Quantity: 30
+  - type: Tag
+    tags:
+    - Bottle
+
+- type: entity
+  id: OculineChemistryBottle
+  name: oculine bottle
+  parent: BaseChemistryEmptyBottle
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: Oculine
+          Quantity: 30
+  - type: Tag
+    tags:
+    - Bottle
+
+- type: entity
+  id: SigynateChemistryBottle
+  name: sigynate bottle
+  parent: BaseChemistryEmptyBottle
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: Sigynate
+          Quantity: 30
+  - type: Tag
+    tags:
+    - Bottle
