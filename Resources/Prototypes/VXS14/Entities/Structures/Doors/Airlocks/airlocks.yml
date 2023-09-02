@@ -1,0 +1,59 @@
+# Glass, Syndicate
+- type: entity
+  parent: AirlockGlass
+  id: AirlockSyndicateGlass
+  suffix: Syndicate
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Glass/security.rsi
+  - type: PaintableAirlock
+    group: Glass
+  - type: Construction
+    node: glassAirlockMedSecurity
+
+- type: entity
+  parent: AirlockSyndicateGlass
+  id: AirlockSyndicateGlassLocked
+  suffix: Syndicate, Locked
+  components:
+  - type: AccessReader
+    access: [["Syndicate"]]
+
+# Syndicate
+
+- type: entity
+  parent: Airlock
+  id: AirlockSyndicate
+  suffix: Syndicate
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Standard/security.rsi
+  - type: Construction
+    node: airlockMedSecurity
+
+- type: entity
+  parent: AirlockSyndicate
+  id: AirlockSyndicateLocked
+  suffix: Syndicate, Locked
+  components:
+  - type: AccessReader
+    access: [["Syndicate"]]
+
+- type: entity
+  parent: Airlock
+  id: AirlockSyndicateArmory
+  suffix: Syndicate Armory
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Standard/security.rsi
+  - type: Construction
+    node: airlockMedSecurity
+
+- type: entity
+  parent: AirlockSyndicateArmory
+  id: AirlockSyndicateArmoryLocked
+  suffix: Syndicate Armory, Syndicate, Locked
+  components:
+  - type: AccessReader
+    access: [["Syndicate"], ["SyndicateArmory"]]
+

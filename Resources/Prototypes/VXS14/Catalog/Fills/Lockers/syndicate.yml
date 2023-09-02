@@ -1,0 +1,148 @@
+- type: entity
+  id: GunSafeSydicate
+  parent: LockerBaseSecure
+  name: gun safe
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: shotguncase
+    stateDoorOpen: shotguncase_open
+    stateDoorClosed: shotguncase_door
+  - type: AccessReader
+    access: [["SyndicateArmory"]]
+
+- type: entity
+  id: GunSafeGunBulldog
+  suffix: Bulldog
+  parent: GunSafeSydicate
+  name: bulldog safe
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponShotgunBulldog
+      amount: 2
+    - id: MagazineShotgun
+      amount: 2
+    - id: MagazineShotgunBeanbag
+      amount: 1
+      
+- type: entity
+  id: GunSafeSubMachineGunC20R
+  suffix: C-20R
+  parent: GunSafeSydicate
+  name: C-20R safe
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponSubMachineGunC20r
+      amount: 2
+    - id: MagazinePistolSubMachineGun
+      amount: 4
+
+- type: entity
+  id: GunSafeGunLMG
+  suffix: L6-SAW
+  parent: GunSafeSydicate
+  name: LMG safe
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponLightMachineGunL6
+      amount: 1
+    - id: MagazineLightRifleBox
+      amount: 2
+
+- type: entity
+  id: GunSafeGunChinaLake
+  suffix: China lake
+  parent: GunSafeSydicate
+  name: china lake safe
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponLauncherChinaLake
+      amount: 1
+    - id: GrenadeBlast
+      amount: 2
+    - id: GrenadeFrag
+      amount: 2
+
+- type: entity
+  id: GunSafeWeaponSniperMosin
+  suffix: Kardashev-Mosin
+  parent: GunSafeSydicate
+  name: Kardashev-Mosin rifle safe
+  components:
+  - type: StorageFill
+    contents:
+    - id: Kardashev-Mosin
+      amount: 1
+    - id: SpeedLoaderLightRifle
+      amount: 6
+
+- type: entity
+  id: GunSafeWeaponGunM90GL
+  suffix: M90GL
+  parent: GunSafeSydicate
+  name: M90GL safe
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponRifleM90GrenadeLauncher
+      amount: 2
+    - id: MagazineRifle
+      amount: 4
+    - id: GrenadeFrag
+      amount: 2
+
+- type: entity
+  id: GunSafeWeaponRevolverPython
+  suffix: Python
+  parent: GunSafeSydicate
+  name: python safe
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponRevolverPython
+      amount: 3
+    - id: SpeedLoaderMagnum
+      amount: 6
+
+- type: entity
+  id: GunSafeWeaponLauncherRPG
+  suffix: RPG
+  parent: GunSafeSydicate
+  name: RPG safe
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponLauncherRocket
+      amount: 1
+    - id: CartridgeRocket
+      amount: 1
+
+- type: entity
+  id: GunSafeWeaponPistolViper
+  suffix: Viper
+  parent: GunSafeSydicate
+  name: viper safe
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponPistolViper
+      amount: 3
+    - id: MagazinePistol
+      amount: 6
+
+- type: entity
+  id: GunSafeWeaponPistolCobra
+  suffix: Cobra
+  parent: GunSafeSydicate
+  name: cobra safe
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponPistolCobra
+      amount: 3
+    - id: MagazinePistolCaselessRifle
+      amount: 6
