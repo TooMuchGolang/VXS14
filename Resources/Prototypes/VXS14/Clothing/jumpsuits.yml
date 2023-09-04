@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitMarine
-  name: костюм пехотинца
-  description: Специальная водолазка из хлопка, кевлара и плотной ткани. Имеет небольшие отверстия на спине для вентиляции.
+  name: marine jumpsuit
+  description: Specialty turtleneck made of cotton, Kevlar and dense fabric. It has small holes on the back for ventilation.
   components:
   - type: Sprite
     sprite: VXS14/Clothing/Uniforms/Jumpsuit/universalcomb.rsi
