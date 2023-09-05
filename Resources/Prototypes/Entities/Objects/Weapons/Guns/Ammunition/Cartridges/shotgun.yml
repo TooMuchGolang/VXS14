@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: BaseShellShotgun
-  name: shell (.50)
+  name: shell (3,5mm)
   parent: BaseCartridge
   abstract: true
   components:
@@ -9,8 +9,8 @@
     - Cartridge
     - ShellShotgun
   - type: CartridgeAmmo
-    count: 6
-    spread: 15
+    count: 12
+    spread: 7
     soundEject:
       collection: ShellEject
   - type: Sprite
@@ -20,10 +20,12 @@
         map: [ "enum.AmmoVisualLayers.Base" ]
   - type: Appearance
   - type: SpentAmmoVisuals
+  - type: Item
+    size: 3
 
 - type: entity
   id: ShellShotgunBeanbag
-  name: shell (.50 beanbag)
+  name: shell (3,5mm beanbag)
   parent: BaseShellShotgun
   components:
   - type: Sprite
@@ -38,7 +40,7 @@
 
 - type: entity
   id: ShellShotgunSlug
-  name: shell (.50 slug)
+  name: shell (3,5mm slug)
   parent: BaseShellShotgun
   components:
   - type: Sprite
@@ -47,14 +49,14 @@
         map: [ "enum.AmmoVisualLayers.Base" ]
   - type: CartridgeAmmo
     proto: PelletShotgunSlug
-    count: 4
+    count: 12
     spread: 5
   - type: SpentAmmoVisuals
     state: "slug"
 
 - type: entity
   id: ShellShotgunFlare
-  name: shell (.50 flare)
+  name: shell (3,5mm flare)
   parent: BaseShellShotgun
   components:
   - type: Sprite
@@ -69,7 +71,7 @@
 
 - type: entity
   id: ShellShotgun
-  name: shell (.50)
+  name: shell (3,5mm)
   parent: BaseShellShotgun
   components:
   - type: Sprite
@@ -81,7 +83,7 @@
 
 - type: entity
   id: ShellShotgunIncendiary
-  name: shell (.50 incendiary)
+  name: shell (3,5mm incendiary)
   parent: BaseShellShotgun
   components:
   - type: Sprite
@@ -95,7 +97,7 @@
 
 - type: entity
   id: ShellShotgunPractice
-  name: shell (.50 practice)
+  name: shell (3,5mm practice)
   parent: BaseShellShotgun
   components:
   - type: Sprite
@@ -109,7 +111,7 @@
 
 - type: entity
   id: ShellTranquilizer
-  name: shell (.50 tranquilizer)
+  name: shell (3,5mm tranquilizer)
   parent: BaseShellShotgun
   components:
   - type: Sprite
@@ -144,8 +146,8 @@
       - state: improvised
         map: [ "enum.AmmoVisualLayers.Base" ]
   - type: CartridgeAmmo
-    count: 10
-    spread: 45 #deadly if you can get up close... otherwise, good luck doing any kind of real damage
+    count: 6
+    spread: 32 #deadly if you can get up close... otherwise, good luck doing any kind of real damage
     proto: PelletShotgunImprovised
   - type: SpentAmmoVisuals
     state: "improvised"

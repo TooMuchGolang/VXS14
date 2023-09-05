@@ -5,7 +5,7 @@
       Heat: 10
       Blunt: 5
       Structural: 1
-  tileBreakChance: [0, 0.5]
+  tileBreakChance: [0]
   tileBreakIntensity: [0, 1, 2]
   tileBreakRerollReduction: 20
   lightColor: Red

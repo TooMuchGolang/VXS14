@@ -124,7 +124,7 @@
     soundHit:
       path: /Audio/Weapons/Guns/Hits/snap.ogg
   - type: StaminaDamageOnCollide
-    damage: 22 # 5 hits to stun sounds reasonable
+    damage: 13
 
 - type: entity
   id: BaseBulletIncendiary
@@ -135,7 +135,7 @@
   - type: Projectile
     damage:
       types:
-        Blunt: 14
+        Blunt: 9
   - type: PointLight
     enabled: true
     color: "#ff4300"

@@ -2,7 +2,7 @@
   name: AKM
   parent: BaseWeaponRifle
   id: WeaponRifleAKM
-  description: An iconic weapon of war. Uses .30 rifle ammo.
+  description: An iconic weapon of war. Uses 7,62x39 rifle ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Rifles/ak.rsi

@@ -1,6 +1,6 @@
 - type: entity
   id: BaseCartridgeCaselessRifle
-  name: cartridge (.25 rifle)
+  name: cartridge (5,6x10,7 rifle)
   parent: BaseCartridge
   abstract: true
   components:
@@ -20,10 +20,12 @@
   - type: SpentAmmoVisuals
   - type: StaticPrice
     price: 10
+  - type: Item
+    size: 2
 
 - type: entity
   id: CartridgeCaselessRifle
-  name: cartridge (.25 caseless)
+  name: cartridge (5,6x10,7 caseless)
   parent: BaseCartridgeCaselessRifle
   components:
   - type: CartridgeAmmo
@@ -31,7 +33,7 @@
 
 - type: entity
   id: CartridgeCaselessRifleHighVelocity
-  name: cartridge (.25 caseless high-velocity)
+  name: cartridge (5,6x10,7 caseless high-velocity)
   parent: BaseCartridgeCaselessRifle
   components:
   - type: CartridgeAmmo
@@ -39,7 +41,7 @@
 
 - type: entity
   id: CartridgeCaselessRiflePractice
-  name: cartridge (.25 caseless practice)
+  name: cartridge (5,6x10,7 caseless practice)
   parent: BaseCartridgeCaselessRifle
   components:
   - type: CartridgeAmmo
@@ -47,7 +49,7 @@
 
 - type: entity
   id: CartridgeCaselessRifleRubber
-  name: cartridge (.25 caseless rubber)
+  name: cartridge (5,6x10,7 caseless rubber)
   parent: BaseCartridgeCaselessRifle
   components:
   - type: CartridgeAmmo

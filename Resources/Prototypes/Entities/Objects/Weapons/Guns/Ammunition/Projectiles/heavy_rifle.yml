@@ -1,6 +1,6 @@
 - type: entity
   id: BulletHeavyRifle
-  name: bullet (.20 rifle)
+  name: bullet (5,45x39 rifle)
   parent: BaseBullet
   noSpawn: true
   components:
@@ -8,6 +8,8 @@
     damage:
       types:
         Piercing: 19
+  - type: StaminaDamageOnCollide
+    damage: 9
 
 - type: entity
   id: BulletMinigun
@@ -19,3 +21,5 @@
     damage:
       types:
         Piercing: 5
+  - type: StaminaDamageOnCollide
+    damage: 2

@@ -1,6 +1,6 @@
 - type: entity
   id: BaseCartridgeLightRifle
-  name: cartridge (.30 rifle)
+  name: cartridge (7,62x39 rifle)
   parent: BaseCartridge
   abstract: true
   components:
@@ -11,7 +11,7 @@
   - type: CartridgeAmmo
     proto: BulletLightRifle
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing_MG.rsi
     layers:
     - state: base
       map: ["enum.AmmoVisualLayers.Base"]
@@ -19,10 +19,12 @@
   - type: SpentAmmoVisuals
   - type: StaticPrice
     price: 10
+  - type: Item
+    size: 2
 
 - type: entity
   id: CartridgeLightRifle
-  name: cartridge (.30 rifle)
+  name: cartridge (7,62x39 rifle)
   parent: BaseCartridgeLightRifle
   components:
   - type: CartridgeAmmo
@@ -30,7 +32,7 @@
 
 - type: entity
   id: CartridgeLightRifleHighVelocity
-  name: cartridge (.30 rifle high-velocity)
+  name: cartridge (7,62x39 rifle high-velocity)
   parent: BaseCartridgeLightRifle
   components:
   - type: CartridgeAmmo
@@ -38,7 +40,7 @@
 
 - type: entity
   id: CartridgeLightRiflePractice
-  name: cartridge (.30 rifle practice)
+  name: cartridge (7,62x39 rifle practice)
   parent: BaseCartridgeLightRifle
   components:
   - type: CartridgeAmmo
@@ -46,7 +48,7 @@
 
 - type: entity
   id: CartridgeLightRifleRubber
-  name: cartridge (.30 rifle rubber)
+  name: cartridge (7,62x39 rifle rubber)
   parent: BaseCartridgeLightRifle
   components:
   - type: CartridgeAmmo
@@ -54,7 +56,7 @@
 
 - type: entity
   id: CartridgeLightRifleIncendiary
-  name: cartridge (.30 rifle incendiary)
+  name: cartridge (7,62x39 rifle incendiary)
   parent: BaseCartridgeLightRifle
   components:
   - type: CartridgeAmmo

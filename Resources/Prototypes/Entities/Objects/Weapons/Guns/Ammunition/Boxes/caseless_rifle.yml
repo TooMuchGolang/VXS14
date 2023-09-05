@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: BaseMagazineBoxCaselessRifle
-  name: ammunition box (.25 caseless)
+  name: ammunition box (5,6x10,7 caseless)
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
@@ -10,9 +10,9 @@
       tags:
         - CartridgeCaselessRifle
     proto: CartridgeCaselessRifle
-    capacity: 60
+    capacity: 120
   - type: Item
-    size: 5
+    size: 25
   - type: ContainerContainer
     containers:
       ballistic-ammo: !type:Container
@@ -28,7 +28,7 @@
 - type: entity
   parent: BaseMagazineBoxCaselessRifle
   id: MagazineBoxCaselessRifle10x24
-  name: ammunition box (.25 caseless)
+  name: ammunition box (5,6x10,7 caseless)
   components:
   - type: BallisticAmmoProvider
     capacity: 200
@@ -48,7 +48,7 @@
 - type: entity
   parent: BaseMagazineBoxCaselessRifle
   id: MagazineBoxCaselessRifleBig
-  name: ammunition box (.25 caseless)
+  name: ammunition box (5,6x10,7 caseless)
   components:
   - type: BallisticAmmoProvider
     capacity: 200
@@ -68,7 +68,7 @@
 - type: entity
   parent: BaseMagazineBoxCaselessRifle
   id: MagazineBoxCaselessRifleBigRubber
-  name: ammunition box (.25 caseless rubber)
+  name: ammunition box (5,6x10,7 caseless rubber)
   components:
   - type: BallisticAmmoProvider
     capacity: 200
@@ -89,7 +89,7 @@
 - type: entity
   parent: BaseMagazineBoxCaselessRifle
   id: MagazineBoxCaselessRifle
-  name: ammunition box (.25 caseless)
+  name: ammunition box (5,6x10,7 caseless)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeCaselessRifle
@@ -103,7 +103,7 @@
 - type: entity
   parent: BaseMagazineBoxCaselessRifle
   id: MagazineBoxCaselessRifleHighVelocity
-  name: ammunition box (.25 caseless high-velocity)
+  name: ammunition box (5,6x10,7 caseless high-velocity)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeCaselessRifleHighVelocity
@@ -118,7 +118,7 @@
 - type: entity
   parent: BaseMagazineBoxCaselessRifle
   id: MagazineBoxCaselessRiflePractice
-  name: ammunition box (.25 caseless practice)
+  name: ammunition box (5,6x10,7 caseless practice)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeCaselessRiflePractice
@@ -133,7 +133,7 @@
 - type: entity
   parent: BaseMagazineBoxCaselessRifle
   id: MagazineBoxCaselessRifleRubber
-  name: ammunition box (.25 caseless rubber)
+  name: ammunition box (5,6x10,7 caseless rubber)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeCaselessRifleRubber

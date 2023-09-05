@@ -1,7 +1,7 @@
 # Empty mags
 - type: entity
   id: BaseMagazineRifle
-  name: "magazine (.20 rifle)"
+  name: "magazine (5,45x39 rifle)"
   parent: BaseItem
   abstract: true
   components:
@@ -9,13 +9,13 @@
     tags:
       - MagazineRifle
   - type: Item
-    size: 5
+    size: 10
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
       tags:
         - CartridgeRifle
-    capacity: 25
+    capacity: 50
   - type: ContainerContainer
     containers:
       ballistic-ammo: !type:Container
@@ -35,7 +35,7 @@
 # Magazines
 - type: entity
   id: MagazineRifle
-  name: "magazine (.20 rifle)"
+  name: "magazine (5,45x39 rifle)"
   parent: BaseMagazineRifle
   components:
   - type: BallisticAmmoProvider
@@ -49,7 +49,7 @@
 
 - type: entity
   id: MagazineRifleHighVelocity
-  name: "magazine (.20 rifle high-velocity)"
+  name: "magazine (5,45x39 rifle high-velocity)"
   parent: BaseMagazineRifle
   components:
   - type: BallisticAmmoProvider
@@ -63,7 +63,7 @@
 
 - type: entity
   id: MagazineRiflePractice
-  name: "magazine (.20 rifle practice)"
+  name: "magazine (5,45x39 rifle practice)"
   parent: BaseMagazineRifle
   components:
   - type: BallisticAmmoProvider
@@ -77,7 +77,7 @@
 
 - type: entity
   id: MagazineRifleRubber
-  name: "magazine (.20 rifle rubber)"
+  name: "magazine (5,45x39 rifle rubber)"
   parent: BaseMagazineRifle
   components:
   - type: BallisticAmmoProvider

@@ -1,6 +1,6 @@
 - type: entity
   id: BulletCaselessRifle
-  name: bullet (.25 caseless)
+  name: bullet (5,6x10,7 caseless)
   parent: BaseBullet
   noSpawn: true
   components:
@@ -8,10 +8,12 @@
     damage:
       types:
         Piercing: 19
+  - type: StaminaDamageOnCollide
+    damage: 3
 
 - type: entity
   id: BulletCaselessRifleHighVelocity
-  name: bullet (.25 caseless high-velocity)
+  name: bullet (5,6x10,7 caseless high-velocity)
   parent: BaseBulletHighVelocity
   noSpawn: true
   components:
@@ -19,10 +21,12 @@
     damage:
       types:
         Piercing: 22
+  - type: StaminaDamageOnCollide
+    damage: 6
 
 - type: entity
   id: BulletCaselessRiflePractice
-  name: bullet (.25 caseless practice)
+  name: bullet (5,6x10,7 caseless practice)
   parent: BaseBulletPractice
   noSpawn: true
   components:
@@ -30,10 +34,12 @@
     damage:
       types:
         Blunt: 2
+  - type: StaminaDamageOnCollide
+    damage: 1
 
 - type: entity
   id: BulletCaselessRifleRubber
-  name: bullet (.25 caseless rubber)
+  name: bullet (5,6x10,7 caseless rubber)
   parent: BaseBulletRubber
   noSpawn: true
   components:

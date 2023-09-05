@@ -1,7 +1,7 @@
 # Empty mags
 - type: entity
   id: BaseMagazineLightRifle
-  name: "magazine (.30 rifle)"
+  name: "magazine (7,62x39 rifle)"
   parent: BaseItem
   abstract: true
   components:
@@ -14,9 +14,9 @@
       tags:
         - CartridgeLightRifle
     proto: CartridgeLightRifle
-    capacity: 30
+    capacity: 60
   - type: Item
-    size: 5
+    size: 25
   - type: ContainerContainer
     containers:
       ballistic-ammo: !type:Container
@@ -36,15 +36,17 @@
 # Magazines
 - type: entity
   id: MagazineLightRifleBox
-  name: "L6 SAW magazine box (.30 rifle)"
+  name: "L6 SAW magazine box (7,62x39 rifle)"
   parent: BaseMagazineLightRifle
   components:
+  - type: Item
+    size: 25
   - type: Tag
     tags:
       - MagazineLightRifleBox
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifle
-    capacity: 100
+    capacity: 200
   - type: Item
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/light_rifle_box.rsi
@@ -56,7 +58,7 @@
 
 - type: entity
   id: MagazineLightRifle
-  name: "magazine (.30 rifle)"
+  name: "magazine (7,62x39 rifle)"
   parent: BaseMagazineLightRifle
   components:
   - type: BallisticAmmoProvider
@@ -70,7 +72,7 @@
 
 - type: entity
   id: MagazineLightRifleHighVelocity
-  name: "magazine (.30 rifle high-velocity)"
+  name: "magazine (7,62x39 rifle high-velocity)"
   parent: BaseMagazineLightRifle
   components:
   - type: BallisticAmmoProvider
@@ -84,7 +86,7 @@
 
 - type: entity
   id: MagazineLightRiflePractice
-  name: "magazine (.30 rifle practice)"
+  name: "magazine (7,62x39 rifle practice)"
   parent: BaseMagazineLightRifle
   components:
   - type: BallisticAmmoProvider
@@ -98,7 +100,7 @@
 
 - type: entity
   id: MagazineLightRifleRubber
-  name: "magazine (.30 rifle rubber)"
+  name: "magazine (7,62x39 rifle rubber)"
   parent: BaseMagazineLightRifle
   components:
   - type: BallisticAmmoProvider
@@ -112,7 +114,7 @@
 
 - type: entity
   id: MagazineLightRifleMaxim
-  name: "pan magazine (.30 rifle)"
+  name: "pan magazine (7,62x39 rifle)"
   parent: BaseMagazineLightRifle
   components:
   - type: Tag
@@ -120,13 +122,13 @@
       - MagazineLightRiflePan
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifle
-    capacity: 96
+    capacity: 192
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/maxim.rsi
 
 - type: entity
   id: MagazineLightRiflePkBox
-  name: "PK munitions box (.30 rifle)"
+  name: "PK munitions box (7,62x39 rifle)"
   parent: BaseMagazineLightRifle
   components:
   - type: Tag
@@ -134,7 +136,7 @@
       - MagazineLightRifleBox
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifle
-    capacity: 80
+    capacity: 160
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/pk_box.rsi
   - type: MagazineVisuals
