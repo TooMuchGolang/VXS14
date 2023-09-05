@@ -11,7 +11,7 @@
     size: 10
   - type: BallisticAmmoProvider
     mayTransfer: true
-    capacity: 200
+    capacity: 100
   - type: ContainerContainer
     containers:
       ballistic-ammo: !type:Container

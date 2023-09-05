@@ -13,7 +13,7 @@
       tags:
         - CartridgeCaselessRifle
     proto: CartridgeCaselessRifle
-    capacity: 60
+    capacity: 30
   - type: Item
     size: 5
   - type: ContainerContainer
@@ -40,7 +40,7 @@
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeCaselessRifle
-    capacity: 20
+    capacity: 10
   - type: Item
     size: 3
   - type: Sprite
@@ -65,7 +65,7 @@
       tags:
         - CartridgeCaselessRifle
     proto: CartridgeCaselessRifle
-    capacity: 20
+    capacity: 10
   - type: Item
     size: 5
   - type: Sprite
@@ -88,7 +88,7 @@
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeCaselessRifle
-    capacity: 438
+    capacity: 220
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/10x24.rsi
 
@@ -235,7 +235,7 @@
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeCaselessRifle
-    capacity: 40
+    capacity: 20
   - type: Sprite
     layers:
     - state: red
@@ -250,7 +250,7 @@
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeCaselessRifleHighVelocity
-    capacity: 40
+    capacity: 20
   - type: Sprite
     layers:
     - state: high_velocity
@@ -265,7 +265,7 @@
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeCaselessRiflePractice
-    capacity: 40
+    capacity: 20
   - type: Sprite
     layers:
     - state: practice
@@ -280,7 +280,7 @@
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeCaselessRifleRubber
-    capacity: 40
+    capacity: 20
   - type: Sprite
     layers:
     - state: rubber

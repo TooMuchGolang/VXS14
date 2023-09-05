@@ -46,7 +46,7 @@
       - MagazineLightRifleBox
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifle
-    capacity: 200
+    capacity: 100
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/light_rifle_box.rsi
   - type: MagazineVisuals
@@ -121,7 +121,7 @@
       - MagazineLightRiflePan
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifle
-    capacity: 192
+    capacity: 95
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/maxim.rsi
 
@@ -135,7 +135,7 @@
       - MagazineLightRifleBox
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifle
-    capacity: 160
+    capacity: 90
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/pk_box.rsi
   - type: MagazineVisuals
