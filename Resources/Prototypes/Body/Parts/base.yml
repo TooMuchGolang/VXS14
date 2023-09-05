@@ -86,6 +86,8 @@
     partType: Leg
     symmetry: Left
   - type: MovementBodyPart
+    walkSpeed : 4.5
+    sprintSpeed : 2.7
 
 - type: entity
   id: BaseRightLeg
@@ -96,6 +98,8 @@
     partType: Leg
     symmetry: Right
   - type: MovementBodyPart
+    walkSpeed : 4.5
+    sprintSpeed : 2.7
 
 - type: entity
   id: BaseLeftFoot
