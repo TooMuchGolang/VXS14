@@ -211,3 +211,16 @@
     Cellular: 0.0
     Radiation: 0.2
     Caustic: 0.0
+
+- type: damageModifierSet
+  id: FireRestMetallic
+  parent: Metallic
+  flatReductions:
+    Heat: 1000
+
+- type: damageModifierSet
+  id: FireResStrongMetallic
+  parent: StrongMetallic
+  flatReductions:
+    Heat: 1000
+    

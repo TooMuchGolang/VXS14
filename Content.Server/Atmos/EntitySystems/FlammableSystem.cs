@@ -9,6 +9,7 @@ using Content.Shared.Atmos;
 using Content.Shared.Damage;
 using Content.Shared.Database;
 using Content.Shared.Interaction;
+using Content.Shared.Mech.Components;
 using Content.Shared.Physics;
 using Content.Shared.Popups;
 using Content.Shared.Rejuvenate;
@@ -249,6 +250,9 @@ namespace Content.Server.Atmos.EntitySystems
             FlammableComponent? flammable = null)
         {
             if (!Resolve(uid, ref flammable))
+                return;
+
+            if (TryComp<MechPilotComponent>(uid, out var mechPilot) && TryComp<MechComponent>(mechPilot.Mech, out var mech) && mech.Airtight)
                 return;
 
             if (!flammable.OnFire || !_actionBlockerSystem.CanInteract(flammable.Owner, null) || flammable.Resisting)

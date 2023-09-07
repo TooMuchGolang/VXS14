@@ -1,0 +1,43 @@
+- type: entity
+  parent: BaseMech
+  id: MechMarauder
+  name: Marauder
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    noRot: true
+    sprite: Objects/Specific/Mech/marauder.rsi
+    layers:
+    - map: [ "enum.MechVisualLayers.Base" ]
+      state: marauder
+  - type: Mech
+    baseState: marauder
+    openState: marauder-open
+    brokenState: marauder-broken
+    airtight: true
+    maxIntegrity: 500
+    mechToPilotDamageMultiplier: 0.35
+  - type: Reflect # Smol chance to reflect bullets/lasers
+  - type: MeleeWeapon
+    hidden: true
+    attackRate: 0.70 #Big slow arms
+    damage:
+      types:
+        Blunt: 50 #THWACK
+        Structural: 55
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: FireResStrongMetallic # Yes this thing is also fire resistant
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 1.0
+    baseSprintSpeed: 1.0
+
+- type: entity
+  parent: MechMarauder
+  id: MechMarauderBattery
+  suffix: Battery
+  components:
+  - type: ContainerFill
+    containers:
+      mech-battery-slot:
+      - PowerCellHigh
