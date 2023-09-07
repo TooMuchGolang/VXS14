@@ -1,0 +1,14 @@
+- type: reaction
+  id: Glycerol
+  impact: High
+  reactants:
+    Fat:
+      amount: 4
+    Oxygen:
+      amount: 3
+    Hydrogen:
+      amount: 3
+    Carbon:
+      amount: 3
+  products:
+    Glycerol: 9

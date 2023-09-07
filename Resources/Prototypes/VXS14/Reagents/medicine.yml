@@ -1,0 +1,56 @@
+- type: reagent
+  id: SulfathiazoleSilver
+  name: reagent-name-sulfathiazolesilver
+  group: Medicine
+  desc: reagent-desc-sulfathiazolesilver
+  physicalDesc: reagent-physical-desc-opaque
+  flavor: medicine
+  color: "#999999"
+  metabolisms:
+    Medicine:
+      metabolismRate : 4.0
+      effects:
+      - !type:HealthChange
+        damage:
+          types:
+            Heat: -0.22
+            Shock: -0.22
+            Cold: -0.22
+            Caustic: -0.30
+            Slash: -0.10
+      - !type:ChemCleanBloodstream
+        cleanseRate: 1
+      - !type:SatiateThirst
+        factor: -6
+        conditions:
+        - !type:ReagentThreshold
+          min: 25
+      - !type:PopupMessage
+        type: Local
+        messages:
+        - generic-reagent-effect-thirsty
+        - generic-reagent-effect-parched
+        probability: 0.1
+        conditions:
+        - !type:ReagentThreshold
+          min: 25
+
+- type: reagent
+  id: Hydroxypropylcellulose
+  name: reagent-name-hydroxypropylcellulose
+  group: Medicine
+  desc: reagent-desc-hydroxypropylcellulose
+  physicalDesc: reagent-physical-desc-opaque
+  flavor: bitter
+  color: "#B10C0C"
+  metabolisms:
+    Medicine:
+      metabolismRate : 0.3
+      effects:
+      - !type:HealthChange
+        damage:
+          types:
+            Heat: -0.20
+            Shock: -0.13
+            Cold: -0.08
+            Slash: -0.25

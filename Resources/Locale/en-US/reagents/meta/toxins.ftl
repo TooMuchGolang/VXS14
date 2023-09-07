@@ -60,3 +60,6 @@ reagent-desc-honk = A toxin found in bananium. Causes severe honking and interna
 
 reagent-name-lead = lead
 reagent-desc-lead = A slow-acting but incredibly lethal toxin found in steel, albiet in trace amounts. Tasteless.
+
+reagent-name-polytriforonite = polynitrine triforonite
+reagent-desc-polytriforonite = A chemical made of complex nitriles and plasma specifically designed to kill the whole fucking body.

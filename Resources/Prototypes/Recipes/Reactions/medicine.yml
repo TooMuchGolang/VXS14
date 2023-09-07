@@ -92,17 +92,17 @@
   products:
     Epinephrine: 5
 
-- type: reaction
-  id: Dermaline
-  reactants:
-    Kelotane:
-      amount: 1
-    Oxygen:
-      amount: 1
-    Phosphorus:
-      amount: 1
-  products:
-    Dermaline: 3
+#- type: reaction
+#  id: Dermaline
+#  reactants:
+#    Kelotane:
+#      amount: 1
+#    Oxygen:
+#      amount: 1
+#    Phosphorus:
+#      amount: 1
+#  products:
+#    Dermaline: 3
 
 - type: reaction
   id: Dexalin
@@ -173,15 +173,15 @@
   products:
     TranexamicAcid: 3
 
-- type: reaction
-  id: Kelotane
-  reactants:
-    Silicon:
-      amount: 1
-    Carbon:
-      amount: 1
-  products:
-    Kelotane: 2
+#- type: reaction
+#  id: Kelotane
+#  reactants:
+#    Silicon:
+#      amount: 1
+#    Carbon:
+#      amount: 1
+#  products:
+#    Kelotane: 2
 
 - type: reaction
   id: Leporazine
@@ -378,8 +378,8 @@
   reactants:
     SodiumCarbonate:
       amount: 1
-    Kelotane:
-      amount: 1
+#    Kelotane:
+#      amount: 1
     Water:
       amount: 1
     Sugar:

@@ -66,3 +66,6 @@ reagent-desc-bananium = A yellow radioactive organic solid.
 
 reagent-name-zinc = zinc
 reagent-desc-zinc = A silvery, brittle metal, often used in batteries to carry charge. 
+
+reagent-name-glycerol = glycerol
+reagent-desc-glycerol = Also called glycerine or glycerin, is a simple triol compound. It is a colorless, odorless, viscous liquid that is sweet-tasting and non-toxic.

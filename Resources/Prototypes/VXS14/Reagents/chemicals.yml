@@ -1,0 +1,10 @@
+- type: reagent
+  id: Glycerol
+  name: reagent-name-glycerol
+  group: Elements
+  desc: reagent-desc-glycerol
+  physicalDesc: reagent-physical-desc-metallic
+  flavor: sweet
+  color: "#84878900"
+  boilingPoint: 563.15
+  meltingPoint: 563.15
