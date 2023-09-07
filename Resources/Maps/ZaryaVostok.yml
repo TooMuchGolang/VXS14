@@ -17354,12 +17354,12 @@ entities:
       inherent: True
       enabled: True
       type: Gravity
-    - ambientLightColor: '#D8B059FF'
+    - ambientLightColor: '#2B3143FF'
       type: MapLight
     - space: False
       mixture:
         volume: 2500
-        temperature: 293.15
+        temperature: 271.15
         moles:
         - 21.82478
         - 82.10312
