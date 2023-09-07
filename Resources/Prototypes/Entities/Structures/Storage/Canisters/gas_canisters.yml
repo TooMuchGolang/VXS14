@@ -564,7 +564,7 @@
 - type: entity
   parent: GasCanister
   id: ArsineCanister
-  name: arsine canister
+  name: Arsine canister
   components:
     - type: Sprite
       layers:
