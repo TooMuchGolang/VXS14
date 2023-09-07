@@ -201,6 +201,13 @@
   plantMetabolism:
   - !type:PlantAdjustHealth
     amount: -5
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:HealthChange
+        damage:
+          types:
+            Cellular: 0.005
 
 # TODO: Replace these nonstandardized effects with generic brain damage
 - type: reagent
