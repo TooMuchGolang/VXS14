@@ -4,7 +4,7 @@
     sprite: Objects/Tools/cable-coils.rsi
     state: coillv-30
   product: CrateEngineeringCableLV
-  cost: 600
+  cost: 300
   category: Engineering
   group: market
 
@@ -24,16 +24,6 @@
     sprite: Objects/Tools/cable-coils.rsi
     state: coilhv-30
   product: CrateEngineeringCableHV
-  cost: 600
-  category: Engineering
-  group: market
-
-- type: cargoProduct
-  id: EngineeringCableBulk
-  icon:
-    sprite: Objects/Tools/cable-coils.rsi
-    state: coilall-30
-  product: CrateEngineeringCableBulk
   cost: 1200
   category: Engineering
   group: market
@@ -44,7 +34,7 @@
     sprite: Objects/Tools/Toolboxes/toolbox_yellow.rsi
     state: icon
   product: CrateEngineeringElectricalSupplies
-  cost: 4500
+  cost: 2500
   category: Engineering
   group: market
 
@@ -54,17 +44,7 @@
     sprite: Objects/Tanks/Jetpacks/blue.rsi
     state: icon
   product: CrateEngineeringJetpack
-  cost: 1000
-  category: Engineering
-  group: market
-
-- type: cargoProduct
-  id: EngineeringMiniJetpack
-  icon:
-    sprite: Objects/Tanks/Jetpacks/mini.rsi
-    state: icon
-  product: CrateEngineeringMiniJetpack
-  cost: 750
+  cost: 2500
   category: Engineering
   group: market
 
@@ -74,7 +54,7 @@
     sprite: Objects/Tools/Toolboxes/toolbox_yellow.rsi
     state: icon
   product: CrateAirlockKit
-  cost: 1100
+  cost: 5000
   category: Engineering
   group: market
 
@@ -85,5 +65,125 @@
     state: icon
   product: CrateEvaKit
   cost: 5000
+  category: Engineering
+  group: market
+
+- type: cargoProduct
+  id: MaterialGlass
+  icon:
+    sprite: Objects/Materials/Sheets/glass.rsi
+    state: glass_3
+  product: CrateMaterialGlass
+  cost: 1000
+  category: Engineering
+  group: market
+
+- type: cargoProduct
+  id: MaterialSteel
+  icon:
+    sprite: Objects/Materials/Sheets/metal.rsi
+    state: steel_3
+  product: CrateMaterialSteel
+  cost: 1000
+  category: Engineering
+  group: market
+
+- type: cargoProduct
+  id: MaterialPlastic
+  icon:
+    sprite: Objects/Materials/Sheets/other.rsi
+    state: plastic_3
+  product: CrateMaterialPlastic
+  cost: 1500
+  category: Engineering
+  group: market
+
+- type: cargoProduct
+  id: MaterialPlasteel
+  icon:
+    sprite: Objects/Materials/Sheets/metal.rsi
+    state: plasteel_3
+  product: CrateMaterialPlasteel
+  cost: 3000
+  category: Engineering
+  group: market
+
+- type: cargoProduct
+  id: MaterialTextiles
+  icon:
+    sprite: Objects/Materials/materials.rsi
+    state: cloth_3
+  product: CrateMaterialTextiles
+  cost: 1000
+  category: Engineering
+  group: market
+
+- type: cargoProduct
+  id: MaterialPlasma
+  icon:
+    sprite: Objects/Materials/Sheets/other.rsi
+    state: plasma_3
+  product: CrateMaterialPlasma
+  cost: 2000
+  category: Engineering
+  group: market
+
+- type: cargoProduct
+  id: CardboardMaterial
+  icon:
+    sprite: Objects/Materials/materials.rsi
+    state: cardboard_3
+  product: CrateMaterialCardboard
+  cost: 750
+  category: Engineering
+  group: market
+
+- type: cargoProduct
+  id: MaterialFuelTank
+  icon:
+    sprite: Structures/Storage/tanks.rsi
+    state: fueltank
+  product: WeldingFuelTankFull
+  cost: 1500
+  category: Engineering
+  group: market
+
+- type: cargoProduct
+  id: MaterialWaterTank
+  icon:
+    sprite: Structures/Storage/tanks.rsi
+    state: watertank
+  product: WaterTankFull
+  cost: 1000
+  category: Engineering
+  group: market
+
+- type: cargoProduct
+  id: ShuttleThruster
+  icon:
+    sprite: Structures/Shuttles/thruster.rsi
+    state: base
+  product: Thruster
+  cost: 1500
+  category: Engineering
+  group: market
+
+- type: cargoProduct
+  id: ShuttleGyroscope
+  icon:
+    sprite: Structures/Shuttles/gyroscope.rsi
+    state: base
+  product: Gyroscope
+  cost: 2000
+  category: Engineering
+  group: market
+
+- type: cargoProduct
+  id: ServiceBoxes
+  icon:
+    sprite: Objects/Storage/boxes.rsi
+    state: box
+  product: CrateServiceBox
+  cost: 400
   category: Engineering
   group: market

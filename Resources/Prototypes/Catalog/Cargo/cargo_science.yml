@@ -27,3 +27,33 @@
   cost: 800
   category: Science
   group: market
+
+- type: cargoProduct
+  id: ChemistryP
+  icon:
+    sprite: Structures/Storage/Crates/chemcrate_secure.rsi
+    state: icon
+  product: CrateChemistryP
+  cost: 850
+  category: Science
+  group: market
+
+- type: cargoProduct
+  id: ChemistryS
+  icon:
+    sprite: Structures/Storage/Crates/chemcrate_secure.rsi
+    state: icon
+  product: CrateChemistryS
+  cost: 750
+  category: Science
+  group: market
+
+- type: cargoProduct
+  id: CrateChemistryD
+  icon:
+    sprite: Structures/Storage/Crates/chemcrate_secure.rsi
+    state: icon
+  product: CrateChemistryD
+  cost: 750
+  category: Science
+  group: market

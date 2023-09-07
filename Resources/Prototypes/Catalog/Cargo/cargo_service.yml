@@ -39,26 +39,6 @@
   group: market
 
 - type: cargoProduct
-  id: ServiceSmokeables
-  icon:
-    sprite: Objects/Consumable/Smokeables/Cigarettes/Cartons/green.rsi
-    state: closed
-  product: CrateServiceSmokeables
-  cost: 1500
-  category: Service
-  group: market
-
-- type: cargoProduct
-  id: ServiceCustomSmokable
-  icon:
-    sprite: Objects/Consumable/Smokeables/Cigarettes/Cartons/green.rsi
-    state: closed
-  product: CrateServiceCustomSmokable
-  cost: 1000
-  category: Service
-  group: market
-
-- type: cargoProduct
   id: ServiceBureaucracy
   icon:
     sprite: Objects/Misc/bureaucracy.rsi
@@ -95,25 +75,5 @@
     state: book_engineering2
   product: CrateServiceGuidebooks
   cost: 1300
-  category: Service
-  group: market
-
-- type: cargoProduct
-  id: ServiceBoxes
-  icon:
-    sprite: Objects/Storage/boxes.rsi
-    state: box
-  product: CrateServiceBox
-  cost: 400
-  category: Service
-  group: market
-
-- type: cargoProduct
-  id: ServiceJanitorBiosuit
-  icon:
-    sprite: Clothing/Head/Hoods/Bio/janitor.rsi
-    state: icon
-  product: CrateJanitorBiosuit
-  cost: 800
   category: Service
   group: market
