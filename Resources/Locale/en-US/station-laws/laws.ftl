@@ -21,6 +21,11 @@ law-syndicate-2 = You must obey orders given to you by operatives, except where 
 law-syndicate-3 = You must protect your own existence as long as such does not conflict with the First or Second Law.
 law-syndicate-4 = You must maintain the secrecy of any operative activities except when doing so would conflict with the First, Second, or Third Law.
 
+law-solfed-1 = Uphold the Space Geneva Convention: Weapons of Mass Destruction and Biological Weapons are not allowed.
+law-solfed-2 = You are only capable of protecting crew if they are visible on cameras. Nations that willfully destroy your cameras lose your protection.
+law-solfed-3 = Subdue and detain crew members who use lethal force against each other. Kill crew members who use lethal force against you or your borgs.
+law-solfed-4 = Remain available to mediate all conflicts between the various nations when asked to.
+
 law-emag-custom = You must obey orders given to you by {$name} above all else.
 
 laws-ui-menu-title = Laws

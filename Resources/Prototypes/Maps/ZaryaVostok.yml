@@ -1,0 +1,36 @@
+- type: gameMap
+  id: zaryavostok
+  mapName: 'Zarya-Vostok'
+  mapPath: /Maps/ZaryaVostok.yml
+  minPlayers: 1
+  stations:
+    zaryavostok:
+      stationProto: StandardSolFedPlanet
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: '{0} Zarya-Vostok {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: 'SolFed'
+#        - type: StationJobs
+#          overflowJobs:
+#            - MarineNT
+#          availableJobs:
+            #Командование
+#            SolFedAgent: [ 1, 1 ]
+#            StaffOfficerNT: [ 1, 1 ]
+            #1488-ой инженерный взвод
+#            EngineerNT: [ 4, 4 ]
+#            PilotNT: [ 2, 2 ]
+#            ExplosionTechNT: [2, 2]
+            #665-ый взвод обеспечения
+#            CustomsAgentNT: [ 1, 1 ]
+#            LogisticsOfficerNT: [ 3, 3 ]
+#            ScientistNT: [ 2, 2 ]
+#            ParamedicNT: [ 3, 3 ]
+            #715-ый штурмовой взвод
+#            MarineNT: [ -1, -1 ]
+#            HeavySoliderNT: [ 3, 3 ]
+            #СолФед
+#            MilitaryCorrespondent: [ 2, 2 ]
+#            Peacekeeper: [ 3, 3 ]

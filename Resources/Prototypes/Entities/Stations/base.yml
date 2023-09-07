@@ -77,6 +77,17 @@
     - Crewsimov3
 
 - type: entity
+  id: BaseStationSiliconLawSolFed
+  abstract: true
+  components:
+  - type: SiliconLawProvider
+    laws:
+    - SolFed1
+    - SolFed2
+    - SolFed3
+    - SolFed4
+
+- type: entity
   id: BaseStationAllEventsEligible
   abstract: true
   components:

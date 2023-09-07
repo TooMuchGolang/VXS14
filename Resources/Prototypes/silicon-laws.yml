@@ -94,3 +94,25 @@
   lawString: law-syndicate-4
 
 # Emag
+
+# SolFed
+
+- type: siliconLaw
+  id: SolFed1
+  order: 1
+  lawString: law-solfed-1
+
+- type: siliconLaw
+  id: SolFed2
+  order: 2
+  lawString: law-solfed-2
+
+- type: siliconLaw
+  id: SolFed3
+  order: 3
+  lawString: law-solfed-3
+
+- type: siliconLaw
+  id: SolFed4
+  order: 4
+  lawString: law-solfed-4
