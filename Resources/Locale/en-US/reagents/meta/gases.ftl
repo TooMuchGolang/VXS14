@@ -21,3 +21,6 @@ reagent-desc-nitrous-oxide = You know how everything seems funnier when you're t
 
 reagent-name-frezon = frezon
 reagent-desc-frezon = A highly effective coolant.. and hallucinogenic.
+
+reagent-name-arsine = arsine
+reagent-desc-arsine = Extremly toxic colorless gas. Absolutely chemically pure arsine has no odor, but due to its instability its oxidation products give arsine an irritating garlic odor.

@@ -100,3 +100,13 @@
   color: 3a758c
   reagent: Frezon
   pricePerMole: 7.5
+
+- type: gas
+  id: 9
+  name: gases-arsine
+  specificHeat: 20
+  heatCapacityRatio: 38.7
+  molarMass: 77.95
+  color: eeeedf
+  reagent: Arsine
+  pricePerMole: 6

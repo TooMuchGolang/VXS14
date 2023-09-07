@@ -368,3 +368,35 @@
         - !type:ReagentThreshold
           reagent: Frezon
           min: 1
+
+- type: reagent
+  id: Arsine
+  name: reagent-name-arsine
+  desc: reagent-desc-arsine
+  physicalDesc: reagent-physical-desc-gaseous
+  color: "#808080"
+  boilingPoint: -62.5
+  meltingPoint: -117.0
+  metabolisms:
+    Gas:
+      effects:
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentThreshold
+          reagent: Arsine
+          min: 0.3
+        scaleByQuantity: true
+        ignoreResistances: true
+        damage:
+          types:
+            Poison: 2
+            Bloodloss: 1
+            Cellular: 0.01
+      - !type:PopupMessage
+        type: Local
+        messages: [ "It's starting to smell strongly of garlic" ]
+        probability: 0.1
+        conditions:
+        - !type:ReagentThreshold
+          reagent: Arsine
+          min: 0.2
