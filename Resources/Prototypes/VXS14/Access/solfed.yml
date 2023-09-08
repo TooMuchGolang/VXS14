@@ -1,0 +1,11 @@
+- type: accessLevel
+  id: SolfedAccess
+  name: Solar Federation
+
+- type: accessLevel
+  id: SolFedSecond
+  name: Solar Federation II
+
+- type: accessLevel
+  id: SolarFedThird
+  name: Solar Federation III
