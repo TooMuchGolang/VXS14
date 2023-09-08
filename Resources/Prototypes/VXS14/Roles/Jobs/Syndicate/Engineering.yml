@@ -1,0 +1,59 @@
+# Инженер
+
+- type: job
+  id: EngineerSyndicate
+  name: Syndicate Engineer
+  description: Again, you're just like your NT friend, but with a bit of a fun.
+  playTimeTracker: JobStationEngineer
+  startingGear: SyndieEngineerGear
+  icon: "SyndieEngineer"
+  supervisors: job-supervisors-syndie
+  access:
+  - Maintenance
+  - External
+  - Syndicate
+
+- type: startingGear
+  id: SyndieEngineerGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitEngineeringHazard
+    head: ClothingHeadHelmetSwatSyndicate
+    outerClothing: ClothingOuterArmorBasicSlim
+    ears: ClothingHeadsetAltSyndicate
+    gloves: ClothingHandsGlovesCombat
+    back: ClothingBackpackFilled
+    shoes: ClothingShoesBootsWork
+    belt: ClothingBeltUtilityEngineering
+    id: SyndiPDA
+  satchel: ClothingBackpackDuffelSyndicateOperative
+  duffelbag: ClothingBackpackDuffelSyndicateOperative
+
+# Артиллерист
+
+- type: job
+  id: Artilleryman
+  name: Artilleryman
+  description: BLOW EVERYBODY UP!!! Not Garshick.
+  playTimeTracker: JobStationEngineer
+  startingGear: SyndieArtillerymanGear
+  icon: "SecurityCadet"
+  supervisors: job-supervisors-syndie
+  access:
+  - Maintenance
+  - External
+  - Syndicate
+
+- type: startingGear
+  id: SyndieArtillerymanGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitEngineeringHazard
+    head: ClothingHeadHelmetSwatSyndicate
+    outerClothing: ClothingOuterArmorBasicSlim
+    ears: ClothingHeadsetAltSyndicate
+    gloves: ClothingHandsGlovesCombat
+    back: ClothingBackpackFilled
+    shoes: ClothingShoesBootsWork
+    belt: ClothingBeltUtilityEngineering
+    id: SyndiPDA
+  satchel: ClothingBackpackDuffelSyndicateOperative
+  duffelbag: ClothingBackpackDuffelSyndicateOperative

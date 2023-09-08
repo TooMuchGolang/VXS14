@@ -1,0 +1,91 @@
+# Диверсант
+
+- type: job
+  id: Saboteur
+  name: Saboteur
+  description: Subvert NT activities, inform your guys of the corporatists plans, and try to survive.
+  playTimeTracker: JobStationEngineer
+  startingGear: SaboteurGear
+  icon: "Syndie"
+  supervisors: job-supervisors-syndie
+  access:
+  - Maintenance
+  - External
+  - Syndicate
+
+- type: startingGear
+  id: SaboteurGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitTacticool
+    back: ClothingBackpackChameleonFill
+    shoes: ClothingShoesBootsjack
+    pocket1: EncryptionKeySyndie
+    id: AgentIDCard
+    gloves: ClothingHandsGlovesCombat
+    eyes: ClothingEyesGlassesSunglasses
+
+# Штурмовк
+
+- type: job
+  id: StormTrooper
+  name: Syndicate marine
+  description: You are the same infantryman as the NT dudes, but you have more interesting and not always legal ammunition.
+  playTimeTracker: JobStationEngineer
+  startingGear: SyndicateStormTrooperGear
+  icon: "Syndie"
+  supervisors: job-supervisors-syndie
+  access:
+  - Maintenance
+  - External
+  - Syndicate
+
+- type: startingGear
+  id: SyndicateStormTrooperGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitOperative
+    head: ClothingHeadHelmetSwatSyndicate
+    mask: ClothingMaskGasSyndicate
+    outerClothing: ClothingOuterArmorBulletproof
+    ears: ClothingHeadsetAltSyndicate
+    gloves: ClothingHandsGlovesCombat
+    back: ClothingBackpackFilled
+    shoes: ClothingShoesBootsCombatFilled
+    pocket1: EnergySword
+    pocket2: EnergyShield
+    id: SyndiPDA
+  satchel: ClothingBackpackDuffelSyndicateOperative
+  duffelbag: ClothingBackpackDuffelSyndicateOperative
+
+# Марксман
+
+- type: job
+  id: Marksman
+  name: Marskman
+  description: You are an infantryman equipped with a heavy sniper rifle. Support your infantry from around the corner, and remember, movement is life.
+  playTimeTracker: JobStationEngineer
+  startingGear: SyndicateMarksmanGear
+  icon: "Syndie"
+  supervisors: job-supervisors-syndie
+  access:
+  - Maintenance
+  - External
+  - Syndicate
+
+- type: startingGear
+  id: SyndicateMarksmanGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitOperative
+    head: ClothingHeadHelmetSwatSyndicate
+    mask: ClothingMaskGasSyndicate
+    outerClothing: ClothingOuterArmorBulletproof
+    ears: ClothingHeadsetAltSyndicate
+    gloves: ClothingHandsGlovesCombat
+    back: ClothingBackpackFilled
+    shoes: ClothingShoesBootsCombatFilled
+    eyes: ClothingEyesHudMedSec
+    pocket1: EnergySword
+    pocket2: EnergyShield
+    id: SyndiPDA
+    belt: ClothingBeltMilitaryWebbing
+  satchel: ClothingBackpackDuffelSyndicateOperative
+  duffelbag: ClothingBackpackDuffelSyndicateOperative

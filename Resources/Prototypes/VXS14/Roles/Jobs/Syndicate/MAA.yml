@@ -1,0 +1,34 @@
+# Местный данж-МАСТЕР АТ АРМС
+
+- type: job
+  id: MasterAtArms
+  name: Master At Arms
+  description: Manager of the brig and combat personnel. Responsible for guarding the complex and maintaining order in it.
+  playTimeTracker: JobStationEngineer
+  startingGear: MAAGear
+  icon: "SyndieEngineer"
+  supervisors: job-supervisors-maa
+  access:
+  - Maintenance
+  - External
+  - Syndicate
+  - SyndicateArmory
+
+- type: startingGear
+  id: MAAGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitOperative
+    head: ClothingHeadHatSyndieMAA
+    mask: ClothingMaskGasSyndicate
+    outerClothing: ClothingOuterWinterSyndieCapArmored
+    ears: ClothingHeadsetAltSyndicate
+    gloves: ClothingHandsGlovesCombat
+    back: ClothingBackpackFilled
+    shoes: ClothingShoesBootsCombatFilled
+    pocket1: WeaponPistolViper
+    pocket2: BaseUplinkRadio25TC
+    eyes: ClothingEyesGlassesSunglasses
+    id: SyndiPDA
+    belt: ClothingBeltMilitaryWebbing
+  satchel: ClothingBackpackDuffelSyndicateOperative
+  duffelbag: ClothingBackpackDuffelSyndicateOperative

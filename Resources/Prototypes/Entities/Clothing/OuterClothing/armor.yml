@@ -34,6 +34,8 @@
     sprite: Clothing/OuterClothing/Armor/security_slim.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Armor/security_slim.rsi
+  - type: Item
+    size: 25
 
 - type: entity
   parent: ClothingOuterBaseLarge
@@ -56,6 +58,8 @@
   - type: ExplosionResistance
     damageCoefficient: 0.9
   - type: GroupExamine
+  - type: Item
+    size: 30
 
 - type: entity
   parent: ClothingOuterArmorBasic
@@ -76,9 +80,11 @@
         Heat: 0.9
   - type: ExplosionResistance
     damageCoefficient: 0.80
+  - type: Item
+    size: 45
 
 - type: entity
-  parent: ClothingOuterArmorBasic
+  parent: ClothingOuterArmorBasic #lol, this shit is broken as fuck
   id: ClothingOuterArmorReflective
   name: reflective vest
   description: An armored vest with advanced shielding to protect against energy weapons.
@@ -95,7 +101,9 @@
         Piercing: 0.9
         Heat: 0.4 # this technically means it protects against fires pretty well? -heat is just for lasers and stuff, not atmos temperature
   - type: Reflect
-    reflectProb: 1
+    reflectProb: 0.5 #1 (100%) --> 0.5 (50%) i guess
+  - type: Item
+    size: 30
 
 - type: entity
   parent: ClothingOuterBaseLarge
@@ -116,7 +124,7 @@
         Heat: 0.5
   - type: GroupExamine
 
-- type: entity
+- type: entity #debug thing
   parent: ClothingOuterBaseLarge
   id: ClothingOuterArmorHeavy
   name: heavy armor suit
@@ -136,6 +144,8 @@
         Radiation: 0
         Caustic: 0.75
   - type: GroupExamine
+  - type: Item
+    size: 120
 
 - type: entity
   parent: ClothingOuterArmorHeavy

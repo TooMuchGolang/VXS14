@@ -13,3 +13,7 @@ job-supervisors-security = security officers, the senior officer, the warden, an
 job-supervisors-science = scientists, the senior researcher, and the research director
 job-supervisors-hire = whoever hires you
 job-supervisors-everyone = absolutely everyone
+
+job-supervisors-solfed = the SolFed agent
+job-supervisors-syndie = the central command of the syndicate and Master And Arms
+job-supervisors-maa = the central command of the syndicate

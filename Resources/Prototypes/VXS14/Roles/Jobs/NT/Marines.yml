@@ -1,0 +1,62 @@
+# 715-ый штурмовой взвод
+
+# Штурмовик
+- type: job
+  id: MarineNT
+  name: job-name-marineNT
+  description: job-description-marineNT
+  playTimeTracker: JobStationEngineer
+  startingGear: MarineNTGear
+  icon: "MarineNT"
+  supervisors: job-supervisors-solfed
+  access:
+  - Maintenance
+  - External
+
+- type: startingGear
+  id: MarineNTGear
+  equipment:
+    head: ClothingHeadHelmetMerc
+    jumpsuit: ClothingUniformJumpsuitMarine
+    back: ClothingBackpack
+    shoes: ClothingShoesBootsjack
+    outerClothing: ClothingOuterArmorBulletproof
+    id: ClearPDA
+    gloves: ClothingHandsGlovesCombat
+    eyes: ClothingEyesGlassesMeson
+    belt: ClothingBeltMilitaryWebbing
+#    ears: ClothingHeadsetEngineering
+  satchel: ClothingBackpackSatchel
+  duffelbag: ClothingBackpackDuffel
+
+# Солдат поддержки
+
+- type: job
+  id: HeavySoliderNT
+  name: job-name-hsnt
+  description: job-description-hsnt
+  playTimeTracker: JobStationEngineer
+  startingGear: HeavySoliderNTGear
+  icon: "HeavySoliderNT"
+  supervisors: job-supervisors-solfed
+  access:
+  - Maintenance
+  - External
+
+- type: startingGear
+  id: HeavySoliderNTGear
+  equipment:
+    head: ClothingHeadHelmetMerc
+    jumpsuit: ClothingUniformJumpsuitMarine
+    back: ClothingBackpack
+    shoes: ClothingShoesBootsjack
+    outerClothing: ClothingOuterArmorBulletproof
+    id: ClearPDA
+    gloves: ClothingHandsGlovesCombat
+    mask: ClothingMaskGas
+    pocket1: HandheldGPSBasic
+    eyes: ClothingEyesGlassesMeson
+    belt: ClothingBeltMilitaryWebbing
+#    ears: ClothingHeadsetEngineering
+  satchel: ClothingBackpackSatchel
+  duffelbag: ClothingBackpackDuffel

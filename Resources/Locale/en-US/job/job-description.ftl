@@ -48,3 +48,9 @@ job-description-senior-engineer = Teach new engineers the basics of the station'
 job-description-senior-researcher = Teach new scientists the basics of item printing, artifact research and anomalous objects.
 job-description-senior-physician = Teach new medics the basics of tending to the wounded, chemistry, diagnosing the diseased and disposing of the dead.
 job-description-senior-officer = Teach new officers the basics of searches, preforming arrests, prison times and how to properly shoot a firearm.
+
+job-description-NTTechnic = Replace pilots in the work, build various traps and structures, fix mechs and different equipment. Well, and, of course, maintain the condition of the main generator and station.
+job-description-etnt = You're an ammo depot, 152/125/75mm artist and the like. BLOW EVERYONE UP!!! BLOW UP THE ENEMY WALLS!!! THEY WILL SUFFER!!!
+job-description-marineNT = You're either a professional killer or cannon fodder. Or lastly, you're just a cool dude.
+job-description-hsnt = Support soldiers are like artillery spotters and juggernauts. They usually have a GPS, a small medical station, heavy weapons and a whole bunch of smoke bombs, ammo and grenades of all sorts.
+job-description-lo = You're kind of a service man, doing all the station work, but also hauling boxes and shoveling steel.

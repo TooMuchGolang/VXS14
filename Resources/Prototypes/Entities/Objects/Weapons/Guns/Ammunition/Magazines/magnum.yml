@@ -1,4 +1,4 @@
-- type: entity
+- type: entity #TODO: real .45 ACP
   id: BaseMagazineMagnumSubMachineGun
   name: "Vector magazine (11,5x30 ACP)"
   parent: BaseItem
@@ -14,7 +14,7 @@
         - CartridgeMagnum
     capacity: 25
   - type: Item
-    size: 20
+    size: 15
   - type: ContainerContainer
     containers:
       ballistic-ammo: !type:Container

@@ -49,7 +49,14 @@ job-name-senior-researcher = Senior Researcher
 job-name-senior-physician = Senior Physician
 job-name-senior-officer = Senior Officer
 
+job-name-etnt = Explosion Technician
+job-name-marineNT = Infantryman
+job-name-hsnt = Supporting Soldier
+job-name-lo = Logistics Officer
+
 # Role timers - Make these alphabetical or I cut you
+
+# FUCK YOU!!!
 JobAtmosphericTechnician = Atmospheric Technician
 JobBartender = Bartender
 JobBotanist = Botanist

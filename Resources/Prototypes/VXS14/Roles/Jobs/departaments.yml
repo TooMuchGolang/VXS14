@@ -1,0 +1,37 @@
+- type: department
+  id: NanoTrasen
+  description: Just walk around, do whatever you want. And obey your commanding officer.
+  color: "#00265c"
+  roles:
+  - EngineerNT
+#  - PilotNT
+  - ExplosionTechNT
+  - MarineNT
+  - HeavySoliderNT
+#  - CustomsAgentNT
+  - LogisticsOfficerNT
+#  - ScientistNT
+  - ParamedicNT
+
+- type: department
+  id: Syndicate
+  description: Just walk around, do whatever you want. And obey your commanding officer.
+  color: "#5c0000"
+  roles:
+  - Saboteur
+  - StormTrooper
+  - EngineerSyndicate
+  - Artilleryman
+  - Marksman
+  - MasterAtArms
+
+- type: department
+  id: SolFed
+  description: If war breaks out, try to establish relations between the sides, create buffer zones, bring in humanitarian aid, set up civil defense stations.
+  color: "#003a8c"
+  roles:
+  - MilitaryCorrespondent
+  - Peacekeeper
+  - SolFedAgent
+  - Civilian
+  - Villager

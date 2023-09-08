@@ -1,0 +1,70 @@
+# 665-ый взвод обеспечения
+
+# Офицер обеспечения
+- type: job
+  id: LogisticsOfficerNT
+  name: job-name-lo
+  description: job-description-lo
+  playTimeTracker: JobStationEngineer
+  startingGear: LogisticsOfficerNTGear
+  icon: "JobIconCargoTechnician"
+  supervisors: job-supervisors-solfed
+  access:
+  - Maintenance
+  - External
+  - Cargo
+  - Salvage
+  - Security
+  - Armory
+  - Brig
+  - Hydroponics
+  - Bar
+  - Kitchen
+
+- type: startingGear
+  id: LogisticsOfficerNTGear
+  equipment:
+    head: ClothingHeadHatQMsoft
+    jumpsuit: ClothingUniformJumpsuitQM
+    back: ClothingBackpack
+    shoes: ClothingShoesBootsjack
+    outerClothing: ClothingOuterWinterQM
+    mask: ClothingMaskGas
+    id: ClearPDA
+    gloves: ClothingHandsGlovesCombat
+    eyes: ClothingEyesGlassesMeson
+    belt: ClothingBeltUtilityEngineering
+#    ears: ClothingHeadsetEngineering
+  satchel: ClothingBackpackSatchel
+  duffelbag: ClothingBackpackDuffel
+
+# Солдат поддержки
+
+- type: job
+  id: ParamedicNT
+  name: Paramedic
+  description: job-description-doctor
+  playTimeTracker: JobStationEngineer
+  startingGear: ParamedicNTGear
+  icon: "JobIconParamedic"
+  supervisors: job-supervisors-solfed
+  access:
+  - Maintenance
+  - External
+  - Chemistry
+  - Medical
+
+- type: startingGear
+  id: ParamedicNTGear
+  equipment:
+    head: ClothingHeadHelmetMerc
+    jumpsuit: ClothingUniformJumpsuitParamedicNT
+    back: ClothingBackpackFilled
+    shoes: ClothingShoesColorBlue
+    id: MedicalPDA
+    ears: ClothingHeadsetMedical
+    eyes: ClothingEyesHudMedical
+    gloves: ClothingHandsGlovesNitrile
+    belt: ClothingBeltMilitaryWebbing
+  satchel: ClothingBackpackSatchelFilled
+  duffelbag: ClothingBackpackDuffelFilled

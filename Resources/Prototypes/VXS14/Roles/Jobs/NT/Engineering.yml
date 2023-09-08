@@ -1,0 +1,65 @@
+# 1488-ой инженерный взвод
+
+# Инженер
+- type: job
+  id: EngineerNT
+  name: job-name-engineer
+  description: job-description-NTTechnic
+  playTimeTracker: JobStationEngineer
+  startingGear: EngineerNTGear
+  icon: "JobIconStationEngineer"
+  supervisors: job-supervisors-solfed
+  access:
+  - Maintenance
+  - Engineering
+  - External
+  - Atmospherics
+
+- type: startingGear
+  id: EngineerNTGear
+  equipment:
+    head: ClothingHeadHatHardhatArmored
+    jumpsuit: ClothingUniformJumpsuitRepairmanNT
+    back: ClothingBackpackEngineeringFilled
+    shoes: ClothingShoesBootsWork
+    outerClothing: ClothingOuterArmorBasicSlim
+    id: EngineerPDA
+    gloves: ClothingHandsGlovesCollorYellow
+    eyes: ClothingEyesGlassesMeson
+    belt: ClothingBeltUtilityEngineering
+#    ears: ClothingHeadsetEngineering
+  satchel: ClothingBackpackSatchelEngineeringFilled
+  duffelbag: ClothingBackpackDuffelEngineeringFilled
+
+# Взрывотехник
+
+- type: job
+  id: ExplosionTechnicianNT
+  name: job-name-etnt
+  description: job-description-etnt
+  playTimeTracker: JobStationEngineer
+  startingGear: ExplosionTechnicianNTGear
+  icon: "Explostech"
+  supervisors: job-supervisors-solfed
+  access:
+  - Maintenance
+  - Engineering
+  - External
+  - Atmospherics
+
+- type: startingGear
+  id: ExplosionTechnicianNTGear
+  equipment:
+    head: ClothingHeadHelmetMerc
+    jumpsuit: ClothingUniformJumpsuitMarine
+    back: ClothingBackpackEngineeringFilled
+    shoes: ClothingShoesBootsWork
+    id: EngineerPDA
+    eyes: ClothingEyesGlassesMeson
+    mask: ClothingMaskGas
+    belt: ClothingBeltUtilityEngineering
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterSuitBomb
+#    ears: ClothingHeadsetEngineering
+  satchel: ClothingBackpackSatchelEngineeringFilled
+  duffelbag: ClothingBackpackDuffelEngineeringFilled
