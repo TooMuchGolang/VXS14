@@ -6,7 +6,7 @@
   description: Film the war.
   playTimeTracker: JobStationEngineer
   startingGear: CorrespondentGear
-  icon: "Reporter"
+  icon: "JobIconReporter"
   supervisors: job-supervisors-solfed
   access:
   - Service
@@ -35,7 +35,7 @@
   description: Try to establish relations between the sides, create buffer zones, bring in humanitarian aid, set up civil defense stations.
   playTimeTracker: JobStationEngineer
   startingGear: PeacekeeperGear
-  icon: "MedicalIntern"
+  icon: "JobIconMedicalIntern"
   supervisors: job-supervisors-solfed
   access:
   - Maintenance
@@ -68,7 +68,7 @@
   description: Manager of the brig and combat personnel. Responsible for guarding the complex and maintaining order in it.
   playTimeTracker: JobStationEngineer
   startingGear: SFAGear
-  icon: "SeniorPhysician"
+  icon: "JobIconVirologist"
   supervisors: job-supervisors-slfd
   access:
   - SolfedAccess

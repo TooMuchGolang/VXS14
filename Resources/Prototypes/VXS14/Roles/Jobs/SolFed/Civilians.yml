@@ -6,7 +6,7 @@
   description: Live in the city, make yourself some dough.
   playTimeTracker: JobStationEngineer
   startingGear: CityGear
-  icon: "ServiceWorker"
+  icon: "JobIconServiceWorker"
   supervisors: job-supervisors-whm
 
 - type: startingGear
@@ -27,7 +27,7 @@
   description: Just live in your village and try to survive.
   playTimeTracker: JobStationEngineer
   startingGear: VillagerGear
-  icon: "ServiceWorker"
+  icon: "JobIconServiceWorker"
   supervisors: job-supervisors-whm
 
 - type: startingGear

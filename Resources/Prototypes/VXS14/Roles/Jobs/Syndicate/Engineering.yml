@@ -36,7 +36,7 @@
   description: BLOW EVERYBODY UP!!! Not Garshick.
   playTimeTracker: JobStationEngineer
   startingGear: SyndieArtillerymanGear
-  icon: "SecurityCadet"
+  icon: "JobIconSecurityCadet"
   supervisors: job-supervisors-syndie
   access:
   - Maintenance
