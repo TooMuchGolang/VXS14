@@ -2,7 +2,7 @@
 - type: radioChannel
   id: NanoTrasenRadio
   name: NanoTrasen
-  frequency: 8724
+  frequency: 8720
   color: "#00265c"
   longRange: true
 

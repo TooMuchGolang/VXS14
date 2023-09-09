@@ -46,4 +46,3 @@
     layers:
     - state: crypt_silver
     - state: com_label
-
