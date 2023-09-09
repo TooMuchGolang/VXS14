@@ -4,7 +4,7 @@
 desc = "Проект, оринтированный на милитари рп и резню для тех игроков, которые просто хотят весело провести время."
 hostname = "[18+][RU][MRP] VXStation14"
 lobbyenabled = true
-maxcharacterslots = 1
+maxcharacterslots = 3
 
 [server]
 rules_file = "VX_Rules.txt"

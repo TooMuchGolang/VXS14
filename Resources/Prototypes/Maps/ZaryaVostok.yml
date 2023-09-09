@@ -21,7 +21,7 @@
             MasterAtArms: [1, 1]
             #1488-ой инженерный взвод
             EngineerNT: [ 4, 4 ]
-            ExplosionTechNT: [2, 2]
+            ExplosionTechnicianNT: [2, 2]
             #665-ый взвод обеспечения
             LogisticsOfficerNT: [ 3, 3 ]
             ParamedicNT: [ 3, 3 ]
