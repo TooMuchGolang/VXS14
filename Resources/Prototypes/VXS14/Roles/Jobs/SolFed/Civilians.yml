@@ -27,7 +27,7 @@
   description: Just live in your village and try to survive.
   playTimeTracker: JobStationEngineer
   startingGear: VillagerGear
-  icon: "SyndieEngineer"
+  icon: "ServiceWorker"
   supervisors: job-supervisors-whm
 
 - type: startingGear

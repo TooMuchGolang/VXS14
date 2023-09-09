@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltNTCommand
-  name: NanoTrasen's command full size over-ear headset
+  name: NanoTrasens command full size over-ear headset
   components:
   - type: ContainerFill
     containers:
@@ -18,7 +18,7 @@
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltNT
-  name: NanoTrasen's full size over-ear headset
+  name: NanoTrasens full size over-ear headset
   components:
   - type: ContainerFill
     containers:
@@ -33,7 +33,7 @@
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltNTEngineering
-  name: NanoTrasen's engineering full size over-ear headset
+  name: NanoTrasens engineering full size over-ear headset
   components:
   - type: ContainerFill
     containers:
@@ -63,4 +63,3 @@
     sprite: Clothing/Ears/Headsets/medical.rsi
   - type: Clothing
     sprite: Clothing/Ears/Headsets/medical.rsi
-    

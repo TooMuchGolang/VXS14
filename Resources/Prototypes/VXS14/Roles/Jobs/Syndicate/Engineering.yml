@@ -3,7 +3,7 @@
 - type: job
   id: EngineerSyndicate
   name: Syndicate Engineer
-  description: Again, you're just like your NT friend, but with a bit of a fun.
+  description: Again, you are just like your NT friend, but with a bit of a fun.
   playTimeTracker: JobStationEngineer
   startingGear: SyndieEngineerGear
   icon: "SyndieEngineer"
