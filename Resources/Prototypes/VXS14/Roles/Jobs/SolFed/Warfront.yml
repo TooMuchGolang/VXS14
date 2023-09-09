@@ -1,0 +1,95 @@
+# MilitaryCorrespondent
+
+- type: job
+  id: MilitaryCorrespondent
+  name: Military Correspondent
+  description: Film the war.
+  playTimeTracker: JobStationEngineer
+  startingGear: CorrespondentGear
+  icon: "Reporter"
+  supervisors: job-supervisors-solfed
+  access:
+  - Service
+  - Maintenance
+  - SolfedAccess
+  - SolFedSecond
+
+- type: startingGear
+  id: CorrespondentGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitReporter
+    back: ClothingBackpackFilled
+    outerClothing: ClothingOuterArmorBasicSlim
+    head: ClothingHeadHelmetMerc
+    shoes: ClothingShoesBootsJack
+    id: ReporterPDA
+    ears: ClothingHeadsetAltSolFed
+  innerclothingskirt: ClothingUniformJumpsuitJournalist
+  satchel: ClothingBackpackSatchelFilled
+  duffelbag: ClothingBackpackDuffelFilled
+
+# Peacekeeper
+
+- type: job
+  id: Peacekeeper
+  name: Peacekeeper
+  description: Try to establish relations between the sides, create buffer zones, bring in humanitarian aid, set up civil defense stations.
+  playTimeTracker: JobStationEngineer
+  startingGear: PeacekeeperGear
+  icon: "MedicalIntern"
+  supervisors: job-supervisors-solfed
+  access:
+  - Maintenance
+  - External
+  - SolfedAccess
+  - SolFedSecond
+  - SolarFedThird
+
+- type: startingGear
+  id: PeacekeeperGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSecBlue
+    head: ClothingHeadHelmetMerc
+    outerClothing: ClothingOuterArmorBulletproof
+    ears: ClothingHeadsetAltSolFed
+    gloves: ClothingHandsGlovesCombat
+    back: ClothingBackpackFilled
+    shoes: ClothingShoesBootsCombatFilled
+    eyes: ClothingEyesGlassesSunglasses
+    id: WardenPDA
+    belt: ClothingBeltMilitaryWebbing
+  satchel: ClothingBackpackSatchel
+  duffelbag: ClothingBackpackDuffel
+
+# SolFedAgent
+
+- type: job
+  id: SolFedAgent
+  name: SolFed Agent
+  description: Manager of the brig and combat personnel. Responsible for guarding the complex and maintaining order in it.
+  playTimeTracker: JobStationEngineer
+  startingGear: SFAGear
+  icon: "SeniorPhysician"
+  supervisors: job-supervisors-slfd
+  access:
+  - SolfedAccess
+  - SolFedSecond
+  - SolarFedThird
+  accessGroups:
+  - AllAccess
+
+- type: startingGear
+  id: SFAGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSecBlue
+    head: ClothingHeadHelmetMerc
+    outerClothing: ClothingOuterArmorBasic
+    ears: ClothingHeadsetAltSolFed
+    gloves: ClothingHandsGlovesCombat
+    back: ClothingBackpackFilled
+    shoes: ClothingShoesBootsCombatFilled
+    eyes: ClothingEyesGlassesSunglasses
+    id: CaptainPDA
+    belt: ClothingBeltMilitaryWebbing
+  satchel: ClothingBackpackSatchel
+  duffelbag: ClothingBackpackDuffel

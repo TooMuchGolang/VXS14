@@ -25,7 +25,7 @@
     gloves: ClothingHandsGlovesCombat
     eyes: ClothingEyesGlassesMeson
     belt: ClothingBeltMilitaryWebbing
-#    ears: ClothingHeadsetEngineering
+    ears: ClothingHeadsetAltNT
   satchel: ClothingBackpackSatchel
   duffelbag: ClothingBackpackDuffel
 
@@ -57,6 +57,6 @@
     pocket1: HandheldGPSBasic
     eyes: ClothingEyesGlassesMeson
     belt: ClothingBeltMilitaryWebbing
-#    ears: ClothingHeadsetEngineering
+    ears: ClothingHeadsetAltNT
   satchel: ClothingBackpackSatchel
   duffelbag: ClothingBackpackDuffel

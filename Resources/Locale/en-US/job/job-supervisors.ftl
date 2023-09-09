@@ -17,3 +17,5 @@ job-supervisors-everyone = absolutely everyone
 job-supervisors-solfed = the SolFed agent
 job-supervisors-syndie = the central command of the syndicate and Master And Arms
 job-supervisors-maa = the central command of the syndicate
+job-supervisors-whm = whoever you want
+job-supervisors-slfd = the SolFed's sectorial officer

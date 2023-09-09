@@ -1,0 +1,38 @@
+# Житель города
+
+- type: job
+  id: Civilian
+  name: Civilian
+  description: Live in the city, make yourself some dough.
+  playTimeTracker: JobStationEngineer
+  startingGear: CityGear
+  icon: "ServiceWorker"
+  supervisors: job-supervisors-whm
+
+- type: startingGear
+  id: CityGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitAncient
+    outerClothing: ClothingOuterWinterCoat
+    back: ClothingBackpack
+    shoes: ClothingShoesBootsJack
+  satchel: ClothingBackpackSatchel
+  duffelbag: ClothingBackpackDuffel
+
+# Житель деревни
+
+- type: job
+  id: Villager
+  name: Villager
+  description: Just live in your village and try to survive.
+  playTimeTracker: JobStationEngineer
+  startingGear: VillagerGear
+  icon: "SyndieEngineer"
+  supervisors: job-supervisors-whm
+
+- type: startingGear
+  id: VillagerGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitAncient
+    outerClothing: ClothingOuterWinterCoat
+    shoes: ClothingShoesBootsJack
