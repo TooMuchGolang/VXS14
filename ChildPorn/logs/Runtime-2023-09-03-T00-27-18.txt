@@ -1,0 +1,20 @@
+1 exception  System.ArgumentException
+Exception in Void ThrowAddingDuplicateWithKeyArgumentException[T](T), at 09/03/2023 00:06:38:
+Message: An item with the same key has already been added. Key: invalid
+Catcher: entsys
+Stack trace:    at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at Robust.Shared.Serialization.Markdown.Mapping.MappingDataNode.Add(DataNode key, DataNode node) in /home/buber128/Desktop/IHATENIGGERS/SOSAKA/RobustToolbox/Robust.Shared/Serialization/Markdown/Mapping/MappingDataNode.cs:line 79
+   at Robust.Shared.Serialization.TypeSerializers.Implementations.Generic.DictionarySerializer`2.InterfaceWrite(ISerializationManager serializationManager, IDictionary`2 value, Boolean alwaysWrite, ISerializationContext context) in /home/buber128/Desktop/IHATENIGGERS/SOSAKA/RobustToolbox/Robust.Shared/Serialization/TypeSerializers/Implementations/Generic/DictionarySerializer.cs:line 34
+   at lambda_method17987(Closure, Dictionary`2, Boolean, ISerializationContext)
+   at Robust.Shared.Serialization.Manager.SerializationManager.WriteValue[T](T value, Boolean alwaysWrite, ISerializationContext context, Boolean notNullableOverride) in /home/buber128/Desktop/IHATENIGGERS/SOSAKA/RobustToolbox/Robust.Shared/Serialization/Manager/SerializationManager.Writing.cs:line 248
+   at Robust.Shared.Serialization.TypeSerializers.Implementations.Generic.DictionarySerializer`2.InterfaceWrite(ISerializationManager serializationManager, IDictionary`2 value, Boolean alwaysWrite, ISerializationContext context) in /home/buber128/Desktop/IHATENIGGERS/SOSAKA/RobustToolbox/Robust.Shared/Serialization/TypeSerializers/Implementations/Generic/DictionarySerializer.cs:line 34
+   at lambda_method17986(Closure, Dictionary`2, Boolean, ISerializationContext)
+   at lambda_method7030(Closure, BiomeComponent, ISerializationContext, Boolean)
+   at lambda_method17981(Closure, BiomeComponent, Boolean, ISerializationContext)
+   at lambda_method17980(Closure, Object, Boolean, ISerializationContext)
+   at Robust.Server.GameObjects.MapLoaderSystem.WriteEntitySection(MappingDataNode rootNode, Dictionary`2 uidEntityMap, Dictionary`2 entityUidMap) in /home/buber128/Desktop/IHATENIGGERS/SOSAKA/RobustToolbox/Robust.Server/GameObjects/EntitySystems/MapLoaderSystem.cs:line 1234
+   at Robust.Server.GameObjects.MapLoaderSystem.GetSaveData(EntityUid uid) in /home/buber128/Desktop/IHATENIGGERS/SOSAKA/RobustToolbox/Robust.Server/GameObjects/EntitySystems/MapLoaderSystem.cs:line 940
+   at Robust.Server.GameObjects.MapLoaderSystem.Save(EntityUid uid, String ymlPath) in /home/buber128/Desktop/IHATENIGGERS/SOSAKA/RobustToolbox/Robust.Server/GameObjects/EntitySystems/MapLoaderSystem.cs:line 206
+   at Robust.Server.GameObjects.MapLoaderSystem.SaveMap(MapId mapId, String ymlPath) in /home/buber128/Desktop/IHATENIGGERS/SOSAKA/RobustToolbox/Robust.Server/GameObjects/EntitySystems/MapLoaderSystem.cs:line 228
+   at Content.Server.Mapping.MappingSystem.Update(Single frameTime) in /home/buber128/Desktop/IHATENIGGERS/SOSAKA/Content.Server/Mapping/MappingSystem.cs:line 79
+   at Robust.Shared.GameObjects.EntitySystemManager.TickUpdate(Single frameTime, Boolean noPredictions) in /home/buber128/Desktop/IHATENIGGERS/SOSAKA/RobustToolbox/Robust.Shared/GameObjects/EntitySystemManager.cs:line 318
