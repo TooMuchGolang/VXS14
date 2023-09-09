@@ -1,0 +1,203 @@
+- type: entity
+  id: SpawnPointEngineerNT
+  parent: SpawnPointJobBase
+  name: EngineerNT
+  components:
+  - type: SpawnPoint
+    job_id: EngineerNT
+  - type: Sprite
+    layers:
+      - state: green
+      - state: qm
+
+- type: entity
+  id: SpawnPointExplosionTechnicianNT
+  parent: SpawnPointJobBase
+  name: ExplosionTechnicianNT
+  components:
+  - type: SpawnPoint
+    job_id: ExplosionTechnicianNT
+  - type: Sprite
+    layers:
+      - state: green
+      - state: qm
+
+- type: entity
+  id: SpawnPointLogisticsOfficerNT
+  parent: SpawnPointJobBase
+  name: LogisticsOfficerNT
+  components:
+  - type: SpawnPoint
+    job_id: LogisticsOfficerNT
+  - type: Sprite
+    layers:
+      - state: green
+      - state: qm
+
+- type: entity
+  id: SpawnPointParamedicNT
+  parent: SpawnPointJobBase
+  name: ParamedicNT
+  components:
+  - type: SpawnPoint
+    job_id: ParamedicNT
+  - type: Sprite
+    layers:
+      - state: green
+      - state: qm
+
+- type: entity
+  id: SpawnPointMarineNT
+  parent: SpawnPointJobBase
+  name: MarineNT
+  components:
+  - type: SpawnPoint
+    job_id: MarineNT
+  - type: Sprite
+    layers:
+      - state: green
+      - state: qm
+
+- type: entity
+  id: SpawnPointHeavySoliderNT
+  parent: SpawnPointJobBase
+  name: HeavySoliderNT
+  components:
+  - type: SpawnPoint
+    job_id: HeavySoliderNT
+  - type: Sprite
+    layers:
+      - state: green
+      - state: qm
+
+- type: entity
+  id: SpawnPointCivilian
+  parent: SpawnPointJobBase
+  name: Civilian
+  components:
+  - type: SpawnPoint
+    job_id: Civilian
+  - type: Sprite
+    layers:
+      - state: green
+      - state: qm
+
+- type: entity
+  id: SpawnPointVillager
+  parent: SpawnPointJobBase
+  name: Villager
+  components:
+  - type: SpawnPoint
+    job_id: Villager
+  - type: Sprite
+    layers:
+      - state: green
+      - state: qm
+
+- type: entity
+  id: SpawnPointMilitaryCorrespondent
+  parent: SpawnPointJobBase
+  name: MilitaryCorrespondent
+  components:
+  - type: SpawnPoint
+    job_id: MilitaryCorrespondent
+  - type: Sprite
+    layers:
+      - state: green
+      - state: qm
+
+- type: entity
+  id: SpawnPointMilitaryPeacekeeper
+  parent: SpawnPointJobBase
+  name: Peacekeeper
+  components:
+  - type: SpawnPoint
+    job_id: Peacekeeper
+  - type: Sprite
+    layers:
+      - state: green
+      - state: qm
+
+- type: entity
+  id: SpawnPointMilitarySolFedAgent
+  parent: SpawnPointJobBase
+  name: SolFedAgent
+  components:
+  - type: SpawnPoint
+    job_id: SolFedAgent
+  - type: Sprite
+    layers:
+      - state: green
+      - state: qm
+
+- type: entity
+  id: SpawnPointMilitaryEngineerSyndicate
+  parent: SpawnPointJobBase
+  name: EngineerSyndicate
+  components:
+  - type: SpawnPoint
+    job_id: EngineerSyndicate
+  - type: Sprite
+    layers:
+      - state: green
+      - state: qm
+
+- type: entity
+  id: SpawnPointArtilleryman
+  parent: SpawnPointJobBase
+  name: Artilleryman
+  components:
+  - type: SpawnPoint
+    job_id: Artilleryman
+  - type: Sprite
+    layers:
+      - state: green
+      - state: qm
+
+- type: entity
+  id: SpawnPointMasterAtArms
+  parent: SpawnPointJobBase
+  name: MasterAtArms
+  components:
+  - type: SpawnPoint
+    job_id: MasterAtArms
+  - type: Sprite
+    layers:
+      - state: green
+      - state: qm
+
+- type: entity
+  id: SpawnPointSaboteur
+  parent: SpawnPointJobBase
+  name: Saboteur
+  components:
+  - type: SpawnPoint
+    job_id: Saboteur
+  - type: Sprite
+    layers:
+      - state: green
+      - state: qm
+
+- type: entity
+  id: SpawnPointStormTrooper
+  parent: SpawnPointJobBase
+  name: StormTrooper
+  components:
+  - type: SpawnPoint
+    job_id: StormTrooper
+  - type: Sprite
+    layers:
+      - state: green
+      - state: qm
+      
+- type: entity
+  id: SpawnPointMarksman
+  parent: SpawnPointJobBase
+  name: Marksman
+  components:
+  - type: SpawnPoint
+    job_id: Marksman
+  - type: Sprite
+    layers:
+      - state: green
+      - state: qm

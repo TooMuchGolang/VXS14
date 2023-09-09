@@ -6,7 +6,7 @@
   description: Manager of the brig and combat personnel. Responsible for guarding the complex and maintaining order in it.
   playTimeTracker: JobStationEngineer
   startingGear: MAAGear
-  icon: "SyndieEngineer"
+  icon: "Syndie"
   supervisors: job-supervisors-maa
   access:
   - Maintenance

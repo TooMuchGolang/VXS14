@@ -1,0 +1,34 @@
+- type: statusIcon
+  parent: JobIcon
+  id: Explostech
+  icon:
+    sprite: Interface/Misc/job_icons.rsi
+    state: Explostech
+
+- type: statusIcon
+  parent: JobIcon
+  id: MarineNT
+  icon:
+    sprite: Interface/Misc/job_icons.rsi
+    state: MarineNT
+
+- type: statusIcon
+  parent: JobIcon
+  id: HeavySoliderNT
+  icon:
+    sprite: Interface/Misc/job_icons.rsi
+    state: HeavySoliderNT
+    
+- type: statusIcon
+  parent: JobIcon
+  id: SyndieEngineer
+  icon:
+    sprite: Interface/Misc/job_icons.rsi
+    state: SyndieEngineer
+
+- type: statusIcon
+  parent: JobIcon
+  id: Syndie
+  icon:
+    sprite: Interface/Misc/job_icons.rsi
+    state: Syndie
