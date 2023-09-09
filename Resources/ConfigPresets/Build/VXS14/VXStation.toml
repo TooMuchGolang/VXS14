@@ -10,10 +10,29 @@ rules_file = "VX_Rules.txt"
 rules_header = "Правила проекта VXStation14"
 
 [atmos]
-space_wind = True
+space_wind = true
+
+[shuttle]
+auto_call_time = 0
+emergency = false
+arrivals = false
+
+[infolinks]
+discord = "https://discord.gg/k82HjhmA8x"
+github = "https://github.com/TooMuchGolang/VXS14"
 
 [ooc]
 enable_during_round = true
+
+[events]
+# Annoying
+enabled = false
+
+[shuttle]
+auto_call_time = 0
+
+[net]
+tickrate = 30
 
 [ic]
 flavor_text = true
