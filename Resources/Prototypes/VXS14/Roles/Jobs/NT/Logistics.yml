@@ -34,7 +34,7 @@
     gloves: ClothingHandsGlovesCombat
     eyes: ClothingEyesGlassesMeson
     belt: ClothingBeltUtilityEngineering
-    ears: ClothingHeadsetAltNTCommand
+#    ears: ClothingHeadsetAltNTCommand
   satchel: ClothingBackpackSatchel
   duffelbag: ClothingBackpackDuffel
 
@@ -62,7 +62,7 @@
     back: ClothingBackpackFilled
     shoes: ClothingShoesColorBlue
     id: MedicalPDA
-    ears: ClothingHeadsetAltNT
+#    ears: ClothingHeadsetAltNT
     eyes: ClothingEyesHudMedical
     gloves: ClothingHandsGlovesNitrile
     belt: ClothingBeltMilitaryWebbing

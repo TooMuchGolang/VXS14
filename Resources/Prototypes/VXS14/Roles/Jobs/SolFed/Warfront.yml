@@ -23,7 +23,7 @@
     head: ClothingHeadHelmetMerc
     shoes: ClothingShoesBootsJack
     id: ReporterPDA
-    ears: ClothingHeadsetAltSolFed
+#    ears: ClothingHeadsetAltSolFed
   satchel: ClothingBackpackSatchelFilled
   duffelbag: ClothingBackpackDuffelFilled
 
@@ -50,7 +50,7 @@
     jumpsuit: ClothingUniformJumpsuitSecBlue
     head: ClothingHeadHelmetMerc
     outerClothing: ClothingOuterArmorBulletproof
-    ears: ClothingHeadsetAltSolFed
+#    ears: ClothingHeadsetAltSolFed
     gloves: ClothingHandsGlovesCombat
     back: ClothingBackpackFilled
     shoes: ClothingShoesBootsCombatFilled
@@ -83,7 +83,7 @@
     jumpsuit: ClothingUniformJumpsuitSecBlue
     head: ClothingHeadHelmetMerc
     outerClothing: ClothingOuterArmorBasic
-    ears: ClothingHeadsetAltSolFed
+#    ears: ClothingHeadsetAltSolFed
     gloves: ClothingHandsGlovesCombat
     back: ClothingBackpackFilled
     shoes: ClothingShoesBootsCombatFilled

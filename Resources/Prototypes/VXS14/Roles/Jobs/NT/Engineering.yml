@@ -27,7 +27,7 @@
     gloves: ClothingHandsGlovesCollorYellow
     eyes: ClothingEyesGlassesMeson
     belt: ClothingBeltUtilityEngineering
-    ears: ClothingHeadsetAltNTEngineering
+#    ears: ClothingHeadsetAltNTEngineering
   satchel: ClothingBackpackSatchelEngineeringFilled
   duffelbag: ClothingBackpackDuffelEngineeringFilled
 
@@ -60,6 +60,6 @@
     belt: ClothingBeltUtilityEngineering
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterSuitBomb
-    ears: ClothingHeadsetAltNTEngineering
+#    ears: ClothingHeadsetAltNTEngineering
   satchel: ClothingBackpackSatchelEngineeringFilled
   duffelbag: ClothingBackpackDuffelEngineeringFilled

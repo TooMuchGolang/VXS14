@@ -1,21 +1,21 @@
 # NT
-- type: radioChannel
-  id: NanoTrasenRadio
-  name: NanoTrasen
-  frequency: 8720
-  color: "#00265c"
-  longRange: true
+#- type: radioChannel
+#  id: NanoTrasenRadio
+#  name: NanoTrasen
+#  frequency: 8720
+#  color: "#00265c"
+#  longRange: true
 
-- type: radioChannel
-  id: NanoTrasenEngineering
-  name: NanoTrasen Engineering
-  frequency: 8724
-  color: "#00267c"
+#- type: radioChannel
+#  id: NanoTrasenEngineering
+#  name: NanoTrasen Engineering
+#  frequency: 8724
+#  color: "#00267c"
 
 # SolFed
 
-- type: radioChannel
-  id: SolFedRadio
-  name: Solar Federation
-  frequency: 4817
-  color: "#09107e"
+#- type: radioChannel
+#  id: SolFedRadio
+#  name: Solar Federation
+#  frequency: 4817
+#  color: "#09107e"
