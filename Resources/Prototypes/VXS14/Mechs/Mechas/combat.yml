@@ -135,3 +135,49 @@
     containers:
       mech-battery-slot:
       - PowerCellHigh
+
+- type: entity
+  parent: BaseMech
+  id: MechDarkGygax
+  name: Dark gygax
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    noRot: true
+    sprite: Objects/Specific/Mech/mecha.rsi
+    layers:
+    - map: [ "enum.MechVisualLayers.Base" ]
+      state: darkgygax
+  - type: Mech
+    baseState: darkgygax
+    openState: darkgygax-open
+    brokenState: darkgygax-broken
+    airtight: true
+    maxIntegrity: 300
+    mechToPilotDamageMultiplier: 0.70
+    maxEquipmentAmount: 4
+  - type: Reflect
+    reflectProb: 0.20
+  - type: MeleeWeapon
+    hidden: true
+    attackRate: 0.70
+    damage:
+      types:
+        Blunt: 50
+        Structural: 55
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: FireResStrongMetallic
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 1.0
+    baseSprintSpeed: 1.0
+
+- type: entity
+  parent: MechDarkGygax
+  id: MechDarkGygaxBattery
+  suffix: Battery
+  components:
+  - type: ContainerFill
+    containers:
+      mech-battery-slot:
+      - PowerCellHigh
