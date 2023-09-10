@@ -22,7 +22,7 @@
       spreadAmount: 30
       smokeReagents:
         - ReagentId: TearAcid
-          Quantity: 5
+          Quantity: 10
       sound: /Audio/Effects/smoke.ogg
     - type: DeleteOnTrigger
     - type: Appearance
