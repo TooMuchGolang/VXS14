@@ -26,3 +26,30 @@
       sound: /Audio/Effects/smoke.ogg
     - type: DeleteOnTrigger
     - type: Appearance
+
+- type: entity
+  name: thermobaric grenade
+  description: A grenade that creates a high-pressure fire flash in a small radius around itself.
+  parent: GrenadeBase
+  id: GrenadeFragThrown
+  components:
+    - type: Sprite
+      sprite: Objects/Weapons/Throwable/grenade.rsi
+    - type: EmitSoundOnTrigger
+      sound:
+        path: /Audio/Effects/metalbreak.ogg
+    - type: ExplodeOnTrigger
+    - type: Explosive
+      explosionType: Thermobaric
+      totalIntensity: 100
+      intensitySlope: 4.5
+      maxIntensity: 100
+      canCreateVacuum: false
+    - type: DeleteOnTrigger
+    - type: Appearance
+      visuals:
+      - type: TimerTriggerVisualizer
+        countdown_sound:
+          path: /Audio/Items/pop.ogg
+    - type: OnUseTimerTrigger
+      delay: 4
