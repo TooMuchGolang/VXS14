@@ -22,7 +22,7 @@
         shader: unshaded
         map: [ "blade" ]
   - type: MeleeWeapon
-    attackRate: 0.5
+    attackRate: 1
     soundHit:
       path: /Audio/Weapons/eblade1.ogg
     damage:
@@ -65,8 +65,8 @@
     secret: true
     litDamageBonus:
         types:
-            Slash: 4
-            Heat: 9
+            Slash: 6
+            Heat: 15
             Blunt: -1
     litDisarmMalus: 0.4
     activateSound: !type:SoundPathSpecifier
@@ -179,7 +179,7 @@
             Blunt: -4.5
     litDisarmMalus: 0.7
   - type: MeleeWeapon
-    attackRate: 1
+    attackRate: 1.5
     angle: 100
     soundHit:
       path: /Audio/Weapons/eblade1.ogg
@@ -200,5 +200,5 @@
     sprite: Objects/Weapons/Melee/e_sword_double.rsi
   - type: Reflect
     enabled: true
-    reflectProb: .75
-    spread: 75
+    reflectProb: .65
+    spread: 35
