@@ -27,7 +27,7 @@
     head: ClothingHeadHatQMsoft
     jumpsuit: ClothingUniformJumpsuitQM
     back: ClothingBackpack
-    shoes: ClothingShoesBootsjack
+    shoes: ClothingShoesBootsJack
     outerClothing: ClothingOuterWinterQM
     mask: ClothingMaskGas
     id: ClearPDA
@@ -60,7 +60,7 @@
     head: ClothingHeadHelmetMerc
     jumpsuit: ClothingUniformJumpsuitParamedicNT
     back: ClothingBackpackFilled
-    shoes: ClothingShoesColorBlue
+    shoes: ClothingShoesBootsJack
     id: MedicalPDA
 #    ears: ClothingHeadsetAltNT
     eyes: ClothingEyesHudMedical

@@ -19,7 +19,7 @@
     head: ClothingHeadHelmetMerc
     jumpsuit: ClothingUniformJumpsuitMarine
     back: ClothingBackpack
-    shoes: ClothingShoesBootsjack
+    shoes: ClothingShoesBootsJack
     outerClothing: ClothingOuterArmorBulletproof
     id: ClearPDA
     gloves: ClothingHandsGlovesCombat
@@ -49,7 +49,7 @@
     head: ClothingHeadHelmetMerc
     jumpsuit: ClothingUniformJumpsuitMarine
     back: ClothingBackpack
-    shoes: ClothingShoesBootsjack
+    shoes: ClothingShoesBootsJack
     outerClothing: ClothingOuterArmorBulletproof
     id: ClearPDA
     gloves: ClothingHandsGlovesCombat
