@@ -17,6 +17,7 @@
     airtight: true
     maxIntegrity: 500
     mechToPilotDamageMultiplier: 0.35
+    maxEquipmentAmount: 5
   - type: Reflect
     reflectProb: 0.25
   - type: MeleeWeapon
@@ -62,6 +63,7 @@
     airtight: true
     maxIntegrity: 500
     mechToPilotDamageMultiplier: 0.35
+    maxEquipmentAmount: 5
   - type: Reflect
     reflectProb: 0.25
   - type: MeleeWeapon
@@ -81,6 +83,52 @@
 - type: entity
   parent: MechMauler
   id: MechMaulerBattery
+  suffix: Battery
+  components:
+  - type: ContainerFill
+    containers:
+      mech-battery-slot:
+      - PowerCellHigh
+
+- type: entity
+  parent: BaseMech
+  id: MechSeraph
+  name: Seraph
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    noRot: true
+    sprite: Objects/Specific/Mech/mecha.rsi
+    layers:
+    - map: [ "enum.MechVisualLayers.Base" ]
+      state: seraph
+  - type: Mech
+    baseState: seraph
+    openState: seraph-open
+    brokenState: seraph-broken
+    airtight: true
+    maxIntegrity: 550
+    mechToPilotDamageMultiplier: 0.10
+    maxEquipmentAmount: 8
+  - type: Reflect
+    reflectProb: 0.25
+  - type: MeleeWeapon
+    hidden: true
+    attackRate: 0.70
+    damage:
+      types:
+        Blunt: 50
+        Structural: 55
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: FireResStrongMetallic
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 1.0
+    baseSprintSpeed: 1.0
+
+- type: entity
+  parent: MechSeraph
+  id: MechSeraphBattery
   suffix: Battery
   components:
   - type: ContainerFill
