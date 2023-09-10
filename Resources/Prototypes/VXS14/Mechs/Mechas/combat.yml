@@ -17,7 +17,8 @@
     airtight: true
     maxIntegrity: 500
     mechToPilotDamageMultiplier: 0.35
-  - type: Reflect # Smol chance to reflect bullets/lasers
+  - type: Reflect
+    reflectProb: 0.25
   - type: MeleeWeapon
     hidden: true
     attackRate: 0.70 #Big slow arms
@@ -35,6 +36,51 @@
 - type: entity
   parent: MechMarauder
   id: MechMarauderBattery
+  suffix: Battery
+  components:
+  - type: ContainerFill
+    containers:
+      mech-battery-slot:
+      - PowerCellHigh
+
+- type: entity
+  parent: BaseMech
+  id: MechMauler
+  name: Mauler
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    noRot: true
+    sprite: Objects/Specific/Mech/mecha.rsi
+    layers:
+    - map: [ "enum.MechVisualLayers.Base" ]
+      state: mauler
+  - type: Mech
+    baseState: mauler
+    openState: mauler-open
+    brokenState: mauler-broken
+    airtight: true
+    maxIntegrity: 500
+    mechToPilotDamageMultiplier: 0.35
+  - type: Reflect
+    reflectProb: 0.25
+  - type: MeleeWeapon
+    hidden: true
+    attackRate: 0.70
+    damage:
+      types:
+        Blunt: 50
+        Structural: 55
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: FireResStrongMetallic
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 1.0
+    baseSprintSpeed: 1.0
+
+- type: entity
+  parent: MechMauler
+  id: MechMaulerBattery
   suffix: Battery
   components:
   - type: ContainerFill
