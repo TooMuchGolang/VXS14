@@ -21,7 +21,7 @@
     availableModes:
     - SemiAuto
     soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/revolver.ogg
+      path: /Audio/VXS14/Weapons/GunShots/Revolvers/Revolver1.ogg
   - type: ContainerContainer
     containers:
       revolver-ammo: !type:Container
@@ -119,7 +119,7 @@
       params:
         volume: 2.25
 
-- type: entity 
+- type: entity
   name: Python
   parent: WeaponRevolverPython
   id: WeaponRevolverPythonAP # For the uplink.

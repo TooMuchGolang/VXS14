@@ -17,9 +17,14 @@
   - type: AmmoCounter
   - type: Gun
     fireRate: 5
+    minAngle: 1
+    maxAngle: 5
+    angleIncrease: 1
+    angleDecay: 5
     selectedMode: FullAuto
     availableModes:
       - FullAuto
+      - SemiAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/batrifle.ogg
   - type: ChamberMagazineAmmoProvider
@@ -68,7 +73,7 @@
   - type: Gun
     fireRate: 5
     soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/rifle2.ogg
+      path: /Audio/VXS14/Weapons/GunShots/Rifles/rifle1.ogg
   - type: ChamberMagazineAmmoProvider
     soundRack:
       path: /Audio/Weapons/Guns/Cock/ltrifle_cock.ogg
@@ -142,6 +147,9 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
+  - type: Gun
+    soundGunshot:
+      path: /Audio/VXS14/Weapons/GunShots/Rifles/rifle2.ogg
 
 - type: entity
   name: Lecter
@@ -160,14 +168,14 @@
     sprite: Objects/Weapons/Guns/Rifles/lecter.rsi
   - type: Gun
     soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/ltrifle.ogg
+      path: /Audio/VXS14/Weapons/GunShots/Rifles/rifle3.ogg
   - type: ItemSlots
     slots:
       gun_magazine:
         name: Magazine
         startingItem: MagazineRifle
-        insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
+        insertSound: /Audio/Weapons/Guns/MagIn/weaponmagin.ogg #VXS14
+        ejectSound: /Audio/Weapons/Guns/MagOut/weaponmagout.ogg #VXS14
         priority: 2
         whitelist:
           tags:

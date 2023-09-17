@@ -25,7 +25,7 @@
     availableModes:
     - SemiAuto
     soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/shotgun.ogg
+      path: /Audio/VXS14/Weapons/GunShots/Shotguns/shotgun2.ogg
     soundEmpty:
       path: /Audio/Weapons/Guns/Empty/empty.ogg
   - type: BallisticAmmoProvider
@@ -73,7 +73,7 @@
     availableModes:
     - FullAuto
     soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/shotgun.ogg
+      path: /Audio/VXS14/Weapons/GunShots/Shotguns/shotgun1.ogg
     soundEmpty:
       path: /Audio/Weapons/Guns/Empty/empty.ogg
   - type: ItemSlots
@@ -140,7 +140,7 @@
   - type: Clothing
     sprite: Objects/Weapons/Guns/Shotguns/enforcer.rsi
   - type: BallisticAmmoProvider
-  
+
 - type: entity
   name: Enforcer
   parent: BaseWeaponShotgun
@@ -154,7 +154,7 @@
     sprite: Objects/Weapons/Guns/Shotguns/enforcer.rsi
   - type: BallisticAmmoProvider
     proto: ShellShotgunBeanbag
-  
+
 - type: entity
   name: Kammerer
   parent: BaseWeaponShotgun
