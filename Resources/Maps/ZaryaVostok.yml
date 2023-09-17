@@ -24310,7 +24310,7 @@ entities:
       type: DecalGrid
     - type: RadiationGridResistance
     - type: LoadedMap
-    - id: ZaryaVostok
+    - id: zaryavostok
       type: BecomesStation
     - balance: 100
       type: StationBankAccount
