@@ -310,7 +310,7 @@ public sealed partial class ExplosionSystem : EntitySystem
         var mapEntityCoords = EntityCoordinates.FromMap(EntityManager, _mapManager.GetMapEntityId(epicenter.MapId), epicenter);
 
         // play sound.
-        var audioRange = iterationIntensity.Count * 5;
+        var audioRange = iterationIntensity.Count * 15;
         var filter = Filter.Pvs(epicenter).AddInRange(epicenter, audioRange);
         SoundSystem.Play(type.Sound.GetSound(), filter, mapEntityCoords, _audioParams);
 
