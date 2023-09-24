@@ -150,6 +150,10 @@
   - type: Gun
     soundGunshot:
       path: /Audio/VXS14/Weapons/GunShots/Rifles/rifle2.ogg
+    minAngle: 1
+    maxAngle: 3
+    angleIncrease: 1
+    angleDecay: 3
 
 - type: entity
   name: Lecter
