@@ -26,7 +26,7 @@
     - SemiAuto
     - FullAuto
     soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/smg.ogg
+      path: /Audio/Weapons/Guns/Gunshots/smg2.ogg
   - type: ChamberMagazineAmmoProvider
     soundRack:
       path: /Audio/Weapons/Guns/Cock/smg_cock.ogg
@@ -69,9 +69,7 @@
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Gun
-    fireRate: 10
-    soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
+    fireRate: 7
   - type: MagazineVisuals
     magState: mag
     steps: 1
@@ -95,7 +93,7 @@
     sprite: Objects/Weapons/Guns/SMGs/c20r.rsi
   - type: Gun
     soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/c-20r.ogg
+      path: /Audio/Weapons/Guns/Gunshots/smg3.ogg
   - type: ChamberMagazineAmmoProvider
     autoEject: true
   - type: MagazineVisuals
@@ -122,8 +120,6 @@
     - type: Gun
       fireRate: 6
       selectedMode: FullAuto
-      soundGunshot:
-        path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
       availableModes:
         - FullAuto
     - type: ItemSlots
@@ -169,8 +165,6 @@
   - type: Gun
     fireRate: 6
     selectedMode: FullAuto
-    soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
     availableModes:
     - FullAuto
   - type: ItemSlots

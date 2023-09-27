@@ -23,7 +23,7 @@
     availableModes:
     - SemiAuto
     soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/sniper.ogg
+      path: /Audio/Weapons/Guns/Gunshots/sniper1.ogg
   - type: BallisticAmmoProvider
     autoCycle: false
     capacity: 10
@@ -61,7 +61,7 @@
     whitelist:
       tags:
       - CartridgeAntiMateriel
-    capacity: 5
+    capacity: 6
     proto: CartridgeAntiMateriel
 
 - type: entity
