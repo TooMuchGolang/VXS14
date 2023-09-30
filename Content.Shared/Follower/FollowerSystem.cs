@@ -11,9 +11,9 @@ using Robust.Shared.Containers;
 using Robust.Shared.Map;
 using Robust.Shared.Map.Events;
 using Robust.Shared.Network;
-using Robust.Shared.Utility;
 using Robust.Shared.Physics;
 using Robust.Shared.Physics.Systems;
+using Robust.Shared.Utility;
 
 namespace Content.Shared.Follower;
 
@@ -58,10 +58,10 @@ public sealed class FollowerSystem : EntitySystem
 
     private void OnGetAlternativeVerbs(GetVerbsEvent<AlternativeVerb> ev)
     {
-        if (ev.User == ev.Target || ev.Target.IsClientSide())
+        if (ev.User == ev.Target || IsClientSide(ev.Target))
             return;
 
-        if (HasComp<SharedGhostComponent>(ev.User))
+        if (HasComp<GhostComponent>(ev.User))
         {
             var verb = new AlternativeVerb()
             {

@@ -14,12 +14,13 @@ using Content.Shared.Coordinates.Helpers;
 using Content.Shared.Database;
 using Content.Shared.FixedPoint;
 using Content.Shared.Smoking;
-using Content.Shared.Spawners;
-using Content.Shared.Spawners.Components;
+using Robust.Shared.Spawners;
 using Robust.Server.GameObjects;
 using Robust.Shared.Map;
 using Robust.Shared.Prototypes;
+using Robust.Shared.Spawners;
 using Robust.Shared.Timing;
+using TimedDespawnComponent = Robust.Shared.Spawners.TimedDespawnComponent;
 
 namespace Content.Server.Fluids.EntitySystems;
 
@@ -29,15 +30,11 @@ namespace Content.Server.Fluids.EntitySystems;
 public sealed class SmokeSystem : EntitySystem
 {
     // If I could do it all again this could probably use a lot more of puddles.
-    [Dependency] private readonly IAdminLogManager _logger = default!;
     [Dependency] private readonly IGameTiming _timing = default!;
     [Dependency] private readonly IMapManager _mapManager = default!;
     [Dependency] private readonly IPrototypeManager _prototype = default!;
     [Dependency] private readonly AppearanceSystem _appearance = default!;
-    [Dependency] private readonly BloodstreamSystem _blood = default!;
     [Dependency] private readonly EntityLookupSystem _lookup = default!;
-    [Dependency] private readonly InternalsSystem _internals = default!;
-    [Dependency] private readonly ReactiveSystem _reactive = default!;
     [Dependency] private readonly SolutionContainerSystem _solutionSystem = default!;
 
     /// <inheritdoc/>
