@@ -206,10 +206,11 @@ public abstract partial class SharedGunSystem
     {
         // Try to put a new round in if possible.
         var magEnt = GetMagazineEntity(uid);
+        var chambered = GetChamberEntity(uid);
 
         // Similar to what takeammo does though that uses an optimised version where
         // multiple bullets may be fired in a single tick.
-        if (magEnt != null)
+        if (magEnt != null && chambered == null)
         {
             var relayedArgs = new TakeAmmoEvent(1,
                 new List<(EntityUid? Entity, IShootable Shootable)>(),
@@ -351,7 +352,7 @@ public abstract partial class SharedGunSystem
         {
             if (TryTakeChamberEntity(uid, out chamberEnt))
             {
-                args.Ammo.Add((chamberEnt.Value, EnsureComp<AmmoComponent>(chamberEnt.Value)));
+                args.Ammo.Add((chamberEnt.Value, EnsureShootable(chamberEnt.Value)));
             }
             // No ammo returned.
             else
@@ -405,7 +406,7 @@ public abstract partial class SharedGunSystem
         {
             // Shooting code won't eject it if it's still contained.
             chamberEnt = slot.ContainedEntity;
-            args.Ammo.Add((chamberEnt.Value, EnsureComp<AmmoComponent>(chamberEnt.Value)));
+            args.Ammo.Add((chamberEnt.Value, EnsureShootable(chamberEnt.Value)));
         }
     }
 }

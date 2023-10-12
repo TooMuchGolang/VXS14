@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   abstract: true
   id: BaseStationNanotrasen
   components:
@@ -50,6 +50,13 @@
     - BaseStationSiliconLawSolFed
     - BaseStationAllEventsEligible
     - BaseStationNanotrasen
+
+- id: StandardStationArena
+  parent:
+  - BaseStation
+  - BaseStationJobsSpawning
+  - BaseStationRecords
+  - BaseStationNanotrasen
   noSpawn: true
   components:
     - type: Transform

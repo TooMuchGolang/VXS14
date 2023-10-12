@@ -59,6 +59,7 @@ job-name-lo = Logistics Officer
 # FUCK YOU!!!
 JobAtmosphericTechnician = Atmospheric Technician
 JobBartender = Bartender
+JobBorg = Borg
 JobBotanist = Botanist
 JobBoxer = Boxer
 JobCaptain = Captain

@@ -36,7 +36,6 @@
         - key: enum.TransferAmountUiKey.Key
           type: TransferAmountBoundUserInterface
     - type: Drink
-      isOpen: true
       solution: beaker
     - type: Spillable
       solution: beaker
@@ -46,6 +45,8 @@
       fillBaseName: jug
     - type: StaticPrice
       price: 80
+    - type: Label
+      originalName: jug
 
 - type: entity
   parent: Jug
@@ -53,7 +54,7 @@
   id: JugCarbon
   components:
     - type: Label
-      currentLabel: Carbon
+      currentLabel: carbon
     - type: SolutionContainerManager
       solutions:
         beaker:
@@ -67,7 +68,7 @@
   id: JugIodine
   components:
     - type: Label
-      currentLabel: Iodine
+      currentLabel: iodine
     - type: SolutionContainerManager
       solutions:
         beaker:
@@ -81,7 +82,7 @@
   id: JugFluorine
   components:
     - type: Label
-      currentLabel: Fluorine
+      currentLabel: fluorine
     - type: SolutionContainerManager
       solutions:
         beaker:
@@ -95,7 +96,7 @@
   id: JugChlorine
   components:
     - type: Label
-      currentLabel: Chlorine
+      currentLabel: chlorine
     - type: SolutionContainerManager
       solutions:
         beaker:
@@ -109,7 +110,7 @@
   id: JugAluminium
   components:
     - type: Label
-      currentLabel: Aluminium
+      currentLabel: aluminium
     - type: SolutionContainerManager
       solutions:
         beaker:
@@ -123,7 +124,7 @@
   id: JugPhosphorus
   components:
     - type: Label
-      currentLabel: Phosphorus
+      currentLabel: phosphorus
     - type: SolutionContainerManager
       solutions:
         beaker:
@@ -137,7 +138,7 @@
   id: JugSulfur
   components:
     - type: Label
-      currentLabel: Sulfur
+      currentLabel: sulfur
     - type: SolutionContainerManager
       solutions:
         beaker:
@@ -151,7 +152,7 @@
   id: JugSilicon
   components:
     - type: Label
-      currentLabel: Silicon
+      currentLabel: silicon
     - type: SolutionContainerManager
       solutions:
         beaker:
@@ -165,7 +166,7 @@
   id: JugHydrogen
   components:
     - type: Label
-      currentLabel: Hydrogen
+      currentLabel: hydrogen
     - type: SolutionContainerManager
       solutions:
         beaker:
@@ -179,7 +180,7 @@
   id: JugLithium
   components:
     - type: Label
-      currentLabel: Lithium
+      currentLabel: lithium
     - type: SolutionContainerManager
       solutions:
         beaker:
@@ -193,7 +194,7 @@
   id: JugSodium
   components:
     - type: Label
-      currentLabel: Sodium
+      currentLabel: sodium
     - type: SolutionContainerManager
       solutions:
         beaker:
@@ -207,7 +208,7 @@
   id: JugPotassium
   components:
     - type: Label
-      currentLabel: Potassium
+      currentLabel: potassium
     - type: SolutionContainerManager
       solutions:
         beaker:
@@ -221,7 +222,7 @@
   id: JugRadium
   components:
     - type: Label
-      currentLabel: Radium
+      currentLabel: radium
     - type: SolutionContainerManager
       solutions:
         beaker:
@@ -235,7 +236,7 @@
   id: JugIron
   components:
     - type: Label
-      currentLabel: Iron
+      currentLabel: iron
     - type: SolutionContainerManager
       solutions:
         beaker:
@@ -249,7 +250,7 @@
   id: JugCopper
   components:
     - type: Label
-      currentLabel: Copper
+      currentLabel: copper
     - type: SolutionContainerManager
       solutions:
         beaker:
@@ -263,7 +264,7 @@
   id: JugGold
   components:
     - type: Label
-      currentLabel: Gold
+      currentLabel: gold
     - type: SolutionContainerManager
       solutions:
         beaker:
@@ -277,7 +278,7 @@
   id: JugMercury
   components:
     - type: Label
-      currentLabel: Mercury
+      currentLabel: mercury
     - type: SolutionContainerManager
       solutions:
         beaker:
@@ -291,7 +292,7 @@
   id: JugSilver
   components:
     - type: Label
-      currentLabel: Silver
+      currentLabel: silver
     - type: SolutionContainerManager
       solutions:
         beaker:
@@ -305,7 +306,7 @@
   id: JugEthanol
   components:
     - type: Label
-      currentLabel: Ethanol
+      currentLabel: ethanol
     - type: SolutionContainerManager
       solutions:
         beaker:
@@ -319,7 +320,7 @@
   id: JugSugar
   components:
     - type: Label
-      currentLabel: Sugar
+      currentLabel: sugar
     - type: SolutionContainerManager
       solutions:
         beaker:
@@ -333,7 +334,7 @@
   id: JugNitrogen
   components:
     - type: Label
-      currentLabel: Nitrogen
+      currentLabel: nitrogen
     - type: SolutionContainerManager
       solutions:
         beaker:
@@ -347,10 +348,25 @@
   id: JugOxygen
   components:
     - type: Label
-      currentLabel: Oxygen
+      currentLabel: oxygen
     - type: SolutionContainerManager
       solutions:
         beaker:
           reagents:
             - ReagentId: Oxygen
+              Quantity: 200
+
+- type: entity
+  parent: Jug
+  name: jug (Plant-B-Gone)
+  id: JugPlantBGone
+  noSpawn: true
+  components:
+    - type: Label
+      currentLabel: Plant-B-Gone
+    - type: SolutionContainerManager
+      solutions:
+        beaker:
+          reagents:
+            - ReagentId: PlantBGone
               Quantity: 200
