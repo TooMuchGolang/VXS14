@@ -1,0 +1,34 @@
+- type: entity
+  name: VSRD Grenade laucnher
+  parent: BaseMechEquipment
+  id: MechaGrenadeLauncher
+  description: Bloop. Big bloop.
+  components:
+  - type: Sprite
+    sprite: Objects/Specific/Mech/mecha_equipment.rsi
+    layers:
+    - state: mecha_grenadelnchr
+  - type: Gun
+    minAngle: 1
+    maxAngle: 1
+    angleIncrease: 1
+    angleDecay: 1
+    fireRate: 0.5
+    selectedMode: SemiAuto
+    availableModes:
+      - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/grenade_launcher.ogg
+    soundEmpty:
+      path: /Audio/Weapons/Guns/Empty/lmg_empty.ogg
+    zeroVisible: true
+  - type: Appearance
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+        - Grenade
+    autoCycle: true
+    capacity: 12
+    proto: GrenadeFrag
+    soundInsert:
+      path: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg

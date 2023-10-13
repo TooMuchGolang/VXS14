@@ -22,3 +22,26 @@
   - type: Appearance
   - type: StaticPrice
     price: 500
+
+- type: entity
+  name: Immolator mecha laser
+  parent: BaseMechLaserWeapon
+  id: MechImmolator
+  description: A weapon using light amplified by the stimulated emission of radiation.
+  components:
+  - type: Gun
+    fireRate: 2
+    selectedMode: SemiAuto
+    availableModes:
+      - SemiAuto
+  - type: Sprite
+    sprite: Objects/Specific/Mech/mecha_equipment.rsi
+    layers:
+    - state: mecha_laser
+  - type: HitscanBatteryAmmoProvider
+    proto: RedMediumLaser
+    fireCost: 62.5
+  - type: Appearance
+  - type: Battery
+    maxCharge: 6000
+    startingCharge: 6000
