@@ -2,6 +2,7 @@
   id: MechDebugGun
   parent: BaseMechEquipment
   name: Bang bang
+  suffix: DEBUG
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/c20r.rsi
@@ -53,11 +54,12 @@
 - type: entity
   name: pow pow
   parent: BaseMechLaserWeapon
+  suffix: DEBUG
   id: MechDebugLaser
   description: A weapon using light amplified by the stimulated emission of radiation.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/laser_retro.rsi # TODO: put actual sprite
+    sprite: Objects/Weapons/Guns/Battery/laser_retro.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
