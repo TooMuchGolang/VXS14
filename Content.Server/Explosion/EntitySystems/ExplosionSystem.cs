@@ -52,7 +52,7 @@ public sealed partial class ExplosionSystem : EntitySystem
     /// </summary>
     public const ushort DefaultTileSize = 1;
 
-    private AudioParams _audioParams = AudioParams.Default.WithVolume(-3f);
+    private AudioParams _audioParams = AudioParams.Default.WithVolume(3f);
 
     /// <summary>
     ///     The "default" explosion prototype.
@@ -312,13 +312,13 @@ public sealed partial class ExplosionSystem : EntitySystem
         var visualEnt = CreateExplosionVisualEntity(epicenter, type.ID, spaceMatrix, spaceData, gridData.Values, iterationIntensity);
 
         // camera shake
-        CameraShake(iterationIntensity.Count * 2.5f, epicenter, totalIntensity);
+        CameraShake(iterationIntensity.Count * 4.5f, epicenter, totalIntensity);
 
         //For whatever bloody reason, sound system requires ENTITY coordinates.
         var mapEntityCoords = EntityCoordinates.FromMap(EntityManager, _mapManager.GetMapEntityId(epicenter.MapId), epicenter);
 
         // play sound.
-        var audioRange = iterationIntensity.Count * 15;
+        var audioRange = iterationIntensity.Count * 21;
         var filter = Filter.Pvs(epicenter).AddInRange(epicenter, audioRange);
         SoundSystem.Play(type.Sound.GetSound(), filter, mapEntityCoords, _audioParams);
 
@@ -355,7 +355,7 @@ public sealed partial class ExplosionSystem : EntitySystem
                 delta = new(0.01f, 0);
 
             var distance = delta.Length();
-            var effect = 5 * MathF.Pow(totalIntensity, 0.5f) * (1 - distance / range);
+            var effect = 8 * MathF.Pow(totalIntensity, 0.5f) * (1 - distance / range);
             if (effect > 0.01f)
                 _recoilSystem.KickCamera(uid, -delta.Normalized() * effect);
         }
