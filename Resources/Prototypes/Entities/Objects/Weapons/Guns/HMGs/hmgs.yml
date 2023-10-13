@@ -34,8 +34,9 @@
       map: ["enum.GunVisualLayers.Base"]
   - type: Item
     sprite: Objects/Weapons/Guns/HMGs/minigun.rsi
+    size: 325
   - type: Gun
-    fireRate: 15
+    fireRate: 11
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/minigun.ogg
   - type: BallisticAmmoProvider
