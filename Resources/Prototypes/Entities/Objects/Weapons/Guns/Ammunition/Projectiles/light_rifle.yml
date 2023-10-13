@@ -13,16 +13,16 @@
 
 - type: entity
   id: BulletLightRifleHighVelocity
-  name: bullet (7,62x39 rifle high-velocity)
+  name: bullet (7,62x39 rifle tracer)
   parent: BaseBulletHighVelocity
   noSpawn: true
   components:
   - type: Projectile
     damage:
       types:
-        Piercing: 24
+        Piercing: 20
   - type: StaminaDamageOnCollide
-    damage: 23
+    damage: 19
 
 - type: entity
   id: BulletLightRiflePractice

@@ -20,9 +20,9 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 18
+        Piercing: 16
   - type: StaminaDamageOnCollide
-    damage: 6
+    damage: 4
 
 - type: entity
   id: BulletPistolPractice

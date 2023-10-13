@@ -13,16 +13,16 @@
 
 - type: entity
   id: BulletCaselessRifleHighVelocity
-  name: bullet (5,6x10,7 caseless high-velocity)
+  name: bullet (5,6x10,7 caseless tracer)
   parent: BaseBulletHighVelocity
   noSpawn: true
   components:
   - type: Projectile
     damage:
       types:
-        Piercing: 22
+        Piercing: 19
   - type: StaminaDamageOnCollide
-    damage: 6
+    damage: 2
 
 - type: entity
   id: BulletCaselessRiflePractice

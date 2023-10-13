@@ -20,9 +20,9 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 31 # 25% increase
+        Piercing: 29
   - type: StaminaDamageOnCollide
-    damage: 41
+    damage: 29
 
 - type: entity
   id: BulletMagnumPractice

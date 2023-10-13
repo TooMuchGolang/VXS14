@@ -41,6 +41,9 @@
       "name": "slug"
     },
     {
+      "name": "tracert"
+    },
+    {
       "name": "smallfrag"
     },
     {

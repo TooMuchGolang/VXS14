@@ -65,11 +65,6 @@
       path: /Audio/Weapons/Guns/Hits/bullet_hit.ogg
   - type: TimedDespawn
     lifetime: 10
-  - type: PointLight
-    enabled: true
-    color: "#f0ff6b"
-    radius: 2.0
-    energy: 1.0
 
 - type: entity
   id: BaseBulletTrigger # Trigger-on-collide bullets
@@ -96,14 +91,25 @@
 
 - type: entity
   id: BaseBulletHighVelocity
-  name: base bullet high-velocity
+  name: base bullet tracer
   parent: BaseBullet
   noSpawn: true
   components:
+  - type: Sprite
+    noRot: false
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: tracert
+      shader: unshaded
   - type: Projectile
     damage:
       types:
-        Piercing: 17
+        Piercing: 14
+  - type: PointLight
+    enabled: true
+    color: "#f0ff6b"
+    radius: 2.0
+    energy: 1.0
 
 - type: entity
   id: BaseBulletPractice
