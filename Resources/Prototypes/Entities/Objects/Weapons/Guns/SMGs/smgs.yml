@@ -92,6 +92,7 @@
   - type: Clothing
     sprite: Objects/Weapons/Guns/SMGs/c20r.rsi
   - type: Gun
+    fireRate: 10
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/smg3.ogg
   - type: ChamberMagazineAmmoProvider
@@ -118,7 +119,7 @@
     - type: Clothing
       sprite: Objects/Weapons/Guns/SMGs/drozd.rsi
     - type: Gun
-      fireRate: 6
+      fireRate: 8
       selectedMode: FullAuto
       availableModes:
         - FullAuto

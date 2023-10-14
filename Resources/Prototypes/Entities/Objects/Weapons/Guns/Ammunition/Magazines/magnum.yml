@@ -11,7 +11,7 @@
     mayTransfer: true
     whitelist:
       tags:
-        - CartridgeMagnum
+        - CartridgeMagnumACP
     capacity: 25
   - type: Item
     size: 15
@@ -37,7 +37,7 @@
   parent: BaseMagazineMagnumSubMachineGun
   components:
   - type: BallisticAmmoProvider
-    proto: CartridgeMagnum
+    proto: CartridgeMagnumACP
   - type: Sprite
     layers:
     - state: red
@@ -51,7 +51,7 @@
   parent: BaseMagazineMagnumSubMachineGun
   components:
   - type: BallisticAmmoProvider
-    proto: CartridgeMagnumHighVelocity
+    proto: CartridgeMagnumHighVelocityACP
   - type: Sprite
     layers:
     - state: high_velocity
@@ -65,7 +65,7 @@
   parent: BaseMagazineMagnumSubMachineGun
   components:
   - type: BallisticAmmoProvider
-    proto: CartridgeMagnumPractice
+    proto: CartridgeMagnumPracticeACP
   - type: Sprite
     layers:
     - state: practice
@@ -79,7 +79,7 @@
   parent: BaseMagazineMagnumSubMachineGun
   components:
   - type: BallisticAmmoProvider
-    proto: CartridgeMagnumRubber
+    proto: CartridgeMagnumRubberACP
   - type: Sprite
     layers:
     - state: rubber

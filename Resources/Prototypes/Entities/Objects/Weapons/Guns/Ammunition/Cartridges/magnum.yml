@@ -140,3 +140,53 @@
       color: green
   - type: CartridgeAmmo
     proto: AnomalousParticleOmegaStrong
+
+# ACP
+
+- type: entity
+  id: CartridgeMagnumACP
+  name: cartridge (11,5x30 ACP)
+  parent: BaseCartridgeMagnum
+  components:
+  - type: CartridgeAmmo
+    proto: BulletMagnumACP
+
+- type: entity
+  id: CartridgeMagnumHighVelocity
+  name: cartridge (11,5x30 ACP high-velocity)
+  parent: BaseCartridgeMagnumACP
+  components:
+  - type: CartridgeAmmo
+    proto: BulletMagnumHighVelocityACP
+
+- type: entity
+  id: CartridgeMagnumPractice
+  name: cartridge (11,5x30 ACP practice)
+  parent: BaseCartridgeMagnumACP
+  components:
+  - type: CartridgeAmmo
+    proto: BulletMagnumPracticeACP
+
+- type: entity
+  id: CartridgeMagnumRubber
+  name: cartridge (11,5x30 ACP rubber)
+  parent: BaseCartridgeMagnumACP
+  components:
+  - type: CartridgeAmmo
+    proto: BulletMagnumRubberACP
+
+- type: entity
+  id: CartridgeMagnumIncendiary
+  name: cartridge (11,5x30 ACP incendiary)
+  parent: BaseCartridgeMagnumACP
+  components:
+  - type: CartridgeAmmo
+    proto: BulletMagnumIncendiaryACP
+
+- type: entity
+  id: CartridgeMagnumAP
+  name: cartridge (11,5x30 magnum armor-piercing)
+  parent: BaseCartridgeMagnumACP
+  components:
+  - type: CartridgeAmmo
+    proto: BulletMagnumAPACP
