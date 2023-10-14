@@ -24,9 +24,9 @@
     price: 500
 
 - type: entity
-  name: Immolator mecha laser
+  name: CH-PS "Firedart" Laser
   parent: BaseMechLaserWeapon
-  id: MechImmolator
+  id: MechaWeaponLaserFiredart
   description: A weapon using light amplified by the stimulated emission of radiation.
   components:
   - type: Gun

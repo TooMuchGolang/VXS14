@@ -41,7 +41,13 @@
       "name": "slug"
     },
     {
-      "name": "tracert"
+      "name": "tracert",
+      "delays": [
+        [
+          0.05,
+          0.05
+        ]
+      ]
     },
     {
       "name": "smallfrag"

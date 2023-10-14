@@ -1,5 +1,5 @@
 - type: entity
-  id: UltraMGMecha
+  id: MechaWeaponMachinegunUltra
   parent: BaseMechEquipment
   name: Ultra-C2 machinegun
   components:
@@ -13,9 +13,9 @@
     angleIncrease: 3
     angleDecay: 2
     fireRate: 6
-    selectedMode: FullAuto
+    selectedMode: Burst
     availableModes:
-      - FullAuto
+      - Burst
     soundGunshot:
       path: /Audio/VXS14/Weapons/GunShots/Rifles/rifle1.ogg
     soundEmpty:
@@ -25,20 +25,20 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: MagazineLightRifleBox
+        startingItem: MagazineHeavyRifleBoxMechaMG
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
         priority: 2
         whitelist:
           tags:
-            - MagazineLightRifleBox
+            - MagazineHeavyRifleBoxMechaMG
       gun_chamber:
         name: Chamber
-        startingItem: CartridgeLightRifle
+        startingItem: CartridgeRifleHighVelocity
         priority: 1
         whitelist:
           tags:
-            - CartridgeLightRifle
+            - CartridgeRifleHighVelocity
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot

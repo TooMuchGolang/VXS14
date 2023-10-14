@@ -1,7 +1,7 @@
 - type: entity
-  name: VSRD Grenade laucnher
+  name: AMLG-90
   parent: BaseMechEquipment
-  id: MechaGrenadeLauncher
+  id: MechaWeaponLauncherAMGL
   description: Bloop. Big bloop.
   components:
   - type: Sprite
