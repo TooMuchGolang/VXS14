@@ -12,7 +12,7 @@
     whitelist:
       tags:
         - CartridgeMagnumACP
-    capacity: 25
+    capacity: 20
   - type: Item
     size: 15
   - type: ContainerContainer
