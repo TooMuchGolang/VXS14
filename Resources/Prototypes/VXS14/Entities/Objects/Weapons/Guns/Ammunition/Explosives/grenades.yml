@@ -1,5 +1,5 @@
 - type: entity
-  id: SmokeFrag
+  id: GrenadeSmoke
   name: smoke grenade
   parent: BaseGrenade
   components:
