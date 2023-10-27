@@ -7,9 +7,9 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 20
+        Piercing: 18
   - type: StaminaDamageOnCollide
-    damage: 19
+    damage: 15
 
 - type: entity
   id: BulletLightRifleHighVelocity
@@ -20,9 +20,9 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 20
+        Piercing: 18
   - type: StaminaDamageOnCollide
-    damage: 19
+    damage: 15
 
 - type: entity
   id: BulletLightRiflePractice
