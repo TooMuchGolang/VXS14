@@ -18,6 +18,7 @@
     minAngle: -20
     maxAngle: -20
   - type: Gun
+    cameraRecoilScalar: 6
     minAngle: 24
     maxAngle: 45
     angleIncrease: 4

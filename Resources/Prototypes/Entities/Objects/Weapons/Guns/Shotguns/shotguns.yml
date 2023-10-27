@@ -20,6 +20,7 @@
     - suitStorage
   - type: AmmoCounter
   - type: Gun
+    cameraRecoilScalar: 6
     fireRate: 2
     selectedMode: SemiAuto
     availableModes:
@@ -68,6 +69,7 @@
     - suitStorage
   - type: AmmoCounter
   - type: Gun
+    cameraRecoilScalar: 4
     fireRate: 2
     selectedMode: FullAuto
     availableModes:
