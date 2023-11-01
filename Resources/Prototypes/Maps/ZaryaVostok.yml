@@ -1,10 +1,10 @@
 - type: gameMap
-  id: zaryavostok
+  id: ZaryaVostok
   mapName: 'Zarya-Vostok'
   mapPath: /Maps/ZaryaVostok.yml
   minPlayers: 1
   stations:
-    zaryavostok:
+    ZaryaVostok:
       stationProto: StandardSolFedPlanet
       components:
         - type: StationNameSetup
