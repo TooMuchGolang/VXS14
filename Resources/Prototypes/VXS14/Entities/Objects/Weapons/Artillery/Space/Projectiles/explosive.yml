@@ -1,0 +1,29 @@
+- type: entity
+  name: Explosive
+  id: SpaceArtilleryExplosiveProjectile
+  parent: BaseBulletTrigger
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: VXS14/Objects/Weapons/Artillery/Space/Projectiles/plasma.rsi
+    layers:
+      - state: plasma
+        shader: unshaded
+  - type: Ammo
+    muzzleFlash: null
+  - type: Physics
+  - type: Projectile
+    damage:
+      types:
+        Heat: 3
+  - type: Tag
+    tags:
+    - EmitterBolt
+  - type: TimedDespawn
+    lifetime: 24
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    totalIntensity: 50
+    intensitySlope: 3
+    maxIntensity: 10
