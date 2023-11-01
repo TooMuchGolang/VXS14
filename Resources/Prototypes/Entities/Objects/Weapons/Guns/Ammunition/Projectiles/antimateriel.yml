@@ -10,5 +10,6 @@
         Piercing: 70
         Blunt: 39
         Structural: 35
+    ignoreResistances: true
   - type: StaminaDamageOnCollide
     damage: 99
