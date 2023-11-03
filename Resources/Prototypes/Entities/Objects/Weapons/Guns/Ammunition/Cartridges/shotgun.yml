@@ -40,7 +40,7 @@
 
 - type: entity
   id: ShellShotgunSlug
-  name: shell (3,5mm slug)
+  name: shell (18,5mm slug)
   parent: BaseShellShotgun
   components:
   - type: Sprite
@@ -48,9 +48,9 @@
       - state: slug
         map: [ "enum.AmmoVisualLayers.Base" ]
   - type: CartridgeAmmo
-    proto: PelletShotgunSlug
-    count: 12
-    spread: 5
+    proto: PelletShotgunRealSlug
+    count: 1
+    spread: 1
   - type: SpentAmmoVisuals
     state: "slug"
 
