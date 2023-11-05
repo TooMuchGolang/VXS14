@@ -1,0 +1,11 @@
+#Armored
+- type: entity
+  parent: ClothingHeadHelmetBasic
+  id: ClothingHeadHelmet6B47
+  name: 6B47 helmet
+  description: The helmet is ready to withstand fragments flying at a speed of more than 630 meters per second, and Makarov pistol bullets fired from a distance of more than five meters. The time of continuous wearing of the helmet is at least 24 hours when performing typical tasks typical for a combat stop.
+  components:
+  - type: Sprite
+    sprite: VXS14/Clothing/Head/6B47.rsi
+  - type: Clothing
+    sprite: VXS14/Clothing/Head/6B47.rsi

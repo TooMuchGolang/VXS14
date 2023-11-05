@@ -82,6 +82,9 @@
     damageCoefficient: 0.80
   - type: Item
     size: 45
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
 
 - type: entity
   parent: ClothingOuterArmorBasic #lol, this shit is broken as fuck

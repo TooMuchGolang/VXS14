@@ -8,8 +8,6 @@
     sprite: VXS14/Clothing/OuterClothing/Armor/maskhalat-mokh.rsi
   - type: Clothing
     sprite: VXS14/Clothing/OuterClothing/Armor/maskhalat-mokh.rsi
-  - type: TemperatureProtection
-    coefficient: 0.1
   - type: Item
     size: 35
   - type: Armor
@@ -33,6 +31,9 @@
     - ClothMade
     - HidesHair
     - WhitelistChameleon
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -69,3 +70,6 @@
     - ClothMade
     - HidesHair
     - WhitelistChameleon
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
