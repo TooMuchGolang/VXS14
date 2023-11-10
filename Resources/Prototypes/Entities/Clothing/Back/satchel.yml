@@ -8,13 +8,13 @@
     sprite: Clothing/Back/Satchels/satchel.rsi
     state: icon
   - type: Item
-    size: 9999
+    size: 80
   - type: Clothing
     quickEquip: false
     slots:
     - back
   - type: Storage
-    capacity: 100
+    capacity: 75
   - type: ContainerContainer
     containers:
       storagebase: !type:Container

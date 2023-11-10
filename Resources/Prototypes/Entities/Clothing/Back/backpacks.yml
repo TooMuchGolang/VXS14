@@ -8,17 +8,20 @@
     sprite: Clothing/Back/Backpacks/backpack.rsi
     state: icon
   - type: Item
-    size: 9999
+    size: 90
   - type: Clothing
     quickEquip: false
     slots:
     - back
   - type: Storage
-    capacity: 100
+    capacity: 85
   - type: ContainerContainer
     containers:
       storagebase: !type:Container
         ents: []
+  - type: ClothingSpeedModifier
+    walkModifier: 1
+    sprintModifier: 0.9
   - type: UserInterface
     interfaces:
     - key: enum.StorageUiKey.Key
