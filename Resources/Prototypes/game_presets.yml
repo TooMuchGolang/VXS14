@@ -49,7 +49,6 @@
   description: traitor-description
   showInVote: false
   rules:
-    - Traitor
     - BasicStationEventScheduler
 
 - type: gamePreset
@@ -70,7 +69,6 @@
   description: nukeops-description
   showInVote: false
   rules:
-    - Nukeops
     - BasicStationEventScheduler
 
 - type: gamePreset
@@ -85,7 +83,6 @@
   description: zombie-description
   showInVote: false
   rules:
-  - Zombie
   - BasicStationEventScheduler
 
 - type: gamePreset
@@ -96,5 +93,4 @@
   description: pirates-description
   showInVote: false
   rules:
-    - Pirates
     - BasicStationEventScheduler
