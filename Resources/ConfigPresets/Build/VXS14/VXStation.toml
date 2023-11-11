@@ -1,7 +1,7 @@
 # Configuration preset used on VXStation14
 
 [game]
-desc = "Проект, оринтированный на милитари рп и резню для тех игроков, которые просто хотят весело провести время."
+desc = "Милитари РП, фан, резня."
 hostname = "[18+][RU][MRP] VXStation14"
 lobbyenabled = true
 maxcharacterslots = 3
