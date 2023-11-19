@@ -24310,8 +24310,6 @@ entities:
       type: DecalGrid
     - type: RadiationGridResistance
     - type: LoadedMap
-    - id: Hitler #zaryavostok
-      type: BecomesStation
     - balance: 100
       type: StationBankAccount
 - proto: Airlock
