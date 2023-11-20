@@ -79,7 +79,7 @@
   components:
     - type: PointLight
       enabled: true
-      radius: 5
+      radius: 9
       energy: 8
       netsync: false
     - type: LightFade
