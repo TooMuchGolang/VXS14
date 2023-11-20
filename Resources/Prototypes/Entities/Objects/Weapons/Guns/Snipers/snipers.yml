@@ -44,6 +44,8 @@
   id: WeaponSniperMosin
   description: A weapon for hunting, or endless trench warfare. Uses 7,62x39 rifle ammo. # WHY NOT 7.62x54mm R???
   components:
+  - type: Gun
+    cameraRecoilScalar: 7
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
 
