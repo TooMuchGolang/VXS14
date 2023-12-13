@@ -1,0 +1,47 @@
+- type: entity
+  id: MechaWeaponMachinegunUltra
+  parent: BaseMechEquipment
+  name: Ultra-C2 machinegun
+  components:
+  - type: Sprite
+    sprite: Objects/Specific/Mech/mecha_equipment.rsi
+    layers:
+    - state: mecha_uac2
+  - type: Gun
+    minAngle: 1
+    maxAngle: 6
+    angleIncrease: 3
+    angleDecay: 2
+    fireRate: 6
+    selectedMode: Burst
+    availableModes:
+      - Burst
+    soundGunshot:
+      path: /Audio/VXS14/Weapons/GunShots/Rifles/rifle1.ogg
+    soundEmpty:
+      path: /Audio/Weapons/Guns/Empty/lmg_empty.ogg
+  - type: ChamberMagazineAmmoProvider
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineHeavyRifleBoxMechaMG
+        insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineHeavyRifleBoxMechaMG
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeRifleHighVelocity
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeRifleHighVelocity
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: StaticPrice
+    price: 500
