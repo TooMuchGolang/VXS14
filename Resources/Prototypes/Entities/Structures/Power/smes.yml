@@ -78,6 +78,62 @@
     - type: Damageable
       damageContainer: Inorganic
       damageModifierSet: StrongMetallic
+    - type: SolutionContainerManager
+      solutions:
+       battery:
+        maxVol: 100
+        reagents:
+        - ReagentId: Licoxide
+          Quantity: 60
+        - ReagentId: Fluorosurfactant
+          Quantity: 20
+        - ReagentId: Water
+          Quantity: 20
+    - type: GasCanister
+      gasMixture:
+        volume: 64
+        moles: # List of gasses for easy reference
+          - 0 # oxygen
+          - 0 # nitrogen
+          - 0 # CO2
+          - 64 # Plasma
+        temperature: 664
+    - type: Explosive
+      explosionType: Default
+      totalIntensity: 16 # ~ 2 tile radius
+    - type: Repairable
+      DoAfterDelay: 15
+      QualityNeeded: Welding
+    - type: DamageVisuals
+      thresholds: [4, 8, 12]
+      damageDivisor: 3
+      trackAllDamage: true
+      damageOverlay:
+        sprite: Structures/Power/smesbroken.rsi
+    - type: Destructible
+      thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 300
+        behaviors:
+          - !type:DoActsBehavior
+            acts: ["Destruction"]
+      - trigger:
+          !type:DamageTrigger
+          damage: 60
+        behaviors:
+        - !type:SpillBehavior
+          solution: battery
+      - trigger:
+          !type:DamageTrigger
+          damage: 100
+        behaviors:
+        - !type:DoActsBehavior
+          acts: ["Destruction"]
+        - !type:DumpCanisterBehavior
+        - !type:PlaySoundBehavior
+          sound:
+            path: /Audio/Effects/explosion1.ogg
     - type: BatterySensor
     - type: DeviceNetwork
       deviceNetId: AtmosDevices
