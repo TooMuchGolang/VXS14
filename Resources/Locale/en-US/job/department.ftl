@@ -5,4 +5,7 @@ department-Engineering = Engineering
 department-Medical = Medical
 department-Security = Security
 department-Science = Science
-department-Specific = Station specific
+
+department-NanoTrasen = NanoTrasen
+department-Syndicate = Syndicate
+department-SolFed = SolFed

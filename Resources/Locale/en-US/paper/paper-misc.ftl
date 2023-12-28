@@ -26,3 +26,6 @@ book-text-ame-scribbles = I don't know if you're trained already, so I hope this
       The golden rule is 2 injection for every 1 core. You can go lower to save fuel.
       Higher will burn the engine out and eventually make it explode. Don't.
       Don't forget to refuel it, it tends to stop at the worst possible time.
+
+book-text-war-mom1 = Мам, прости.
+      Я был не прав. У нас всё хорошо, мы заготовили лёд на зимовку. Мише уже лучше.
