@@ -19,7 +19,10 @@
     head: ClothingHeadHelmetMerc
     jumpsuit: ClothingUniformJumpsuitMarine
     back: ClothingBackpack
+    pocket1: WeaponPistolMk58
+    pocket2: FlashlightLantern
     shoes: ClothingShoesBootsJack
+    mask: ClothingMaskNeckGaiter
     outerClothing: ClothingOuterArmorBulletproof
     id: MarineNTIDCard
     gloves: ClothingHandsGlovesCombat
@@ -51,7 +54,8 @@
     back: ClothingBackpack
     shoes: ClothingShoesBootsJack
     outerClothing: ClothingOuterArmorBulletproof
-    id: ClearPDA
+    id: HeavySoliderNTIDCard
+    pocket2: WeaponPistolMk58
     gloves: ClothingHandsGlovesCombat
     mask: ClothingMaskGas
     pocket1: HandheldGPSBasic

@@ -18,13 +18,15 @@
 - type: startingGear
   id: EngineerNTGear
   equipment:
-    head: ClothingHeadHatHardhatArmored
+    head: ClothingHeadHatHardhatYellow
     jumpsuit: ClothingUniformJumpsuitRepairmanNT
     back: ClothingBackpackEngineeringFilled
     shoes: ClothingShoesBootsWork
     outerClothing: ClothingOuterArmorBasicSlim
     id: MilEngineerNTPDA
-    gloves: ClothingHandsGlovesCollorYellow
+    gloves: ClothingHandsGlovesColorYellow
+    pocket1: WeaponPistolMk58
+    pocket2: FlashlightLantern
     eyes: ClothingEyesGlassesMeson
     belt: ClothingBeltUtilityEngineering
     ears: ClothingHeadsetAltNTEngineering
@@ -56,10 +58,12 @@
     shoes: ClothingShoesBootsWork
     id: MilExplosionTechNTPDA
     eyes: ClothingEyesGlassesMeson
+    pocket1: WeaponPistolMk58
+    pocket2: FlashlightLantern
     mask: ClothingMaskGas
-    belt: ClothingBeltUtilityEngineering
+    belt: ClothingBeltMilitaryWebbingLogisticsOfficer
     gloves: ClothingHandsGlovesCombat
-    outerClothing: ClothingOuterSuitBomb
+    outerClothing: ClothingOuterArmorBulletproof
     ears: ClothingHeadsetAltNTEngineering
   satchel: ClothingBackpackSatchelEngineeringFilled
   duffelbag: ClothingBackpackDuffelEngineeringFilled

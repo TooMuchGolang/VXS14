@@ -2,7 +2,7 @@
   id: ClothingBeltMilitaryWebbingLogisticsOfficer
   parent: ClothingBeltMilitaryWebbing
   name: logistics officer's chest rig
-  suffix: Filled
+  suffix: LO
   components:
   - type: StorageFill
     contents:
@@ -12,3 +12,21 @@
       - id: Wirecutter
       - id: WelderIndustrialAdvanced
       - id: NetworkConfigurator
+
+- type: entity
+  id: ClothingBeltMilitaryParamedNTWebbing
+  parent: ClothingBeltMilitaryWebbing
+  suffix: PNT
+  components:
+  - type: StorageFill
+    contents:
+      - id: Syringe
+        amount: 2
+      - id: DrinkWaterBottleFull
+        amount: 2
+      - id: HandheldHealthAnalyzer
+      - id: EmergencyMedipen
+      - id: IpecacChemistryBottle
+      - id: InaprovalineChemistryBottle
+      - id: TranexamicAcidChemistryBottle
+      - id: SalineChemistryBottle

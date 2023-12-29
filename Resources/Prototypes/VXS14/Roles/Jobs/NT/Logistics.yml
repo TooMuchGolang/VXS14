@@ -25,6 +25,7 @@
   id: LogisticsOfficerNTGear
   equipment:
     head: ClothingHeadHatQMsoft
+    pocket1: WeaponPistolMk58
     jumpsuit: ClothingUniformJumpsuitQM
     back: ClothingBackpack
     shoes: ClothingShoesBootsJack
@@ -58,13 +59,16 @@
   id: ParamedicNTGear
   equipment:
     head: ClothingHeadHelmetMerc
-    jumpsuit: ClothingUniformJumpsuitParamedicNT
-    back: ClothingBackpackFilled
+    pocket1: DoubleEmergencyOxygenTankFilled
+    pocket2: FlashlightLantern
+    jumpsuit: ClothingUniformJumpsuitParamedic
+    back: ClothingBackpackParamedNTMILFilled
     shoes: ClothingShoesBootsJack
-    id: ParamedicsNTPDA
+    OuterClothing: ClothingOuterArmorBasic
+    Mask: ClothingMaskBreathMedicalSecurity
+    id: MilParamedicNTPDA
     ears: ClothingHeadsetAltNT
     eyes: ClothingEyesHudMedical
     gloves: ClothingHandsGlovesNitrile
-    belt: ClothingBeltMilitaryWebbing
-  satchel: ClothingBackpackSatchelFilled
-  duffelbag: ClothingBackpackDuffelFilled
+    belt: ClothingBeltMilitaryParamedNTWebbing
+  duffelbag: ClothingBackpackDuffelParamedNTMILFilled

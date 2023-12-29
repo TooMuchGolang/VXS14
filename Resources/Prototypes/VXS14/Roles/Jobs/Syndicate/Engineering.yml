@@ -19,9 +19,13 @@
     jumpsuit: ClothingUniformJumpsuitEngineeringHazard
     head: ClothingHeadHelmetSwatSyndicate
     outerClothing: ClothingOuterArmorBasicSlim
+    eyes: ClothingEyesGlassesMeson
     ears: ClothingHeadsetAltSyndicate
+    mask: ClothingMaskNeckGaiter
     gloves: ClothingHandsGlovesCombat
     back: ClothingBackpackFilled
+    pocket1: HandheldGPSBasic
+    pocket2: FlashlightLantern
     shoes: ClothingShoesBootsWork
     belt: ClothingBeltUtilityEngineering
     id: SyndieEngineerIDCard
@@ -49,9 +53,13 @@
     jumpsuit: ClothingUniformJumpsuitEngineeringHazard
     head: ClothingHeadHelmetSwatSyndicate
     outerClothing: ClothingOuterArmorBasicSlim
+    eyes: ClothingEyesGlassesMeson
     ears: ClothingHeadsetAltSyndicate
+    mask: ClothingMaskNeckGaiter
     gloves: ClothingHandsGlovesCombat
     back: ClothingBackpackFilled
+    pocket1: HandheldGPSBasic
+    pocket2: FlashlightLantern
     shoes: ClothingShoesBootsWork
     belt: ClothingBeltUtilityEngineering
     id: ArtillerymanSyndieIDCard

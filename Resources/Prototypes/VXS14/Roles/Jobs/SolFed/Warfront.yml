@@ -19,8 +19,10 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitReporter
     back: ClothingBackpackFilled
+    gloves: ClothingHandsGlovesFingerless
     outerClothing: ClothingOuterArmorBasicSlim
     head: ClothingHeadHelmetMerc
+    pocket1: FlashlightLantern
     shoes: ClothingShoesBootsJack
     id: MilitaryCorrespondentNTIDCard
     ears: ClothingHeadsetAltSolFed
@@ -51,14 +53,16 @@
     head: ClothingHeadHelmetMerc
     outerClothing: ClothingOuterArmorBulletproof
     ears: ClothingHeadsetAltSolFed
+    pocket1: WeaponRevolverRex
+    mask: ClothingMaskNeckGaiter
+    pocket2: FlashlightLantern
     gloves: ClothingHandsGlovesCombat
-    back: ClothingBackpackFilled
+    back: ClothingBackpackParamedNTMILFilled
     shoes: ClothingShoesBootsCombatFilled
     eyes: ClothingEyesGlassesSunglasses
     id: PeacekeeperNTIDCard
     belt: ClothingBeltMilitaryWebbing
-  satchel: ClothingBackpackSatchel
-  duffelbag: ClothingBackpackDuffel
+  duffelbag: ClothingBackpackDuffelParamedNTMILFilled
 
 # SolFedAgent
 
@@ -85,6 +89,8 @@
     outerClothing: ClothingOuterArmorBasic
     ears: ClothingHeadsetAltSolFed
     gloves: ClothingHandsGlovesCombat
+    pocket1: WeaponRevolverRex
+    pocket2: FlashlightLantern
     back: ClothingBackpackFilled
     shoes: ClothingShoesBootsCombatFilled
     eyes: ClothingEyesGlassesSunglasses

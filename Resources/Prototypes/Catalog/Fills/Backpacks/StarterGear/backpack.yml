@@ -123,6 +123,7 @@
   - type: StorageFill
     contents:
       - id: BoxSurvivalEngineering
+      - id: TacticalAxe
 
 - type: entity
   noSpawn: true

@@ -1,0 +1,15 @@
+- type: entity
+  id: ClothingBackpackDuffelParamedNTMILFilled
+  parent: ClothingBackpackDuffel
+  name: duffel bag
+  description: A duffel bag.
+  components:
+  - type: StorageFill
+    contents:
+      - id: TacticalAxe
+      - id: ClothingMaskBreathMedicalSecurity
+        amount: 2
+      - id: DoubleEmergencyOxygenTankFilled
+        amount: 2
+      - id: RollerBed
+      - id: Bloodpack10Lingering
