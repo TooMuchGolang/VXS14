@@ -1,5 +1,5 @@
 - type: entity
-  name: AMLG-90
+  name: SAMGL-9
   parent: BaseMechEquipment
   id: MechaWeaponLauncherAMGL
   description: Bloop. Big bloop.
