@@ -24,7 +24,7 @@
     back: ClothingBackpackFilled
     shoes: ClothingShoesBootsWork
     belt: ClothingBeltUtilityEngineering
-    id: SyndiPDA
+    id: SyndieEngineerIDCard
   satchel: ClothingBackpackDuffelSyndicateOperative
   duffelbag: ClothingBackpackDuffelSyndicateOperative
 
@@ -54,6 +54,6 @@
     back: ClothingBackpackFilled
     shoes: ClothingShoesBootsWork
     belt: ClothingBeltUtilityEngineering
-    id: SyndiPDA
+    id: ArtillerymanSyndieIDCard
   satchel: ClothingBackpackDuffelSyndicateOperative
   duffelbag: ClothingBackpackDuffelSyndicateOperative

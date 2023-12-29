@@ -52,7 +52,7 @@
     shoes: ClothingShoesBootsCombatFilled
     pocket1: EnergySword
     pocket2: EnergyShield
-    id: SyndiPDA
+    id: AgentIDCard
   satchel: ClothingBackpackDuffelSyndicateOperative
   duffelbag: ClothingBackpackDuffelSyndicateOperative
 
@@ -85,7 +85,7 @@
     eyes: ClothingEyesHudMedSec
     pocket1: EnergySword
     pocket2: EnergyShield
-    id: SyndiPDA
+    id: MarksmanIDCard
     belt: ClothingBeltMilitaryWebbing
   satchel: ClothingBackpackDuffelSyndicateOperative
   duffelbag: ClothingBackpackDuffelSyndicateOperative

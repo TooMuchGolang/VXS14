@@ -22,7 +22,7 @@
     outerClothing: ClothingOuterArmorBasicSlim
     head: ClothingHeadHelmetMerc
     shoes: ClothingShoesBootsJack
-    id: ReporterPDA
+    id: MilitaryCorrespondentNTIDCard
     ears: ClothingHeadsetAltSolFed
   satchel: ClothingBackpackSatchelFilled
   duffelbag: ClothingBackpackDuffelFilled
@@ -55,7 +55,7 @@
     back: ClothingBackpackFilled
     shoes: ClothingShoesBootsCombatFilled
     eyes: ClothingEyesGlassesSunglasses
-    id: WardenPDA
+    id: PeacekeeperNTIDCard
     belt: ClothingBeltMilitaryWebbing
   satchel: ClothingBackpackSatchel
   duffelbag: ClothingBackpackDuffel
@@ -88,7 +88,7 @@
     back: ClothingBackpackFilled
     shoes: ClothingShoesBootsCombatFilled
     eyes: ClothingEyesGlassesSunglasses
-    id: CaptainPDA
+    id: SFANTIDCard
     belt: ClothingBeltMilitaryWebbing
   satchel: ClothingBackpackSatchel
   duffelbag: ClothingBackpackDuffel

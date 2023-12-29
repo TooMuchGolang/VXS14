@@ -28,7 +28,7 @@
     pocket1: WeaponPistolViper
     pocket2: BaseUplinkRadio25TC
     eyes: ClothingEyesGlassesSunglasses
-    id: SyndiPDA
+    id: SMAAIDCard
     belt: ClothingBeltMilitaryWebbing
   satchel: ClothingBackpackDuffelSyndicateOperative
   duffelbag: ClothingBackpackDuffelSyndicateOperative

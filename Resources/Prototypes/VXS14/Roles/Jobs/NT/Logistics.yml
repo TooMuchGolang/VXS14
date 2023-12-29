@@ -28,17 +28,17 @@
     jumpsuit: ClothingUniformJumpsuitQM
     back: ClothingBackpack
     shoes: ClothingShoesBootsJack
-    outerClothing: ClothingOuterWinterQM
+    outerClothing: ClothingOuterWinterLogisticsOfficer
     mask: ClothingMaskGas
-    id: ClearPDA
+    id: LogisticsOfficerPDA
     gloves: ClothingHandsGlovesCombat
     eyes: ClothingEyesGlassesMeson
-    belt: ClothingBeltUtilityEngineering
+    belt: ClothingBeltMilitaryWebbingLogisticsOfficer
     ears: ClothingHeadsetAltNTCommand
   satchel: ClothingBackpackSatchel
   duffelbag: ClothingBackpackDuffel
 
-# Солдат поддержки
+# Парамедик
 
 - type: job
   id: ParamedicNT
@@ -61,7 +61,7 @@
     jumpsuit: ClothingUniformJumpsuitParamedicNT
     back: ClothingBackpackFilled
     shoes: ClothingShoesBootsJack
-    id: MedicalPDA
+    id: ParamedicsNTPDA
     ears: ClothingHeadsetAltNT
     eyes: ClothingEyesHudMedical
     gloves: ClothingHandsGlovesNitrile

@@ -23,7 +23,7 @@
     back: ClothingBackpackEngineeringFilled
     shoes: ClothingShoesBootsWork
     outerClothing: ClothingOuterArmorBasicSlim
-    id: EngineerPDA
+    id: MilEngineerNTPDA
     gloves: ClothingHandsGlovesCollorYellow
     eyes: ClothingEyesGlassesMeson
     belt: ClothingBeltUtilityEngineering
@@ -54,7 +54,7 @@
     jumpsuit: ClothingUniformJumpsuitMarine
     back: ClothingBackpackEngineeringFilled
     shoes: ClothingShoesBootsWork
-    id: EngineerPDA
+    id: MilExplosionTechNTPDA
     eyes: ClothingEyesGlassesMeson
     mask: ClothingMaskGas
     belt: ClothingBeltUtilityEngineering

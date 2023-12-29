@@ -21,7 +21,7 @@
     back: ClothingBackpack
     shoes: ClothingShoesBootsJack
     outerClothing: ClothingOuterArmorBulletproof
-    id: ClearPDA
+    id: MarineNTIDCard
     gloves: ClothingHandsGlovesCombat
     eyes: ClothingEyesGlassesMeson
     belt: ClothingBeltMilitaryWebbing

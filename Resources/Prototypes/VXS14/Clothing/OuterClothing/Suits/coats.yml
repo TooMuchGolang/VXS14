@@ -1,0 +1,17 @@
+- type: entity
+  parent: ClothingOuterWinterCoat
+  id: ClothingOuterWinterLogisticsOfficer
+  name: logistics officer's armored winter coat
+  description: A rugged, utilitarian winter coat designed to protect the logistics officer from shrapnel and hypothermia.
+  components:
+  - type: Sprite
+    sprite: VXS14/Clothing/OuterClothing/Suits/lo.rsi
+  - type: Clothing
+    sprite: VXS14/Clothing/OuterClothing/Suits/lo.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.70
+        Slash: 0.70
+        Piercing: 0.8
+        Heat: 0.70

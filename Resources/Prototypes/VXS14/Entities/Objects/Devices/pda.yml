@@ -1,0 +1,239 @@
+# Logistics Officer
+
+- type: entity
+  name: logistics officer PDA
+  parent: BasePDA
+  id: LogisticsOfficerPDA
+  description: Nekvatka boepripasov 70 procentov.
+  components:
+  - type: Pda
+    id: LogisticsOfficerIDCard
+    state: pda-qm
+  - type: PdaBorderColor
+    borderColor: "#e39751"
+    accentVColor: "#a23e3e"
+  - type: Icon
+    state: pda-qm
+
+- type: entity
+  parent: IDCardStandard
+  id: LogisticsOfficerIDCard
+  name: quartermaster ID card
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: idquartermaster
+    - type: PresetIdCard
+      job: LogisticsOfficerNT
+
+# Paramedic
+
+- type: entity
+  name: paramedics PDA
+  parent: BasePDA
+  id: MilParamedicNTPDA
+  description: Paramedik715?
+  components:
+  - type: Pda
+    id: MilParamedicsNTIDCard
+    state: pda-qm
+  - type: PdaBorderColor
+    borderColor: "#e39751"
+    accentVColor: "#a23e3e"
+  - type: Icon
+    state: pda-qm
+
+- type: entity
+  parent: IDCardStandard
+  id: MilParamedicsNTIDCard
+  name: paramedics ID card
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: idquartermaster
+    - type: PresetIdCard
+      job: ParamedicNT
+
+# Engineer
+
+- type: entity
+  name: engineer PDA
+  parent: BasePDA
+  id: MilEngineerNTPDA
+  description: I am an engineer!
+  components:
+  - type: Pda
+    id: MilEngineerNTIDCard
+    state: pda-qm
+  - type: PdaBorderColor
+    borderColor: "#e39751"
+    accentVColor: "#a23e3e"
+  - type: Icon
+    state: pda-qm
+
+- type: entity
+  parent: IDCardStandard
+  id: MilEngineerNTIDCard
+  name: engineer ID card
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: idquartermaster
+    - type: PresetIdCard
+      job: EngineerNT
+
+# Explosion Tech
+
+- type: entity
+  name: engineer PDA
+  parent: BasePDA
+  id: MilExplosionTechNTPDA
+  description: Garshik
+  components:
+  - type: Pda
+    id: MilEXPLTNTIDCard
+    state: pda-qm
+  - type: PdaBorderColor
+    borderColor: "#e39751"
+    accentVColor: "#a23e3e"
+  - type: Icon
+    state: pda-qm
+
+- type: entity
+  parent: IDCardStandard
+  id: MilEXPLTNTIDCard
+  name: explosion tech ID card
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: idquartermaster
+    - type: PresetIdCard
+      job: ExplosionTechnicianNT
+
+# Marines
+
+- type: entity
+  parent: IDCardStandard
+  id: MarineNTIDCard
+  name: marine ID card
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: idquartermaster
+    - type: PresetIdCard
+      job: MarineNT
+
+- type: entity
+  parent: IDCardStandard
+  id: HeavySoliderNTIDCard
+  name: heavy solider ID card
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: idquartermaster
+    - type: PresetIdCard
+      job: HeavySoliderNT
+
+# VoenKor
+
+- type: entity
+  parent: IDCardStandard
+  id: MilitaryCorrespondentNTIDCard
+  name: correspondent ID card
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: idquartermaster
+    - type: PresetIdCard
+      job: MilitaryCorrespondent
+
+# Peacekeeper
+
+- type: entity
+  parent: IDCardStandard
+  id: PeacekeeperNTIDCard
+  name: peacekeper ID card
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: idquartermaster
+    - type: PresetIdCard
+      job: Peacekeeper
+
+# SolFed Agent
+
+- type: entity
+  parent: IDCardStandard
+  id: SFANTIDCard
+  name: solfed agent ID card
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: idquartermaster
+    - type: PresetIdCard
+      job: SolFedAgent
+
+# Syndie Engineer
+
+- type: entity
+  parent: IDCardStandard
+  id: SyndieEngineerIDCard
+  name: syndicate engineer ID card
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: syndieengineer
+    - type: PresetIdCard
+      job: EngineerSyndicate
+
+# Artilleryman
+
+- type: entity
+  parent: IDCardStandard
+  id: ArtillerymanSyndieIDCard
+  name: artilleryman ID card
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: syndieengineer
+    - type: PresetIdCard
+      job: Artilleryman
+
+# MAA
+
+- type: entity
+  parent: IDCardStandard
+  id: SMAAIDCard
+  name: master at arms ID card
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: syndie
+    - type: PresetIdCard
+      job: MasterAtArms
+
+# Marksman
+
+- type: entity
+  parent: IDCardStandard
+  id: MarksmanIDCard
+  name: marksman ID card
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: syndie
+    - type: PresetIdCard
+      job: Marksman
