@@ -104,10 +104,16 @@ reagent-name-sigynate = sigynate
 reagent-desc-sigynate = A thick pink syrup useful for neutralizing acids and soothing trauma caused by acids.  Tastes sweet!
 
 reagent-name-saline = saline
-reagent-desc-saline = "A mixture of salt and water. Commonly used to treat dehydration or low fluid presence in blood."
+reagent-desc-saline = A mixture of salt and water. Commonly used to treat dehydration or low fluid presence in blood.
 
 reagent-name-sulfathiazolesilver = sulfathiazole silver
 reagent-desc-sulfathiazolesilver = Antimicrobial agent for external use, sulfonamide derivative. It has a bacteriostatic effect. Promotes wound healing.
 
 reagent-name-hydroxypropylcellulose = hydroxypropyl cellulose
 reagent-desc-hydroxypropylcellulose = derivative of cellulose with both water solubility and organic solubility. It is used as an excipient, and topical ophthalmic protectant and lubricant.
+
+reagent-name-hydrogenperoxide = hydrogen peroxide
+reagent-desc-hydrogenperoxide = An inorganic chemical compound of hydrogen and oxygen that is the simplest member of the peroxide class.
+
+reagent-name-traumel = traumel
+reagent-desc-traumel = Healing ointment of yellowish color with modified composition.

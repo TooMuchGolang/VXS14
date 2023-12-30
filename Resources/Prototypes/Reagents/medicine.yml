@@ -215,37 +215,37 @@
             types:
              Cellular: -2
 
-#- type: reagent
-#  id: Dermaline
-#  name: reagent-name-dermaline
-#  group: Medicine
-#  desc: reagent-desc-dermaline
-#  physicalDesc: reagent-physical-desc-translucent
-#  flavor: medicine
-#  color: "#215263"
-#  metabolisms:
-#    Medicine:
-#      effects:
-#      - !type:HealthChange
-#        damage:
-#          types:
-#            Heat: -1.5
-#            Shock: -1.5
-#            Cold: -1.5
-#      - !type:HealthChange
-#        conditions:
-#        - !type:ReagentThreshold
-#          min: 10
-#        damage:
-#          types:
-#            Asphyxiation: 1
-#            Cold: 2
-#        groups:
-#            Brute: 0.5
-#      - !type:Jitter
-#        conditions:
-#        - !type:ReagentThreshold
-#          min: 10
+- type: reagent
+  id: Dermaline
+  name: reagent-name-dermaline
+  group: Medicine
+  desc: reagent-desc-dermaline
+  physicalDesc: reagent-physical-desc-translucent
+  flavor: medicine
+  color: "#215263"
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:HealthChange
+        damage:
+          types:
+            Heat: -1.5
+            Shock: -1.5
+            Cold: -1.5
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentThreshold
+          min: 10
+        damage:
+          types:
+            Asphyxiation: 1
+            Cold: 2
+        groups:
+            Brute: 0.5
+      - !type:Jitter
+        conditions:
+        - !type:ReagentThreshold
+          min: 10
 
 - type: reagent
   id: Dexalin
