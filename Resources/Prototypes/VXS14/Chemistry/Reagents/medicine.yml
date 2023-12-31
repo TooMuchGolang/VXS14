@@ -20,8 +20,8 @@
             Cold: -0.22
             Caustic: -0.30
             Slash: -0.10
-      - !type:ChemCleanBloodstream
-        cleanseRate: 1
+#      - !type:ChemCleanBloodstream
+#        cleanseRate: 1
       - !type:SatiateThirst
         factor: -2
         conditions:
@@ -73,8 +73,8 @@
   metabolisms:
     Medicine:
       effects:
-      - !type:ChemCleanBloodstream
-        cleanseRate: 0.01
+#      - !type:ChemCleanBloodstream
+#        cleanseRate: 0.01
       - !type:HealthChange
         damage:
           types:
@@ -92,3 +92,7 @@
             Poison: 1.5
       - !type:ModifyBleedAmount
         amount: -0.2
+    Alcohol:
+      effects:
+      - !type:Drunk
+        boozePower: 6
