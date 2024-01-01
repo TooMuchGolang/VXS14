@@ -9,6 +9,7 @@
       time: 54000 # 15 hrs
   startingGear: AtmosphericTechnicianGear
   icon: "JobIconAtmosphericTechnician"
+  setPreference: false
   supervisors: job-supervisors-ce
   access:
   - Maintenance

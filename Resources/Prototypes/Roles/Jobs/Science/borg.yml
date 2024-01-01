@@ -8,5 +8,6 @@
       time: 216000 #60 hrs
   canBeAntag: false
   icon: JobIconBorg
+  setPreference: false
   supervisors: job-supervisors-rd
   jobEntity: PlayerBorgGeneric

@@ -5,6 +5,7 @@
   playTimeTracker: JobChaplain
   startingGear: ChaplainGear
   icon: "JobIconChaplain"
+  setPreference: false
   supervisors: job-supervisors-hop
   access:
   - Chapel

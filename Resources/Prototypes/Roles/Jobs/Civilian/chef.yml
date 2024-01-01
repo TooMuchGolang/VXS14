@@ -5,6 +5,7 @@
   playTimeTracker: JobChef
   requirements:
   startingGear: ChefGear
+  setPreference: false
   icon: "JobIconChef"
   supervisors: job-supervisors-hop
   access:

@@ -9,6 +9,7 @@
   startingGear: MimeGear
   icon: "JobIconMime"
   supervisors: job-supervisors-hop
+  setPreference: false
   access:
   - Theatre
   - Maintenance

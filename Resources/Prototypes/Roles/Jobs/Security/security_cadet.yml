@@ -12,6 +12,7 @@
       inverted: true # stop playing intern if you're good at security!
   startingGear: SecurityCadetGear
   icon: "JobIconSecurityCadet"
+  setPreference: false
   supervisors: job-supervisors-security
   canBeAntag: false
   access:

@@ -6,6 +6,7 @@
   startingGear: ReporterGear
   icon: "JobIconReporter"
   supervisors: job-supervisors-hop
+  setPreference: false
   access:
   - Service
   - Maintenance

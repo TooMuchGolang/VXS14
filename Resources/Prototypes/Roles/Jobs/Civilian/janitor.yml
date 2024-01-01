@@ -5,6 +5,7 @@
   playTimeTracker: JobJanitor
   startingGear: JanitorGear
   icon: "JobIconJanitor"
+  setPreference: false
   supervisors: job-supervisors-hop
   access:
   - Janitor

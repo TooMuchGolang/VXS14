@@ -19,6 +19,7 @@
   weight: 20
   startingGear: CaptainGear
   icon: "JobIconCaptain"
+  setPreference: false
   requireAdminNotify: true
   joinNotifyCrew: true
   supervisors: job-supervisors-centcom
