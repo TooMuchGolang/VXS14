@@ -29,9 +29,6 @@ enable_during_round = true
 # Annoying
 enabled = false
 
-[shuttle]
-auto_call_time = 0
-
 [net]
 tickrate = 30
 
