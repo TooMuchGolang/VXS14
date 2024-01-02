@@ -348,6 +348,7 @@ entities:
             7: -36.117805,-17.946663
             89: -9.099395,7.9024677
             116: 40.938652,8.005443
+            144: 14.876759,24.859804
         - node:
             angle: 3.141592653589793 rad
             color: '#FFFFFFFF'
@@ -414,6 +415,7 @@ entities:
             90: -6.972779,18.05201
             118: 22.011297,-14.066036
             134: 5.926835,0.18096936
+            149: 36.348656,20.848068
         - node:
             angle: 1.5707963267948966 rad
             color: '#FFFFFFFF'
@@ -427,6 +429,9 @@ entities:
             id: grasssnow10
           decals:
             43: -41,17
+            150: 28.345451,23.969051
+            151: 21.79814,18.96533
+            152: 39.746666,15.054559
         - node:
             angle: 1.5707963267948966 rad
             color: '#FFFFFFFF'
@@ -450,6 +455,9 @@ entities:
             130: 2.6398187,9.278631
             131: 4.081542,6.339646
             139: 7.3876286,-10.465576
+            145: 32.681137,24.71918
+            146: 24.507776,25.646255
+            147: 28.492151,18.535568
         - node:
             angle: 1.5707963267948966 rad
             color: '#FFFFFFFF'
@@ -505,6 +513,8 @@ entities:
             141: 8.3629265,-17.458158
             142: -1.4556429,5.2808523
             143: 4.5383215,11.997075
+            148: 24.04027,21.348068
+            153: 20.886562,8.962237
         - node:
             angle: 1.5707963267948966 rad
             color: '#FFFFFFFF'
@@ -2649,6 +2659,23 @@ entities:
     - pos: 63.5,-37.5
       parent: 2
       type: Transform
+- proto: Beaker
+  entities:
+  - uid: 3851
+    components:
+    - pos: 47.74205,31.69843
+      parent: 2
+      type: Transform
+    - solutions:
+        beaker:
+          temperature: 293.15
+          canMix: True
+          canReact: True
+          maxVol: 50
+          reagents:
+          - Quantity: 50
+            ReagentId: HydrogenPeroxide
+      type: SolutionContainerManager
 - proto: Bed
   entities:
   - uid: 932
@@ -2857,6 +2884,54 @@ entities:
   - uid: 973
     components:
     - pos: -15.495571,-9.611947
+      parent: 2
+      type: Transform
+- proto: BoxSyringe
+  entities:
+  - uid: 3872
+    components:
+    - pos: -24.5,-15.5
+      parent: 2
+      type: Transform
+- proto: BruteAutoInjector
+  entities:
+  - uid: 3875
+    components:
+    - pos: 63.67919,-41.31024
+      parent: 2
+      type: Transform
+  - uid: 3876
+    components:
+    - pos: 63.67919,-41.43524
+      parent: 2
+      type: Transform
+  - uid: 3877
+    components:
+    - pos: 63.663567,-41.544617
+      parent: 2
+      type: Transform
+- proto: Brutepack
+  entities:
+  - uid: 3874
+    components:
+    - pos: -24.275616,-13.443473
+      parent: 2
+      type: Transform
+- proto: BurnAutoInjector
+  entities:
+  - uid: 3878
+    components:
+    - pos: 63.163567,-41.31024
+      parent: 2
+      type: Transform
+  - uid: 3879
+    components:
+    - pos: 63.163567,-41.43524
+      parent: 2
+      type: Transform
+  - uid: 3880
+    components:
+    - pos: 63.17919,-41.56024
       parent: 2
       type: Transform
 - proto: CableApcExtension
@@ -7490,6 +7565,13 @@ entities:
     - pos: 70.5,-32.5
       parent: 2
       type: Transform
+- proto: Cautery
+  entities:
+  - uid: 3852
+    components:
+    - pos: 47.647602,31.297966
+      parent: 2
+      type: Transform
 - proto: Chair
   entities:
   - uid: 970
@@ -7985,6 +8067,86 @@ entities:
       pos: -21.5,-13.5
       parent: 2
       type: Transform
+- proto: DrinkBeerBottleFull
+  entities:
+  - uid: 3867
+    components:
+    - pos: 18.70634,-16.616749
+      parent: 2
+      type: Transform
+- proto: DrinkBottleAlcoClear
+  entities:
+  - uid: 3858
+    components:
+    - rot: 1.5707963267948966 rad
+      pos: -23.179125,-6.8321886
+      parent: 2
+      type: Transform
+  - uid: 3859
+    components:
+    - rot: -1.5707963267948966 rad
+      pos: -21.0985,-7.753767
+      parent: 2
+      type: Transform
+  - uid: 3868
+    components:
+    - pos: -24.314804,-12.455551
+      parent: 2
+      type: Transform
+    - solutions:
+        drink:
+          temperature: 293.15
+          canMix: False
+          canReact: True
+          maxVol: 50
+          reagents:
+          - Quantity: 50
+            ReagentId: HydrogenPeroxide
+      type: SolutionContainerManager
+- proto: DrinkBottleBeer
+  entities:
+  - uid: 3860
+    components:
+    - rot: 1.5707963267948966 rad
+      pos: -19.37975,-6.1600175
+      parent: 2
+      type: Transform
+  - uid: 3861
+    components:
+    - rot: -1.5707963267948966 rad
+      pos: 66.31598,-28.130623
+      parent: 2
+      type: Transform
+  - uid: 3862
+    components:
+    - rot: 3.141592653589793 rad
+      pos: 65.581604,-28.661873
+      parent: 2
+      type: Transform
+  - uid: 3863
+    components:
+    - rot: 1.5707963267948966 rad
+      pos: 65.94098,-28.286873
+      parent: 2
+      type: Transform
+  - uid: 3864
+    components:
+    - rot: -1.5707963267948966 rad
+      pos: 65.362854,-28.443123
+      parent: 2
+      type: Transform
+  - uid: 3865
+    components:
+    - rot: 3.141592653589793 rad
+      pos: 63.95553,-27.474789
+      parent: 2
+      type: Transform
+  - uid: 3866
+    components:
+    - rot: 1.5707963267948966 rad
+      pos: 64.6899,-27.881039
+      parent: 2
+      type: Transform
 - proto: DrinkGlassCoupeShaped
   entities:
   - uid: 1042
@@ -8347,6 +8509,18 @@ entities:
   - uid: 3576
     components:
     - pos: -26.5,-24.5
+      parent: 2
+      type: Transform
+- proto: FloraTreeChristmas01
+  entities:
+  - uid: 3856
+    components:
+    - pos: 65.528076,-27.662966
+      parent: 2
+      type: Transform
+  - uid: 3857
+    components:
+    - pos: -24.269552,-7.718416
       parent: 2
       type: Transform
 - proto: FloraTreeConifer01
@@ -12057,6 +12231,18 @@ entities:
     - pos: 26.5,-29.5
       parent: 2
       type: Transform
+- proto: Gauze
+  entities:
+  - uid: 3853
+    components:
+    - pos: 47.265816,31.31416
+      parent: 2
+      type: Transform
+  - uid: 3871
+    components:
+    - pos: -24.212162,-13.027583
+      parent: 2
+      type: Transform
 - proto: GeneratorBasic
   entities:
   - uid: 1598
@@ -13033,6 +13219,21 @@ entities:
     - pos: 47.227848,24.850458
       parent: 2
       type: Transform
+  - uid: 3850
+    components:
+    - pos: 47.28911,31.726486
+      parent: 2
+      type: Transform
+    - solutions:
+        beaker:
+          temperature: 293.15
+          canMix: True
+          canReact: True
+          maxVol: 200
+          reagents:
+          - Quantity: 200
+            ReagentId: Traumel
+      type: SolutionContainerManager
 - proto: KitchenMicrowave
   entities:
   - uid: 3015
@@ -13106,6 +13307,38 @@ entities:
     - pos: -4.2285767,21.929878
       parent: 2
       type: Transform
+- proto: LargeBeaker
+  entities:
+  - uid: 3869
+    components:
+    - pos: -24.67587,-12.441401
+      parent: 2
+      type: Transform
+    - solutions:
+        beaker:
+          temperature: 293.15
+          canMix: True
+          canReact: True
+          maxVol: 100
+          reagents:
+          - Quantity: 50
+            ReagentId: Traumel
+      type: SolutionContainerManager
+  - uid: 3870
+    components:
+    - pos: -24.672775,-12.909103
+      parent: 2
+      type: Transform
+    - solutions:
+        beaker:
+          temperature: 293.15
+          canMix: True
+          canReact: True
+          maxVol: 100
+          reagents:
+          - Quantity: 50
+            ReagentId: SulfathiazoleSilver
+      type: SolutionContainerManager
 - proto: Lighter
   entities:
   - uid: 1052
@@ -13405,6 +13638,13 @@ entities:
   - uid: 945
     components:
     - pos: -22.5,-13.5
+      parent: 2
+      type: Transform
+- proto: MedicatedSuture
+  entities:
+  - uid: 3854
+    components:
+    - pos: 47.530003,31.4829
       parent: 2
       type: Transform
 - proto: NitrogenCanister
@@ -14585,6 +14825,11 @@ entities:
     - pos: 61.5,-39.5
       parent: 2
       type: Transform
+  - uid: 3881
+    components:
+    - pos: -23.5,-15.5
+      parent: 2
+      type: Transform
 - proto: Poweredlight
   entities:
   - uid: 3017
@@ -14929,6 +15174,13 @@ entities:
     components:
     - rot: 1.5707963267948966 rad
       pos: 63.5,-31.5
+      parent: 2
+      type: Transform
+- proto: Rack
+  entities:
+  - uid: 3855
+    components:
+    - pos: 63.5,-41.5
       parent: 2
       type: Transform
 - proto: Railing
@@ -18200,6 +18452,13 @@ entities:
   - uid: 3412
     components:
     - pos: 61.5,-41.5
+      parent: 2
+      type: Transform
+- proto: TranexamicAcidChemistryBottle
+  entities:
+  - uid: 3873
+    components:
+    - pos: -24.686161,-13.402583
       parent: 2
       type: Transform
 - proto: VendingMachineSmartFridge
