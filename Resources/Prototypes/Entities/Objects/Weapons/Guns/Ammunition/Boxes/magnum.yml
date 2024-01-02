@@ -40,8 +40,22 @@
 
 - type: entity
   parent: BaseMagazineBoxMagnum
+  id: MagazineBoxMagnumHI
+  name: ammunition box (11,5x30 magnum high impulse)
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeMagnum
+  - type: Sprite
+    layers:
+    - state: impulse
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  parent: BaseMagazineBoxMagnum
   id: MagazineBoxMagnumHighVelocity
-  name: ammunition box (11,5x30 magnum high-velocity)
+  name: ammunition box (11,5x30 magnum tracer)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumHighVelocity

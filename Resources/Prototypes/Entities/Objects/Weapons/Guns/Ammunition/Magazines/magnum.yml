@@ -1,4 +1,4 @@
-- type: entity #TODO: real .45 ACP
+- type: entity
   id: BaseMagazineMagnumSubMachineGun
   name: "Vector magazine (11,5x30 ACP)"
   parent: BaseItem
@@ -46,8 +46,22 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
+  id: MagazineMagnumSubMachineGunHI
+  name: "Vector magazine (11,5x30 ACP high impulse)"
+  parent: BaseMagazineMagnumSubMachineGun
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeMagnumACPHI
+  - type: Sprite
+    layers:
+    - state: red
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
   id: MagazineMagnumSubMachineGunHighVelocity
-  name: "Vector magazine (11,5x30 ACP High-Velocity)"
+  name: "Vector magazine (11,5x30 ACP tracer)"
   parent: BaseMagazineMagnumSubMachineGun
   components:
   - type: BallisticAmmoProvider

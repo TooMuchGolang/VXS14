@@ -114,7 +114,7 @@
 
 - type: entity
   id: MagazinePistolCaselessRifleHighVelocity
-  name: "pistol magazine (5,6x10,7 caseless high-velocity)"
+  name: "pistol magazine (5,6x10,7 caseless tracer)"
   parent: BaseMagazinePistolCaselessRifle
   components:
   - type: BallisticAmmoProvider
@@ -188,7 +188,7 @@
 
 - type: entity
   id: MagazineCaselessRifleHighVelocity
-  name: "magazine (5,6x10,7 caseless high-velocity)"
+  name: "magazine (5,6x10,7 caseless tracer)"
   parent: BaseMagazineCaselessRifle
   components:
   - type: BallisticAmmoProvider
@@ -245,7 +245,7 @@
 
 - type: entity
   id: MagazineCaselessRifleShortHighVelocity
-  name: "short magazine (5,6x10,7 caseless high-velocity)"
+  name: "short magazine (5,6x10,7 caseless tracer)"
   parent: BaseMagazineCaselessRifleShort
   components:
   - type: BallisticAmmoProvider
@@ -287,3 +287,23 @@
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: MagazinePistolCaselessRifleHI
+  name: "pistol magazine (5,6x10,7 caseless high impulse)"
+  parent: BaseMagazinePistolCaselessRifle
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeCaselessRifleHI
+    capacity: 20
+  - type: Sprite
+    layers:
+    - state: high_velocity
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: MagazineVisuals
+    magState: mag
+    steps: 6
+    zeroVisible: false
+  - type: Appearance

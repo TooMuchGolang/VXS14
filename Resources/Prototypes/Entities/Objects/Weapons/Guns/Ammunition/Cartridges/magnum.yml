@@ -29,6 +29,14 @@
     proto: BulletMagnum
 
 - type: entity
+  id: CartridgeMagnumHI
+  name: cartridge (11,5x30 magnum high impulse)
+  parent: BaseCartridgeMagnum
+  components:
+  - type: CartridgeAmmo
+    proto: BulletMagnumHI
+
+- type: entity
   id: CartridgeMagnumHighVelocity
   name: cartridge (11,5x30 magnum high-velocity)
   parent: BaseCartridgeMagnum
@@ -150,6 +158,14 @@
   components:
   - type: CartridgeAmmo
     proto: BulletMagnumACP
+
+- type: entity
+  id: CartridgeMagnumACPHI
+  name: cartridge (11,5x30 ACP high impulse)
+  parent: BaseCartridgeMagnum
+  components:
+  - type: CartridgeAmmo
+    proto: BulletMagnumACPHI
 
 - type: entity
   id: CartridgeMagnumHighVelocityACP

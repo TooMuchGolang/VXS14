@@ -129,6 +129,20 @@
       ballistic-ammo: !type:Container
 
 - type: entity
+  id: MagazinePistolSubMachineGunTopMountedHI
+  name: WT550 magazine (9x19 auto high impulse top-mounted)
+  parent: MagazinePistolSubMachineGunTopMounted
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgePistolHI
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
   id: MagazinePistol
   name: pistol magazine (9x19 auto)
   parent: BaseMagazinePistol
@@ -143,8 +157,22 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
+  id: MagazinePistolHI
+  name: pistol magazine (9x19 auto high impulse)
+  parent: BaseMagazinePistol
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgePistolHI
+  - type: Sprite
+    layers:
+    - state: red
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
   id: MagazinePistolHighVelocity
-  name: pistol magazine (9x19 auto high-velocity)
+  name: pistol magazine (9x19 auto tracer)
   parent: BaseMagazinePistol
   components:
   - type: BallisticAmmoProvider
@@ -200,7 +228,7 @@
 
 - type: entity
   id: MagazinePistolHighCapacityHighVelocity
-  name: machine pistol magazine (9x19 auto high-velocity)
+  name: machine pistol magazine (9x19 auto tracer)
   parent: BaseMagazinePistolHighCapacity
   components:
   - type: BallisticAmmoProvider
@@ -261,8 +289,28 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
+  id: MagazinePistolSubMachineGunHI
+  name: SMG magazine (9x19 auto high impulse)
+  parent: BaseMagazinePistolSubMachineGun
+  components:
+  - type: BallisticAmmoProvider
+    capacity: 30
+    proto: CartridgePistolHI
+    whitelist:
+      tags:
+        - CartridgePistol
+    soundInsert:
+      path: /Audio/Weapons/Guns/MagIn/bullet_insert.ogg
+  - type: Sprite
+    layers:
+    - state: red
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
   id: MagazinePistolSubMachineGunHighVelocity
-  name: SMG magazine (9x19 auto high-velocity)
+  name: SMG magazine (9x19 auto tracer)
   parent: BaseMagazinePistolSubMachineGun
   components:
   - type: BallisticAmmoProvider

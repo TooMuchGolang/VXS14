@@ -56,6 +56,27 @@
   - type: Appearance
 
 - type: entity
+  id: MagazineLightRifleBoxHI
+  name: "L6 SAW magazine box (7,62x39 rifle high impulse)"
+  parent: BaseMagazineLightRifle
+  components:
+  - type: Item
+    size: 25
+  - type: Tag
+    tags:
+      - MagazineLightRifleBox
+  - type: BallisticAmmoProvider
+    proto: CartridgeLightRifleHI
+    capacity: 100
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/light_rifle_box.rsi
+  - type: MagazineVisuals
+    magState: mag
+    steps: 8
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
   id: MagazineLightRifle
   name: "magazine (7,62x39 rifle)"
   parent: BaseMagazineLightRifle
@@ -70,8 +91,22 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
+  id: MagazineLightRifleHI
+  name: "magazine (7,62x39 rifle high impulse)"
+  parent: BaseMagazineLightRifle
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeLightRifleHI
+  - type: Sprite
+    layers:
+    - state: red
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
   id: MagazineLightRifleHighVelocity
-  name: "magazine (7,62x39 rifle high-velocity)"
+  name: "magazine (7,62x39 rifle tracer)"
   parent: BaseMagazineLightRifle
   components:
   - type: BallisticAmmoProvider

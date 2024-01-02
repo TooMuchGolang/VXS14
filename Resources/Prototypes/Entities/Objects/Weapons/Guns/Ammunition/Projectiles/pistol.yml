@@ -58,3 +58,17 @@
     damage:
       groups:
         Burn: 3
+
+- type: entity
+  id: BulletPistolHI
+  name: bullet (9x19 auto high impulse)
+  parent: BaseBullet
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 4
+        Blunt: 12
+  - type: StaminaDamageOnCollide
+    damage: 11

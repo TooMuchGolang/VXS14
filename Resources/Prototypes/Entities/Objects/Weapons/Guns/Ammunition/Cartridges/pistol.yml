@@ -29,6 +29,14 @@
     proto: BulletPistol
 
 - type: entity
+  id: CartridgePistolHI
+  name: cartridge (9x19 auto high impulse)
+  parent: BaseCartridgePistol
+  components:
+  - type: CartridgeAmmo
+    proto: BulletPistolHI
+
+- type: entity
   id: CartridgePistolHighVelocity
   name: cartridge (9x19 auto high-velocity)
   parent: BaseCartridgePistol

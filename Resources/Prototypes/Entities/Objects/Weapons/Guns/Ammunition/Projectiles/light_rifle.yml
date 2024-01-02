@@ -9,7 +9,7 @@
       types:
         Piercing: 18
   - type: StaminaDamageOnCollide
-    damage: 15
+    damage: 16
 
 - type: entity
   id: BulletLightRifleHighVelocity
@@ -22,7 +22,7 @@
       types:
         Piercing: 18
   - type: StaminaDamageOnCollide
-    damage: 15
+    damage: 16
 
 - type: entity
   id: BulletLightRiflePractice
@@ -35,7 +35,7 @@
       types:
         Blunt: 2
   - type: StaminaDamageOnCollide
-    damage: 2
+    damage: 3
 
 - type: entity
   id: BulletLightRifleRubber
@@ -47,6 +47,8 @@
     damage:
       types:
         Blunt: 7
+  - type: StaminaDamageOnCollide
+    damage: 18
 
 - type: entity
   id: BulletLightRifleIncendiary
@@ -57,4 +59,18 @@
   - type: Projectile
     damage:
       groups:
-        Burn: 3
+        Burn: 4
+
+- type: entity
+  id: BulletLightRifleHI
+  name: bullet (7,62x39 rifle high impulse)
+  parent: BaseBullet
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 4
+        Blunt: 16
+  - type: StaminaDamageOnCollide
+    damage: 19

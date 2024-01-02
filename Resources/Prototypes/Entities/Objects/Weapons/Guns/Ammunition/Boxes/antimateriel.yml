@@ -58,3 +58,17 @@
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  parent: BaseMagazineBoxAntiMateriel
+  id: MagazineBoxAntiMaterielHI
+  name: ammunition box (12,7x99 high impulse)
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeAntiMaterielHI
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]

@@ -32,6 +32,14 @@
     proto: BulletCaselessRifle
 
 - type: entity
+  id: CartridgeCaselessRifleHI
+  name: cartridge (5,6x10,7 caseless high impulse)
+  parent: BaseCartridgeCaselessRifle
+  components:
+  - type: CartridgeAmmo
+    proto: BulletCaselessRifleHI
+
+- type: entity
   id: CartridgeCaselessRifleHighVelocity
   name: cartridge (5,6x10,7 caseless high-velocity)
   parent: BaseCartridgeCaselessRifle

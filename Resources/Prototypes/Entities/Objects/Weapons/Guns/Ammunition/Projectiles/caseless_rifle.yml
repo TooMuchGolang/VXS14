@@ -47,3 +47,19 @@
     damage:
       types:
         Blunt: 3
+  - type: StaminaDamageOnCollide
+    damage: 5
+
+- type: entity
+  id: BulletCaselessRifleHI
+  name: bullet (5,6x10,7 caseless high impulse)
+  parent: BaseBullet
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 6
+        Blunt: 15
+  - type: StaminaDamageOnCollide
+    damage: 6

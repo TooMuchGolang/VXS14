@@ -31,6 +31,14 @@
     proto: BulletRifle
 
 - type: entity
+  id: CartridgeRifleHI
+  name: cartridge (5,45x39 rifle high impulse)
+  parent: BaseCartridgeRifle
+  components:
+  - type: CartridgeAmmo
+    proto: BulletRifleHI
+
+- type: entity
   id: CartridgeRifleHighVelocity
   name: cartridge (5,45x39 rifle high-velocity)
   parent: BaseCartridgeRifle
