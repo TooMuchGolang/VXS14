@@ -35,6 +35,7 @@
     sprite: Objects/Weapons/Guns/Launchers/china_lake.rsi
   - type: AmmoCounter
   - type: Gun
+    projectileSpeed: 50
     cameraRecoilScalar: 2
     fireRate: 1
     selectedMode: SemiAuto
@@ -68,7 +69,8 @@
   - type: Clothing
     sprite: Objects/Weapons/Guns/Launchers/rocket.rsi
   - type: Gun
-    cameraRecoilScalar: 15
+    projectileSpeed: 50
+    cameraRecoilScalar: 14
     fireRate: 0.5
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/rpgfire.ogg

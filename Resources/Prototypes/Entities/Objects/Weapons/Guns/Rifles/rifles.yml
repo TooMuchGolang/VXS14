@@ -16,7 +16,8 @@
     - suitStorage
   - type: AmmoCounter
   - type: Gun
-    cameraRecoilScalar: 5
+    projectileSpeed: 35
+    cameraRecoilScalar: 3
     fireRate: 5
     minAngle: 1
     maxAngle: 5

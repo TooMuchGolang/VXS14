@@ -20,7 +20,8 @@
     - suitStorage
   - type: AmmoCounter
   - type: Gun
-    cameraRecoilScalar: 5
+    projectileSpeed: 30
+    cameraRecoilScalar: 4
     fireRate: 2
     selectedMode: SemiAuto
     availableModes:

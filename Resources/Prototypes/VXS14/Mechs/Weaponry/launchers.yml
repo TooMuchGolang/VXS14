@@ -9,6 +9,7 @@
     layers:
     - state: mecha_grenadelnchr
   - type: Gun
+    projectileSpeed: 45
     minAngle: 1
     maxAngle: 1
     angleIncrease: 1

@@ -20,6 +20,7 @@
     - suitStorage
     - Belt
   - type: Gun
+    projectileSpeed: 25
     cameraRecoilScalar: 1
     fireRate: 6
     selectedMode: SemiAuto

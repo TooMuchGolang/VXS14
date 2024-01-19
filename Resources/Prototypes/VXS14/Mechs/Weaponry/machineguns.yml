@@ -8,6 +8,7 @@
     layers:
     - state: mecha_uac2
   - type: Gun
+    projectileSpeed: 40
     minAngle: 1
     maxAngle: 6
     angleIncrease: 3

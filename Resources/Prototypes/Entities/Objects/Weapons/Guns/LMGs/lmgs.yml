@@ -18,6 +18,7 @@
     minAngle: -20
     maxAngle: -20
   - type: Gun
+    projectileSpeed: 35
     cameraRecoilScalar: 5
     minAngle: 24
     maxAngle: 45

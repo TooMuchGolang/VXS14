@@ -18,6 +18,7 @@
     - Back
   - type: AmmoCounter
   - type: Gun
+    projectileSpeed: 65
     fireRate: 0.3 # ~5 second cooldown between shots
     selectedMode: SemiAuto
     availableModes:
@@ -45,7 +46,7 @@
   description: A weapon for hunting, or endless trench warfare. Uses 7,62x39 rifle ammo. # WHY NOT 7.62x54mm R???
   components:
   - type: Gun
-    cameraRecoilScalar: 7
+    cameraRecoilScalar: 4
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
 
@@ -60,7 +61,7 @@
   - type: Clothing
     sprite: Objects/Weapons/Guns/Snipers/heavy_sniper.rsi
   - type: Gun
-    cameraRecoilScalar: 17
+    cameraRecoilScalar: 12
   - type: BallisticAmmoProvider
     whitelist:
       tags:
