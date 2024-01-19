@@ -25,7 +25,7 @@
       amount: 2
     - id: MagazineShotgunBeanbag
       amount: 1
-      
+
 - type: entity
   id: GunSafeSubMachineGunC20R
   suffix: C-20R
@@ -118,7 +118,7 @@
     contents:
     - id: WeaponLauncherRocket
       amount: 1
-    - id: CartridgeRocket
+    - id: CartridgeRocketFugas
       amount: 1
 
 - type: entity

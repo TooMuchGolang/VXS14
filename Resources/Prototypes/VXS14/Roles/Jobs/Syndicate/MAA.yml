@@ -26,7 +26,6 @@
     back: ClothingBackpackFilled
     shoes: ClothingShoesBootsCombatFilled
     pocket1: WeaponPistolViper
-    pocket2: BaseUplinkRadio25TC
     eyes: ClothingEyesGlassesSunglasses
     id: SMAAIDCard
     belt: ClothingBeltMilitaryWebbing

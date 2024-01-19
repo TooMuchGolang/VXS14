@@ -52,9 +52,9 @@
     back: ClothingBackpackFilled
     shoes: ClothingShoesBootsCombatFilled
     eyes: ClothingEyesGlassesSunglasses
-    pocket1: EnergySword
-    pocket2: EnergyShield
-    id: AgentIDCard
+    pocket1: AgentIDCard
+    pocket2: FlashlightSeclite
+    id: MarksmanIDCard
   satchel: ClothingBackpackDuffelSyndicateOperative
   duffelbag: ClothingBackpackDuffelSyndicateOperative
 
