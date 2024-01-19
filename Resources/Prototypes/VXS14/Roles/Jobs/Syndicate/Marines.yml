@@ -85,8 +85,7 @@
     back: ClothingBackpackFilled
     shoes: ClothingShoesBootsCombatFilled
     eyes: ClothingEyesHudMedSec
-    pocket1: EnergySword
-    pocket2: EnergyShield
+    pocket1: HandheldGPSBasic
     id: MarksmanIDCard
     belt: ClothingBeltMilitaryWebbing
   satchel: ClothingBackpackDuffelSyndicateOperative
