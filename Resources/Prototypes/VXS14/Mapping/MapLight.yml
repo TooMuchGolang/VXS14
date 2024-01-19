@@ -1,0 +1,40 @@
+- type: entity
+  id: MapLightBase
+  name: MapLightBase
+  suffix: NO MAP
+  components:
+  - type: Transform
+    anchored: true
+  - type: PointLight
+    radius: 10
+    energy: 0.8
+    softness: 1
+    offset: "0, -0.5"
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Wallmount
+
+- type: entity
+  parent: MapLightBase
+  id: MapLightSoft
+  name: MAP LIGHT SOFT
+  suffix: MAP LIGHT SOFT
+  components:
+  - type: PointLight
+    radius: 1
+    energy: 1
+    softness: 0.9
+    color: "#EEEEFF"
+
+- type: entity
+  parent: MapLightBase
+  id: MapLightStrong
+  name: MAP LIGHT STRONG
+  suffix: MAP LIGHT STRONG
+  components:
+  - type: PointLight
+    radius: 2
+    energy: 1.5
+    softness: 0.9
+    color: "#EEEEFF"
