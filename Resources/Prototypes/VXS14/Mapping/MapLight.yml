@@ -22,8 +22,8 @@
   suffix: MAP LIGHT SOFT
   components:
   - type: PointLight
-    radius: 1
-    energy: 1
+    radius: 2
+    energy: 1.5
     softness: 0.9
     color: "#EEEEFF"
 
@@ -34,7 +34,7 @@
   suffix: MAP LIGHT STRONG
   components:
   - type: PointLight
-    radius: 2
+    radius: 25
     energy: 1.5
     softness: 0.9
     color: "#EEEEFF"

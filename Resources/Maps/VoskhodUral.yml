@@ -1760,7 +1760,7 @@ entities:
       type: BecomesStation
     - type: GasTileOverlay
     - type: RadiationGridResistance
-    - ambientLightColor: '#000000E0'
+    - ambientLightColor: '#111111FF'
       type: MapLight
 - proto: AirAlarm
   entities:
