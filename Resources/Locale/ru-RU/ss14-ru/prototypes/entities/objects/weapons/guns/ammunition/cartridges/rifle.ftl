@@ -1,0 +1,10 @@
+ent-BaseCartridgeRifle = патрон (5.56 винтовочный)
+    .desc = { ent-BaseCartridge.desc }
+ent-CartridgeRifle = патрон (5.56 винтовочный)
+    .desc = { ent-BaseCartridgeRifle.desc }
+ent-CartridgeRifleHighVelocity = патрон (5.56 винтовочный высокоскоростной)
+    .desc = { ent-BaseCartridgeRifle.desc }
+ent-CartridgeRiflePractice = патрон (5.56 винтовочный учебный)
+    .desc = { ent-BaseCartridgeRifle.desc }
+ent-CartridgeRifleRubber = патрон (5.56 винтовочный резиновый)
+    .desc = { ent-BaseCartridgeRifle.desc }

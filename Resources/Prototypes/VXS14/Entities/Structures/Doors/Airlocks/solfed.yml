@@ -1,0 +1,53 @@
+- type: entity
+  parent: Airlock
+  id: AirlockSolfedOne
+  suffix: Solfed I
+  components:
+  - type: Sprite
+    sprite: VXS14/Structures/Doors/Airlocks/Standart/SolFed/MKOne.rsi
+  - type: Construction
+    node: airlockMedSecurity
+
+- type: entity
+  parent: AirlockSolfedOne
+  id: AirlockSolfedOneLocked
+  suffix: Solfed I, Locked
+  components:
+  - type: AccessReader
+    access: [["SolfedAccess"]]
+
+- type: entity
+  parent: Airlock
+  id: AirlockSolfedTwo
+  suffix: Solfed II
+  components:
+  - type: Sprite
+    sprite: VXS14/Structures/Doors/Airlocks/Standart/SolFed/MKTwo.rsi
+  - type: Construction
+    node: airlockMedSecurity
+
+- type: entity
+  parent: AirlockSolfedTwo
+  id: AirlockSolfedTwoLocked
+  suffix: Solfed II, Locked
+  components:
+  - type: AccessReader
+    access: [["SolFedSecond"]]
+
+- type: entity
+  parent: Airlock
+  id: AirlockSolfedThird
+  suffix: Solfed III
+  components:
+  - type: Sprite
+    sprite: VXS14/Structures/Doors/Airlocks/Standart/SolFed/MKThird.rsi
+  - type: Construction
+    node: airlockMedSecurity
+
+- type: entity
+  parent: AirlockSolfedThird
+  id: AirlockSolfedThirdLocked
+  suffix: Solfed III, Locked
+  components:
+  - type: AccessReader
+    access: [["SolarFedThird"]]

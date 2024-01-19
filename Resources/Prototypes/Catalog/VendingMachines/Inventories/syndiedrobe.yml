@@ -1,0 +1,41 @@
+- type: vendingMachineInventory
+  id: SyndieDrobeInventory
+  startingInventory:
+    ClothingHeadHatOutlawHat: 3
+    ClothingHeadHatSyndie: 5
+    ClothingMaskNeckGaiter: 5
+    ClothingOuterWinterSyndie: 5
+    ClothingOuterWinterSyndieCap: 3
+    ClothingOuterCoatSyndieCap: 3
+    ClothingUniformJumpsuitSyndieFormal: 5
+    ClothingUniformJumpskirtSyndieFormalDress: 5
+    ClothingUniformJumpsuitOperative: 5
+    ClothingUniformJumpskirtOperative: 5
+    ClothingNeckScarfStripedSyndieGreen: 2
+    ClothingNeckScarfStripedSyndieRed: 2
+    ClothingNeckTieRed: 2
+
+- type: vendingMachineInventory
+  id: SyndieDrobeArmoryInventory
+  startingInventory:
+    ClothingHeadHatSyndieMAA: 3
+    ClothingHeadHatOutlawHat: 3
+    ClothingHeadHatSyndie: 5
+    ClothingMaskNeckGaiter: 5
+    ClothingOuterWinterSyndie: 5
+    ClothingOuterWinterSyndieCap: 3
+    ClothingOuterCoatSyndieCap: 3
+    ClothingUniformJumpsuitSyndieFormal: 5
+    ClothingUniformJumpskirtSyndieFormalDress: 5
+    ClothingUniformJumpsuitOperative: 5
+    ClothingUniformJumpskirtOperative: 5
+    ClothingNeckScarfStripedSyndieGreen: 2
+    ClothingNeckScarfStripedSyndieRed: 2
+    ClothingOuterCoatSyndieCapArmored: 1
+    ClothingOuterWinterSyndieCapArmored: 1
+    ClothingHeadHatTacticalMaidHeadband: 3
+    ClothingUniformJumpskirtTacticalMaid: 3
+    ClothingHandsTacticalMaidGloves: 3 
+    ClothingNeckTieRed: 2
+    ClothingBeltMilitaryWebbing: 5
+    ClothingBeltSyndieHolster: 5

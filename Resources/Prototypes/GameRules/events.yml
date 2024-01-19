@@ -1,0 +1,15 @@
+- type: entity
+  id: MassHallucinations
+  parent: BaseGameRule
+  noSpawn: true
+  components:
+  - type: StationEvent
+    weight: 1
+    duration: 100
+    maxDuration: 150
+  - type: MassHallucinationsRule
+    minTimeBetweenIncidents: 0.1
+    maxTimeBetweenIncidents: 300
+    maxSoundDistance: 7
+    sounds:
+      collection: Paracusia

@@ -1,0 +1,14 @@
+- type: entity
+  name: Rex
+  parent: BaseWeaponRevolver
+  id: WeaponRevolverRex
+  description: Robust revolver with rubber grip and stainless steel body, a wonderful argument in dangerous situations. Uses .45 magnum cartridges.
+  components:
+  - type: Sprite
+    sprite: VXS14/Objects/Weapons/Guns/Revolvers/rex.rsi
+  - type: Clothing
+    sprite: VXS14/Objects/Weapons/Guns/Revolvers/rex.rsi
+  - type: RevolverAmmoProvider
+    capacity: 6
+    chambers: [ True, True, True, True, True, True ]
+    ammoSlots: [ null, null, null, null, null, null ]

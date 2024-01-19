@@ -1,0 +1,7 @@
+- type: accessLevel
+  id: Syndicate
+  name: Syndicate
+
+- type: accessLevel
+  id: SyndicateArmory
+  name: Syndicate armory

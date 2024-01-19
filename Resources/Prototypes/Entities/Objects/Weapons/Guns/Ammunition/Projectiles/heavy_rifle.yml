@@ -1,0 +1,39 @@
+- type: entity
+  id: BulletHeavyRifle
+  name: bullet (5,45x39 rifle)
+  parent: BaseBullet
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 19
+  - type: StaminaDamageOnCollide
+    damage: 13
+
+- type: entity
+  id: BulletHeavyRifleHI
+  name: bullet (5,45x39 rifle high impulse)
+  parent: BaseBullet
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 6
+        Blunt: 13
+  - type: StaminaDamageOnCollide
+    damage: 17
+
+- type: entity
+  id: BulletMinigun
+  name: minigun bullet (.10 rifle)
+  parent: BulletHeavyRifle
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 5
+  - type: StaminaDamageOnCollide
+    damage: 2

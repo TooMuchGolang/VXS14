@@ -1,0 +1,75 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitMarine
+  name: marine jumpsuit
+  description: Specialty turtleneck made of cotton, Kevlar and dense fabric. It has small holes on the back for ventilation.
+  components:
+  - type: Sprite
+    sprite: VXS14/Clothing/Uniforms/Jumpsuit/universalcomb.rsi
+  - type: Clothing
+    sprite: VXS14/Clothing/Uniforms/Jumpsuit/universalcomb.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.98
+        Slash: 0.95
+        Piercing: 0.98
+        Cold: 0.9
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingMaskHalatMokh
+  name: camouflage jacket
+  suffix: Inner
+  description: Comfortable and warm camouflage jacket, it has a small armor vest sewn into it. It consists of colored ribbons and various kinds of branches, inside it has a vest and a light winter jacket with a backing for lying down
+  components:
+  - type: Sprite
+    sprite: VXS14/Clothing/OuterClothing/Armor/maskhalat-mokh.rsi
+  - type: Clothing
+    sprite: VXS14/Clothing/OuterClothing/Armor/maskhalat-mokh.rsi
+  - type: Item
+    size: 15
+  - type: Food
+    requiresSpecialDigestion: true
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 20
+        reagents:
+        - ReagentId: Fiber
+          Quantity: 20
+  - type: Tag
+    tags:
+    - ClothMade
+    - HidesHair
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingMaskHalatWinter
+  name: camouflage jacket
+  suffix: Inner
+  description: Comfortable and warm camouflage jacket, it has a small armor vest sewn into it. It consists of colored ribbons and various kinds of branches, inside it has a vest and a light winter jacket with a backing for lying down
+  components:
+  - type: Sprite
+    sprite: VXS14/Clothing/OuterClothing/Armor/maskhalat-winter.rsi
+  - type: Clothing
+    sprite: VXS14/Clothing/OuterClothing/Armor/maskhalat-winter.rsi
+  - type: TemperatureProtection
+    coefficient: 0.1
+  - type: Item
+    size: 15
+  - type: Food
+    requiresSpecialDigestion: true
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 20
+        reagents:
+        - ReagentId: Fiber
+          Quantity: 20
+  - type: Tag
+    tags:
+    - ClothMade
+    - HidesHair
+    - WhitelistChameleon

@@ -1,0 +1,64 @@
+- type: entity
+  id: BaseCartridgeCaselessRifle
+  name: cartridge (5,6x10,7 rifle)
+  parent: BaseCartridge
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+      - Cartridge
+      - CartridgeCaselessRifle
+  - type: CartridgeAmmo
+    deleteOnSpawn: true
+  - type: Sprite
+    noRot: false
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpentAmmoVisuals
+  - type: StaticPrice
+    price: 10
+  - type: Item
+    size: 2
+
+- type: entity
+  id: CartridgeCaselessRifle
+  name: cartridge (5,6x10,7 caseless)
+  parent: BaseCartridgeCaselessRifle
+  components:
+  - type: CartridgeAmmo
+    proto: BulletCaselessRifle
+
+- type: entity
+  id: CartridgeCaselessRifleHI
+  name: cartridge (5,6x10,7 caseless high impulse)
+  parent: BaseCartridgeCaselessRifle
+  components:
+  - type: CartridgeAmmo
+    proto: BulletCaselessRifleHI
+
+- type: entity
+  id: CartridgeCaselessRifleHighVelocity
+  name: cartridge (5,6x10,7 caseless high-velocity)
+  parent: BaseCartridgeCaselessRifle
+  components:
+  - type: CartridgeAmmo
+    proto: BulletCaselessRifleHighVelocity
+
+- type: entity
+  id: CartridgeCaselessRiflePractice
+  name: cartridge (5,6x10,7 caseless practice)
+  parent: BaseCartridgeCaselessRifle
+  components:
+  - type: CartridgeAmmo
+    proto: BulletCaselessRiflePractice
+
+- type: entity
+  id: CartridgeCaselessRifleRubber
+  name: cartridge (5,6x10,7 caseless rubber)
+  parent: BaseCartridgeCaselessRifle
+  components:
+  - type: CartridgeAmmo
+    proto: BulletCaselessRifleRubber

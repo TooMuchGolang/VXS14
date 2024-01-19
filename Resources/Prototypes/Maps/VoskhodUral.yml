@@ -1,0 +1,30 @@
+- type: gameMap
+  id: VoskhodUral
+  mapName: 'Voskhod-Ural'
+  mapPath: /Maps/VoskhodUral.yml
+  minPlayers: 1
+  stations:
+    VoskhodUral:
+      stationProto: StandardSolFedPlanet
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: '{0} VoskhodUral {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: 'SolFed'
+        - type: StationJobs
+          overflowJobs:
+            - StormTrooper
+            - MarineNT
+          availableJobs:
+            SolFedAgent: [ 1, 1 ]
+            Peacekeeper: [ 2, 2 ]
+            MasterAtArms: [1, 1]
+            EngineerSyndicate: [2, 2]
+            StormTrooper: [-1, -1]
+            Marksman: [2, 2]
+            EngineerNT: [ 3, 3 ]
+            LogisticsOfficerNT: [ 1, 1 ]
+            ParamedicNT: [ 2, 2 ]
+            MarineNT: [ -1, -1 ]
+            HeavySoliderNT: [ 3, 3 ]

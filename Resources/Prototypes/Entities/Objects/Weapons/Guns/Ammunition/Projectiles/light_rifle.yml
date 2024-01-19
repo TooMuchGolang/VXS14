@@ -1,0 +1,76 @@
+- type: entity
+  id: BulletLightRifle
+  name: bullet (7,62x39 rifle)
+  parent: BaseBullet
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 18
+  - type: StaminaDamageOnCollide
+    damage: 16
+
+- type: entity
+  id: BulletLightRifleHighVelocity
+  name: bullet (7,62x39 rifle tracer)
+  parent: BaseBulletHighVelocity
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 18
+  - type: StaminaDamageOnCollide
+    damage: 16
+
+- type: entity
+  id: BulletLightRiflePractice
+  name: bullet (7,62x39 rifle practice)
+  parent: BaseBulletPractice
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 2
+  - type: StaminaDamageOnCollide
+    damage: 3
+
+- type: entity
+  id: BulletLightRifleRubber
+  name: bullet 7,62x39 rifle rubber)
+  parent: BaseBulletRubber
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 7
+  - type: StaminaDamageOnCollide
+    damage: 18
+
+- type: entity
+  id: BulletLightRifleIncendiary
+  parent: BaseBulletIncendiary
+  name: bullet (7,62x39 rifle incendiary)
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      groups:
+        Burn: 4
+
+- type: entity
+  id: BulletLightRifleHI
+  name: bullet (7,62x39 rifle high impulse)
+  parent: BaseBullet
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 4
+        Blunt: 16
+  - type: StaminaDamageOnCollide
+    damage: 19

@@ -1,0 +1,16 @@
+ent-BaseMagazineLightRifle = магазин (7.62 винтовочные)
+    .desc = { ent-BaseItem.desc }
+ent-MagazineLightRifleBox = короб патронов L6 SAW (7.62 винтовочные)
+    .desc = { ent-BaseMagazineLightRifle.desc }
+ent-MagazineLightRifle = магазин (7.62 винтовочные)
+    .desc = { ent-BaseMagazineLightRifle.desc }
+ent-MagazineLightRifleHighVelocity = магазин (7.62 винтовочные высокоскоростные)
+    .desc = { ent-BaseMagazineLightRifle.desc }
+ent-MagazineLightRiflePractice = магазин (7.62 винтовочные учебные)
+    .desc = { ent-BaseMagazineLightRifle.desc }
+ent-MagazineLightRifleRubber = магазин (7.62 винтовочные резиновые)
+    .desc = { ent-BaseMagazineLightRifle.desc }
+ent-MagazineLightRifleMaxim = дисковый магазин (7.62 винтовочные)
+    .desc = { ent-BaseMagazineLightRifle.desc }
+ent-MagazineLightRiflePkBox = короб патронов ПК (7.62 винтовочные)
+    .desc = { ent-BaseMagazineLightRifle.desc }

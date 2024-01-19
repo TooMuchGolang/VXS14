@@ -1,0 +1,20 @@
+- type: entity
+  id: MagazineHeavyRifleBoxMechaMG
+  name: "Ultra AC-2 magazine box (5,56x39 rifle)"
+  parent: BaseMagazineLightRifle
+  components:
+  - type: Item
+    size: 50
+  - type: Tag
+    tags:
+      - MagazineHeavyRifleBoxMechaMG
+  - type: BallisticAmmoProvider
+    proto: CartridgeRifleHighVelocity
+    capacity: 250
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/light_rifle_box.rsi
+  - type: MagazineVisuals
+    magState: mag
+    steps: 8
+    zeroVisible: false
+  - type: Appearance

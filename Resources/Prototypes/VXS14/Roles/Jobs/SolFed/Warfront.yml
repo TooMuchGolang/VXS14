@@ -1,0 +1,100 @@
+# MilitaryCorrespondent
+
+- type: job
+  id: MilitaryCorrespondent
+  name: Military Correspondent
+  description: Film the war.
+  playTimeTracker: JobStationEngineer
+  startingGear: CorrespondentGear
+  icon: "JobIconReporter"
+  supervisors: job-supervisors-solfed
+  access:
+  - Service
+  - Maintenance
+  - SolfedAccess
+  - SolFedSecond
+
+- type: startingGear
+  id: CorrespondentGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitReporter
+    back: ClothingBackpackFilled
+    gloves: ClothingHandsGlovesFingerless
+    outerClothing: ClothingOuterArmorBasicSlim
+    head: ClothingHeadHelmetMerc
+    pocket1: FlashlightLantern
+    shoes: ClothingShoesBootsJack
+    id: MilitaryCorrespondentNTIDCard
+    ears: ClothingHeadsetAltSolFed
+  satchel: ClothingBackpackSatchelFilled
+  duffelbag: ClothingBackpackDuffelFilled
+
+# Peacekeeper
+
+- type: job
+  id: Peacekeeper
+  name: Peacekeeper
+  description: Try to establish relations between the sides, create buffer zones, bring in humanitarian aid, set up civil defense stations.
+  playTimeTracker: JobStationEngineer
+  startingGear: PeacekeeperGear
+  icon: "JobIconMedicalIntern"
+  supervisors: job-supervisors-solfed
+  access:
+  - Maintenance
+  - External
+  - SolfedAccess
+  - SolFedSecond
+  - SolarFedThird
+
+- type: startingGear
+  id: PeacekeeperGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSecBlue
+    head: ClothingHeadHelmetMerc
+    outerClothing: ClothingOuterArmorBulletproof
+    ears: ClothingHeadsetAltSolFed
+    pocket1: WeaponRevolverRex
+    mask: ClothingMaskNeckGaiter
+    pocket2: FlashlightLantern
+    gloves: ClothingHandsGlovesCombat
+    back: ClothingBackpackParamedNTMILFilled
+    shoes: ClothingShoesBootsCombatFilled
+    eyes: ClothingEyesGlassesSunglasses
+    id: PeacekeeperNTIDCard
+    belt: ClothingBeltMilitaryWebbing
+  duffelbag: ClothingBackpackDuffelParamedNTMILFilled
+
+# SolFedAgent
+
+- type: job
+  id: SolFedAgent
+  name: SolFed Agent
+  description: Manager of the brig and combat personnel. Responsible for guarding the complex and maintaining order in it.
+  playTimeTracker: JobStationEngineer
+  startingGear: SFAGear
+  icon: "JobIconVirologist"
+  supervisors: job-supervisors-slfd
+  access:
+  - SolfedAccess
+  - SolFedSecond
+  - SolarFedThird
+  accessGroups:
+  - AllAccess
+
+- type: startingGear
+  id: SFAGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSecBlue
+    head: ClothingHeadHelmetMerc
+    outerClothing: ClothingOuterArmorBasic
+    ears: ClothingHeadsetAltSolFed
+    gloves: ClothingHandsGlovesCombat
+    pocket1: WeaponRevolverRex
+    pocket2: FlashlightLantern
+    back: ClothingBackpackFilled
+    shoes: ClothingShoesBootsCombatFilled
+    eyes: ClothingEyesGlassesSunglasses
+    id: SFANTIDCard
+    belt: ClothingBeltMilitaryWebbing
+  satchel: ClothingBackpackSatchel
+  duffelbag: ClothingBackpackDuffel

@@ -1,0 +1,183 @@
+- type: entity
+  id: BulletMagnum
+  name: bullet (11,5x30 magnum)
+  parent: BaseBullet
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 29
+  - type: StaminaDamageOnCollide
+    damage: 29
+
+- type: entity
+  id: BulletMagnumHI
+  name: bullet (11,5x30 high impulse)
+  parent: BaseBullet
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 8
+        Blunt: 20
+  - type: StaminaDamageOnCollide
+    damage: 33
+
+- type: entity
+  id: BulletMagnumHighVelocity
+  name: bullet (11,5x30 high-velocity)
+  parent: BaseBulletHighVelocity
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 29
+  - type: StaminaDamageOnCollide
+    damage: 29
+
+- type: entity
+  id: BulletMagnumPractice
+  name: bullet (11,5x30 practice)
+  parent: BaseBulletPractice
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 1
+  - type: StaminaDamageOnCollide
+    damage: 9
+
+- type: entity
+  id: BulletMagnumRubber
+  name: bullet (11,5x30 rubber)
+  parent: BaseBulletRubber
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 3
+  - type: StaminaDamageOnCollide
+    damage: 36
+
+- type: entity
+  id: BulletMagnumIncendiary
+  parent: BaseBulletIncendiary
+  name: bullet (11,5x30 incendiary)
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      groups:
+        Burn: 12
+
+- type: entity
+  id: BulletMagnumAP
+  name: bullet (11,5x30 armor-piercing)
+  parent: BaseBulletAP
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 26 # 20% decrease
+    ignoreResistances: true
+  - type: StaminaDamageOnCollide
+    damage: 3
+
+# ACP
+
+- type: entity
+  id: BulletMagnumACP
+  name: bullet (11,5x30 magnum)
+  parent: BaseBullet
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 17
+  - type: StaminaDamageOnCollide
+    damage: 6
+
+- type: entity
+  id: BulletMagnumHighVelocityACP
+  name: bullet (11,5x30 high-velocity)
+  parent: BaseBulletHighVelocity
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 14
+  - type: StaminaDamageOnCollide
+    damage: 3
+
+- type: entity
+  id: BulletMagnumPracticeACP
+  name: bullet (11,5x30 practice)
+  parent: BaseBulletPractice
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 1
+  - type: StaminaDamageOnCollide
+    damage: 5
+
+- type: entity
+  id: BulletMagnumRubberACP
+  name: bullet (11,5x30 rubber)
+  parent: BaseBulletRubber
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 4
+  - type: StaminaDamageOnCollide
+    damage: 11
+
+- type: entity
+  id: BulletMagnumIncendiaryACP
+  parent: BaseBulletIncendiary
+  name: bullet (11,5x30 incendiary)
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      groups:
+        Burn: 4
+
+- type: entity
+  id: BulletMagnumAPACP
+  name: bullet (11,5x30 armor-piercing)
+  parent: BaseBulletAP
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 13
+    ignoreResistances: true
+  - type: StaminaDamageOnCollide
+    damage: 5
+
+- type: entity
+  id: BulletMagnumACPHI
+  name: bullet (11,5x30 high impulse)
+  parent: BaseBullet
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 4
+        Blunt: 13
+  - type: StaminaDamageOnCollide
+    damage: 11

@@ -1,0 +1,102 @@
+- type: entity
+  id: BaseMagazineMagnumSubMachineGun
+  name: "Vector magazine (11,5x30 ACP)"
+  parent: BaseItem
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+      - MagazineMagnumSubMachineGun
+  - type: BallisticAmmoProvider
+    mayTransfer: true
+    whitelist:
+      tags:
+        - CartridgeMagnumACP
+    capacity: 20
+  - type: Item
+    size: 15
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Magazine/Magnum/magnum_smg_mag.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
+  id: MagazineMagnumSubMachineGun
+  name: "Vector magazine (11,5x30 ACP)"
+  parent: BaseMagazineMagnumSubMachineGun
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeMagnumACP
+  - type: Sprite
+    layers:
+    - state: red
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: MagazineMagnumSubMachineGunHI
+  name: "Vector magazine (11,5x30 ACP high impulse)"
+  parent: BaseMagazineMagnumSubMachineGun
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeMagnumACPHI
+  - type: Sprite
+    layers:
+    - state: red
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: MagazineMagnumSubMachineGunHighVelocity
+  name: "Vector magazine (11,5x30 ACP tracer)"
+  parent: BaseMagazineMagnumSubMachineGun
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeMagnumHighVelocityACP
+  - type: Sprite
+    layers:
+    - state: high_velocity
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: MagazineMagnumSubMachineGunPractice
+  name: "Vector magazine (11,5x30 ACP practice)"
+  parent: BaseMagazineMagnumSubMachineGun
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeMagnumPracticeACP
+  - type: Sprite
+    layers:
+    - state: practice
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: MagazineMagnumSubMachineGunRubber
+  name: "Vector magazine (11,5x30 ACP rubber)"
+  parent: BaseMagazineMagnumSubMachineGun
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeMagnumRubberACP
+  - type: Sprite
+    layers:
+    - state: rubber
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]

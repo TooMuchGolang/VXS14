@@ -1,0 +1,37 @@
+- type: reaction
+  id: SulfathiazoleSilver
+  minTemp: 370
+  impact: Low
+  reactants:
+    Ethanol:
+      amount: 3
+    Silver:
+      amount: 0.3
+    Water:
+      amount: 1
+    Oxygen:
+      amount: 2
+      catalyst: true
+    Glycerol:
+      amount: 6
+  products:
+    SulfathiazoleSilver: 2
+
+- type: reaction
+  id: Hydroxypropylcellulose
+  minTemp: 385
+  impact: Low
+  reactants:
+    Ethanol:
+      amount: 1
+      catalyst: true
+    Sugar:
+      amount: 5
+    Oxygen:
+      amount: 2
+      catalyst: true
+    Water:
+      amount: 1
+      catalyst: true
+  products:
+    Hydroxypropylcellulose: 2

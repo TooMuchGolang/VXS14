@@ -1,0 +1,30 @@
+- type: entity
+  noSpawn: true
+  parent: BaseBulletHighVelocity
+  id: BulletAntiMateriel
+  name: bullet (.50 BMG)
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 70
+        Blunt: 39
+        Structural: 35
+    ignoreResistances: true
+  - type: StaminaDamageOnCollide
+    damage: 99
+
+- type: entity
+  noSpawn: true
+  parent: BaseBulletHighVelocity
+  id: BulletAntiMaterielHI
+  name: bullet (.50 BMG high impulse)
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 60
+        Blunt: 90
+        Structural: 20
+  - type: StaminaDamageOnCollide
+    damage: 140

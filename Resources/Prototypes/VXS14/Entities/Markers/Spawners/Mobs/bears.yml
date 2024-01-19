@@ -1,0 +1,19 @@
+- type: entity
+  name: Bear Timed Spawner
+  id: BearTimedSpawner
+  parent: MarkerBase
+  components:
+    - type: Sprite
+      layers:
+        - state: blue
+        - sprite: Mobs/Animals/bear.rsi
+          state: bear
+        - state: timed
+    - type: Timer
+    - type: TimedSpawner
+      prototypes:
+        - MobBearSpace
+      chance: 0.5
+      intervalSeconds: 540
+      minimumEntitiesSpawned: 1
+      maximumEntitiesSpawned: 1

@@ -1,0 +1,11 @@
+﻿- type: lobbyBackground
+  id: Zima
+  background: /Textures/LobbyScreens/zima.png
+
+- type: lobbyBackground
+  id: SpaceSt
+  background: /Textures/LobbyScreens/ss.png
+
+- type: lobbyBackground
+  id: TOS
+  background: /Textures/LobbyScreens/tos.png

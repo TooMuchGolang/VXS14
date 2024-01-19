@@ -1,0 +1,71 @@
+- type: entity
+  id: BaseCartridgeRifle
+  name: cartridge (5,45x39 rifle)
+  parent: BaseCartridge
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+      - Cartridge
+      - CartridgeRifle
+  - type: CartridgeAmmo
+    proto: BulletRifle
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing_BL.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpentAmmoVisuals
+  - type: StaticPrice
+    price: 10
+  - type: Item
+    size: 2
+
+- type: entity
+  id: CartridgeRifle
+  name: cartridge (5,45x39 rifle)
+  parent: BaseCartridgeRifle
+  components:
+  - type: CartridgeAmmo
+    proto: BulletRifle
+
+- type: entity
+  id: CartridgeRifleHI
+  name: cartridge (5,45x39 rifle high impulse)
+  parent: BaseCartridgeRifle
+  components:
+  - type: CartridgeAmmo
+    proto: BulletRifleHI
+
+- type: entity
+  id: CartridgeRifleHighVelocity
+  name: cartridge (5,45x39 rifle high-velocity)
+  parent: BaseCartridgeRifle
+  components:
+  - type: CartridgeAmmo
+    proto: BulletRifleHighVelocity
+
+- type: entity
+  id: CartridgeRiflePractice
+  name: cartridge (5,45x39 rifle practice)
+  parent: BaseCartridgeRifle
+  components:
+  - type: CartridgeAmmo
+    proto: BulletRiflePractice
+
+- type: entity
+  id: CartridgeRifleRubber
+  name: cartridge (5,45x39 rifle rubber)
+  parent: BaseCartridgeRifle
+  components:
+  - type: CartridgeAmmo
+    proto: BulletRifleRubber
+
+- type: entity
+  id: CartridgeRifleIncendiary
+  name: cartridge (5,45x39 rifle incendiary)
+  parent: BaseCartridgeRifle
+  components:
+  - type: CartridgeAmmo
+    proto: BulletRifleIncendiary

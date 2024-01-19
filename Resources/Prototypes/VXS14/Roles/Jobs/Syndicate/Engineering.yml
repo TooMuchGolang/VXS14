@@ -1,0 +1,67 @@
+# Инженер
+
+- type: job
+  id: EngineerSyndicate
+  name: Syndicate Engineer
+  description: Again, you are just like your NT friend, but with a bit of a fun.
+  playTimeTracker: JobStationEngineer
+  startingGear: SyndieEngineerGear
+  icon: "SyndieEngineer"
+  supervisors: job-supervisors-syndie
+  access:
+  - Maintenance
+  - External
+  - Syndicate
+
+- type: startingGear
+  id: SyndieEngineerGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitEngineeringHazard
+    head: ClothingHeadHelmetSwatSyndicate
+    outerClothing: ClothingOuterArmorBasicSlim
+    eyes: ClothingEyesGlassesMeson
+    ears: ClothingHeadsetAltSyndicate
+    mask: ClothingMaskNeckGaiter
+    gloves: ClothingHandsGlovesCombat
+    back: ClothingBackpackFilled
+    pocket1: HandheldGPSBasic
+    pocket2: FlashlightLantern
+    shoes: ClothingShoesBootsWork
+    belt: ClothingBeltUtilityEngineering
+    id: SyndieEngineerIDCard
+  satchel: ClothingBackpackDuffelSyndicateOperative
+  duffelbag: ClothingBackpackDuffelSyndicateOperative
+
+# Артиллерист
+
+- type: job
+  id: Artilleryman
+  name: Artilleryman
+  description: BLOW EVERYBODY UP!!! Not Garshick.
+  playTimeTracker: JobStationEngineer
+  startingGear: SyndieArtillerymanGear
+  icon: "JobIconSecurityCadet"
+  supervisors: job-supervisors-syndie
+  access:
+  - Maintenance
+  - External
+  - Syndicate
+
+- type: startingGear
+  id: SyndieArtillerymanGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitEngineeringHazard
+    head: ClothingHeadHelmetSwatSyndicate
+    outerClothing: ClothingOuterArmorBasicSlim
+    eyes: ClothingEyesGlassesMeson
+    ears: ClothingHeadsetAltSyndicate
+    mask: ClothingMaskNeckGaiter
+    gloves: ClothingHandsGlovesCombat
+    back: ClothingBackpackFilled
+    pocket1: HandheldGPSBasic
+    pocket2: FlashlightLantern
+    shoes: ClothingShoesBootsWork
+    belt: ClothingBeltUtilityEngineering
+    id: ArtillerymanSyndieIDCard
+  satchel: ClothingBackpackDuffelSyndicateOperative
+  duffelbag: ClothingBackpackDuffelSyndicateOperative
