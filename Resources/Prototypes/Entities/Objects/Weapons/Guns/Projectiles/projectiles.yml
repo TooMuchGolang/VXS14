@@ -243,12 +243,13 @@
       fly-by: *flybyfixture
   - type: Ammo
   - type: StaminaDamageOnCollide
-    damage: 25
+    damage: 13
   - type: Projectile
     impactEffect: BulletImpactEffectDisabler
     damage:
       types:
-        Heat: 9
+        Heat: 6.5
+        Asphyxiation: 6.5
     soundHit:
       path: "/Audio/Weapons/tap.ogg"
     soundForce: true

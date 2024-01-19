@@ -55,7 +55,7 @@
     ears: ClothingHeadsetAltSolFed
     pocket1: WeaponRevolverRex
     mask: ClothingMaskNeckGaiter
-    pocket2: FlashlightLantern
+    pocket2: WeaponDisabler
     gloves: ClothingHandsGlovesCombat
     back: ClothingBackpackParamedNTMILFilled
     shoes: ClothingShoesBootsCombatFilled
@@ -90,7 +90,7 @@
     ears: ClothingHeadsetAltSolFed
     gloves: ClothingHandsGlovesCombat
     pocket1: WeaponRevolverRex
-    pocket2: FlashlightLantern
+    pocket2: WeaponDisabler
     back: ClothingBackpackFilled
     shoes: ClothingShoesBootsCombatFilled
     eyes: ClothingEyesGlassesSunglasses
