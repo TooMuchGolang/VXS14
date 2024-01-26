@@ -17,7 +17,7 @@
   - type: AmmoCounter
   - type: Gun
     projectileSpeed: 35
-    cameraRecoilScalar: 3
+    cameraRecoilScalar: 2
     fireRate: 5
     minAngle: 1
     maxAngle: 5
