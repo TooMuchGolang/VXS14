@@ -4,7 +4,6 @@ using Content.Server.Body.Systems;
 using Content.Server.Chemistry.Containers.EntitySystems;
 using Content.Server.Chemistry.ReactionEffects;
 using Content.Server.Spreader;
-using Content.Server.Explosion.EntitySystems;
 using Content.Shared.Chemistry;
 using Content.Shared.Chemistry.Components;
 using Content.Shared.Chemistry.EntitySystems;
@@ -14,7 +13,6 @@ using Content.Shared.Database;
 using Content.Shared.FixedPoint;
 using Content.Shared.Smoking;
 using Robust.Server.GameObjects;
-using Robust.Shared.Audio;
 using Robust.Shared.Map;
 using Robust.Shared.Physics;
 using Robust.Shared.Physics.Components;
@@ -326,22 +324,6 @@ public sealed class SmokeSystem : EntitySystem
             var reagent = _prototype.Index<ReagentPrototype>(reagentQuantity.Reagent.Prototype);
             reagent.ReactionTile(tile, reagentQuantity.Quantity);
         }
-    }
-
-        private void HandleSmokeTrigger(EntityUid uid, SmokeOnTriggerComponent comp, TriggerEvent args)
-    {
-        var xform = Transform(uid);
-        var smokeEnt = Spawn("Smoke", xform.Coordinates);
-        var smoke = EnsureComp<SmokeComponent>(smokeEnt);
-        smoke.SpreadAmount = comp.SpreadAmount;
-        var solution = new Solution();
-        foreach (var reagent in comp.SmokeReagents)
-        {
-            solution.AddReagent(reagent.ReagentId, reagent.Quantity);
-        }
-        Start(smokeEnt, smoke, solution, comp.Time);
-        _audioSystem.PlayPvs(comp.Sound, xform.Coordinates, AudioParams.Default.WithVariation(0.125f));
-        args.Handled = true;
     }
 
     /// <summary>
