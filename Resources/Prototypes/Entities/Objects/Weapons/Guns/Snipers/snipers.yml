@@ -47,6 +47,8 @@
   components:
   - type: Gun
     cameraRecoilScalar: 4
+    projectileSpeed: 70
+    fireRate: 0.9
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
 
