@@ -2,7 +2,6 @@ using Content.Shared.Actions;
 using Content.Shared.Whitelist;
 using Robust.Shared.Audio;
 using Robust.Shared.Containers;
-using Content.Shared.Actions.ActionTypes;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
