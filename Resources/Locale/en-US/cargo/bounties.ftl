@@ -1,4 +1,4 @@
-﻿bounty-item-medkit = Medkit
+bounty-item-medkit = Medkit
 bounty-item-medkit = Steel
 bounty-item-cloth = Cloth
 

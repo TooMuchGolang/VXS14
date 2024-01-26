@@ -20,6 +20,15 @@
   - BasicStationEventScheduler
 
 - type: gamePreset
+  id: Greenshift
+  alias:
+  - greenshift
+  - shittersafarideluxeedition
+  name: greenshift-title
+  showInVote: false #4boring4vote
+  description: greenshift-description
+
+- type: gamePreset
   id: Secret
   alias:
     - secret
@@ -58,8 +67,11 @@
     - dm
   name: death-match-title
   description: death-match-description
+  maxPlayers: 15
+  showInVote: true
+  supportedMaps: DeathMatchMapPool
   rules:
-    - DeathMatch
+    - DeathMatch31
 
 - type: gamePreset
   id: Nukeops
@@ -69,6 +81,19 @@
   description: nukeops-description
   showInVote: false
   rules:
+    - BasicStationEventScheduler
+
+- type: gamePreset
+  id: Revolutionary
+  alias:
+    - rev
+    - revs
+    - revolutionaries
+  name: rev-title
+  description: rev-description
+  showInVote: false
+  rules:
+    - Revolutionary
     - BasicStationEventScheduler
 
 - type: gamePreset

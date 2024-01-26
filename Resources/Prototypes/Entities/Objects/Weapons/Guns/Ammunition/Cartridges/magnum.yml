@@ -17,8 +17,6 @@
       map: ["enum.AmmoVisualLayers.Base"]
   - type: Appearance
   - type: SpentAmmoVisuals
-  - type: StaticPrice
-    price: 10
 
 - type: entity
   id: CartridgeMagnum
@@ -75,36 +73,6 @@
   components:
   - type: CartridgeAmmo
     proto: BulletMagnumAP
-
-- type: entity
-  id: BaseAnomalousCartridge
-  parent: BaseCartridgeMagnum
-  description: Packs twice the punch of a standard A.P.E. particle.
-  abstract: true
-  components:
-  - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/Casings/anomalous_casing.rsi
-    layers:
-    - state: base
-      map: ["enum.AmmoVisualLayers.Base"]
-  - type: Tag
-    tags:
-      - Cartridge
-      - CartridgeCHIMP
-
-- type: entity
-  id: CartridgeAnomalousParticleDelta
-  parent: BaseAnomalousCartridge
-  name: cartridge (delta particle)
-  components:
-  - type: Sprite
-    layers:
-    - state: base
-      map: ["enum.AmmoVisualLayers.Base"]
-    - state: overlay
-      color: crimson
-  - type: CartridgeAmmo
-    proto: AnomalousParticleDeltaStrong
 
 - type: entity
   id: CartridgeAnomalousParticleEpsilon

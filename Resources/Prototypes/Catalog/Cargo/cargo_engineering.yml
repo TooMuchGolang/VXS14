@@ -14,7 +14,7 @@
     sprite: Objects/Tools/cable-coils.rsi
     state: coilmv-30
   product: CrateEngineeringCableMV
-  cost: 600
+  cost: 300
   category: Engineering
   group: market
 
@@ -35,6 +35,16 @@
     state: icon
   product: CrateEngineeringElectricalSupplies
   cost: 2500
+  category: Engineering
+  group: market
+
+- type: cargoProduct
+  id: StationBeaconBundle
+  icon:
+    sprite: Objects/Devices/station_beacon.rsi
+    state: icon
+  product: CrateEngineeringStationBeaconBundle
+  cost: 500
   category: Engineering
   group: market
 

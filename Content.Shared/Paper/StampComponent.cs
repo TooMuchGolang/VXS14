@@ -10,7 +10,7 @@ namespace Content.Shared.Paper;
 ///     equivalent in the component.
 /// </summary>
 [DataDefinition, Serializable, NetSerializable]
-public struct StampDisplayInfo
+public partial struct StampDisplayInfo
 {
     StampDisplayInfo(string s)
     {
@@ -25,15 +25,16 @@ public struct StampDisplayInfo
 };
 
 [RegisterComponent]
-public sealed class StampComponent : Component
+public sealed partial class StampComponent : Component
 {
     /// <summary>
     ///     The loc string name that will be stamped to the piece of paper on examine.
     /// </summary>
     [DataField("stampedName")]
     public string StampedName { get; set; } = "stamp-component-stamped-name-default";
+
     /// <summary>
-    ///     Tne sprite state of the stamp to display on the paper from bureacracy.rsi.
+    ///     Tne sprite state of the stamp to display on the paper from paper Sprite path.
     /// </summary>
     [DataField("stampState")]
     public string StampState { get; set; } = "paper_stamp-generic";
@@ -44,9 +45,9 @@ public sealed class StampComponent : Component
     [DataField("stampedColor")]
     public Color StampedColor = Color.FromHex("#BB3232"); // StyleNano.DangerousRedFore
 
+    /// <summary>
+    /// The sound when stamp stamped
+    /// </summary>
     [DataField("sound")]
-    public SoundSpecifier Sound = new SoundPathSpecifier("/Audio/Items/Stamp/thick_stamp_sub.ogg")
-    {
-        Params = AudioParams.Default.WithVolume(-2f).WithMaxDistance(5f)
-    };
+    public SoundSpecifier? Sound = null;
 }

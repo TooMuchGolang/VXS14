@@ -52,7 +52,7 @@
         acts: [ "Destruction" ]
       - !type:PlaySoundBehavior
         sound:
-          path: /Audio/Effects/metalbreak.ogg
+          collection: MetalGlassBreak
   - type: ActivatableUI
     key: enum.VendingMachineUiKey.Key
   - type: ActivatableUIRequiresPower
@@ -64,13 +64,22 @@
       type: WiresBoundUserInterface
   - type: WiresPanel
   - type: Wires
-    BoardName: "Vending Machine"
-    LayoutId: Vending
+    boardName: wires-board-name-vendingmachine
+    layoutId: Vending
   - type: Anchorable
   - type: TypingIndicator
     proto: robot
   - type: Speech
+    speechVerb: Robotic
     speechSounds: Vending
+  - type: IntrinsicRadioReceiver
+  - type: IntrinsicRadioTransmitter
+    channels:
+    - Binary
+  - type: ActiveRadio
+    channels:
+    - Binary
+    - Common
   - type: DoAfter
   - type: Electrified
     enabled: false
@@ -94,22 +103,29 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineCondiments
-  name: Condiment Station
+  name: condiment station
   description: Slather these thick gooey substances on your food for a full flavor effect.
   components:
   - type: VendingMachine
     pack: CondimentInventory
     offState: off
-    normalState: normal-unshaded
   - type: Sprite
     sprite: Structures/Machines/VendingMachines/condiments.rsi
     drawdepth: SmallObjects
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
-    - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
-      shader: unshaded
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.3,-0.16,0.3,0.40"
+        mask:
+        - MachineMask
+        layer:
+        - MachineLayer
+        density: 190
   - type: Advertise
     pack: CondimentVendAds
   - type: Speech
@@ -119,7 +135,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineAmmo
-  name: Liberation Station
+  name: liberation station
   description: An overwhelming amount of ancient patriotism washes over you just by looking at the machine.
   components:
   - type: VendingMachine
@@ -206,7 +222,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineChefvend
-  name: Chefvend
+  name: ChefVend
   description: An ingredient vendor for all your cheffin needs.
   components:
   - type: VendingMachine
@@ -765,6 +781,9 @@
     radius: 1.5
     energy: 1.6
     color: "#9dc5c9"
+  - type: GuideHelp
+    guides:
+    - Medical Doctor
 
 - type: entity
   parent: VendingMachine
@@ -829,6 +848,9 @@
     radius: 1
     energy: 1.2
     color: "#78645c"
+  - type: GuideHelp
+    guides:
+    - Security
 
 - type: entity
   parent: VendingMachine
@@ -1193,6 +1215,9 @@
     radius: 1.5
     energy: 1.6
     color: "#B0ADA9"
+  - type: GuideHelp
+    guides:
+    - Robotics
 
 - type: entity
   parent: VendingMachine
@@ -1314,6 +1339,9 @@
     color: "#9dc5c9"
   - type: AccessReader
     access: [["Salvage"]]
+  - type: GuideHelp
+    guides:
+    - Salvage
 
 - type: entity
   parent: VendingMachine
@@ -1386,6 +1414,9 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: AccessReader
     access: [["Medical"]]
+  - type: GuideHelp
+    guides:
+    - Medical
 
 # job clothing
 
@@ -1439,7 +1470,7 @@
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: AccessReader
-    access: [["Brig"]]
+    access: [["Lawyer"]]
 
 - type: entity
   parent: VendingMachine
@@ -1598,6 +1629,32 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: AccessReader
     access: [["Chemistry"]]
+
+- type: entity
+  parent: VendingMachine
+  id: VendingMachineCuraDrobe
+  name: CuraDrobe
+  description: A lowstock vendor only capable of vending clothing for curators and librarians.
+  components:
+  - type: VendingMachine
+    pack: CuraDrobeInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+  - type: Advertise
+    pack: CuraDrobeAds
+  - type: Sprite
+    sprite: Structures/Machines/VendingMachines/curadrobe.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: AccessReader
+    access: [["Service"]]
 
 - type: entity
   parent: VendingMachine
@@ -1911,6 +1968,8 @@
     radius: 1.5
     energy: 1.6
     color: "#48CF48"
+  - type: AccessReader
+    access: [["CentralCommand"]]
 
 - type: entity
   parent: VendingMachine
@@ -1953,7 +2012,7 @@
   parent: VendingMachine
   id: VendingMachineTankDispenserEVA
   suffix: EVA [O2, N2]
-  name: Gas Tank Dispenser
+  name: gas tank dispenser
   description: A vendor for dispensing gas tanks.
   components:
   - type: VendingMachine
@@ -1966,7 +2025,7 @@
   parent: VendingMachine
   id: VendingMachineTankDispenserEngineering
   suffix: ENG [O2, Plasma]
-  name: Gas Tank Dispenser
+  name: gas tank dispenser
   description: A vendor for dispensing gas tanks. This one has an engineering livery.
   components:
   - type: VendingMachine
@@ -1989,7 +2048,7 @@
     brokenState: broken
     normalState: normal
     denyState: deny
-    ejectDelay: 3
+    ejectDelay: 2
   - type: Sprite
     sprite: Structures/Machines/VendingMachines/chemvend.rsi
     layers:
@@ -2049,3 +2108,22 @@
     radius: 1.5
     energy: 1.6
     color: "#9dc5c9"
+  - type: GuideHelp
+    guides:
+    - Chemicals
+
+- type: entity
+  parent: VendingMachineChemicals
+  id: VendingMachineChemicalsSyndicate
+  name: SyndieJuice
+  description: Not made with freshly squeezed syndies I hope.
+  components:
+  - type: VendingMachine
+    pack: ChemVendInventorySyndicate
+    offState: off
+    brokenState: broken
+    normalState: normal
+    denyState: deny
+    ejectDelay: 2
+  - type: AccessReader
+    access: [["SyndicateAgent"]]

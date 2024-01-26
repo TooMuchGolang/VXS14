@@ -4,14 +4,15 @@ using Robust.Shared.Audio;
 using Robust.Shared.Containers;
 using Content.Shared.Actions.ActionTypes;
 using Robust.Shared.GameStates;
+using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype;
 
 namespace Content.Shared.VendingMachines
 {
-    [RegisterComponent, NetworkedComponent]
-    public sealed class VendingMachineComponent : Component
+    [RegisterComponent, NetworkedComponent, AutoGenerateComponentState]
+    public sealed partial class VendingMachineComponent : Component
     {
         public const string ContainerId = "VendingMachine";
 
@@ -58,6 +59,8 @@ namespace Content.Shared.VendingMachines
         public string? NextItemToEject;
 
         public bool Broken;
+
+        public bool ShouldSayThankYou;
 
         /// <summary>
         /// When true, will forcefully throw any object it dispenses
@@ -113,8 +116,13 @@ namespace Content.Shared.VendingMachines
         /// <summary>
         ///     The action available to the player controlling the vending machine
         /// </summary>
-        [DataField("action", customTypeSerializer: typeof(PrototypeIdSerializer<InstantActionPrototype>))]
-        public string? Action = "VendingThrow";
+        [DataField("action", customTypeSerializer: typeof(PrototypeIdSerializer<EntityPrototype>))]
+        [AutoNetworkedField]
+        public string? Action = "ActionVendingThrow";
+
+        [DataField("actionEntity")]
+        [AutoNetworkedField]
+        public EntityUid? ActionEntity;
 
         public float NonLimitedEjectForce = 7.5f;
 
@@ -267,7 +275,7 @@ namespace Content.Shared.VendingMachines
         StatusKey,
     }
 
-    public sealed class VendingMachineSelfDispenseEvent : InstantActionEvent
+    public sealed partial class VendingMachineSelfDispenseEvent : InstantActionEvent
     {
 
     };

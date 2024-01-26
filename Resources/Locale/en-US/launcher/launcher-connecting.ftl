@@ -9,7 +9,8 @@ connecting-redial-wait = Please wait: { TOSTRING($time, "G3") }
 connecting-in-progress = Connecting to server...
 connecting-disconnected = Disconnected from server:
 connecting-tip = Powered by Delkante
-connecting-version = beta
+connecting-window-tip = Tip { $numberTip }
+connecting-version = V2.0
 connecting-fail-reason = Failed to connect to server:
                          { $reason }
 connecting-state-NotConnecting = Not connecting

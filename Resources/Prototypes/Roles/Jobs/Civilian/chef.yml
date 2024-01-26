@@ -27,6 +27,7 @@
     id: ChefPDA
     ears: ClothingHeadsetService
     outerClothing: ClothingOuterApronChef
-  innerclothingskirt: ClothingUniformJumpskirtChef
+    belt: ClothingBeltChefFilled
+  innerClothingSkirt: ClothingUniformJumpskirtChef
   satchel: ClothingBackpackSatchelFilled
   duffelbag: ClothingBackpackDuffelFilled
