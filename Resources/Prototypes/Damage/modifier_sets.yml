@@ -274,6 +274,7 @@
   flatReductions:
     Heat: 1000
 
+- type: damageModifierSet
   id: HellSpawn
   coefficients:
     Heat: 0.0

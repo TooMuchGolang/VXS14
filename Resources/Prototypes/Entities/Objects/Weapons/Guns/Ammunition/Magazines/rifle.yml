@@ -100,6 +100,7 @@
     layers:
     - state: red
 
+- type: entity
   id: MagazineRifleUranium
   name: "magazine (.20 rifle uranium)"
   parent: BaseMagazineRifle

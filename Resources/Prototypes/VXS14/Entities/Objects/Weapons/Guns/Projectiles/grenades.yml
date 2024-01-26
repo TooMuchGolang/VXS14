@@ -31,3 +31,4 @@
   - type: EmpOnTrigger
     range: 2
     energyConsumption: 25000
+    disableDuration: 3

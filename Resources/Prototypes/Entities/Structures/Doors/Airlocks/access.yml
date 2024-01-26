@@ -501,7 +501,7 @@
   components:
   - type: AccessReader
     access: [["Salvage"]]
-    
+
 - type: entity
   parent: AirlockChemistryGlass
   id: AirlockChemistryGlassLocked
@@ -663,22 +663,6 @@
   components:
   - type: AccessReader
     access: [["External"]]
-
-- type: entity
-  parent: AirlockSyndicateGlass
-  id: AirlockSyndicateGlassLocked
-  suffix: Syndicate, Locked
-  components:
-  - type: AccessReader
-    access: [["SyndicateAgent"]]
-
-- type: entity
-  parent: AirlockSyndicateGlass
-  id: AirlockSyndicateNukeopGlassLocked
-  suffix: Nukeop, Locked
-  components:
-  - type: AccessReader
-    access: [["NuclearOperative"]]
 
 # Maintenance Hatches
 - type: entity
@@ -920,14 +904,6 @@
   components:
   - type: AccessReader
     access: [["Armory"]]
-
-- type: entity
-  parent: AirlockSyndicate
-  id: AirlockSyndicateLocked
-  suffix: Syndicate, Locked
-  components:
-  - type: AccessReader
-    access: [["SyndicateAgent"]]
 
 - type: entity
   parent: AirlockSyndicate
